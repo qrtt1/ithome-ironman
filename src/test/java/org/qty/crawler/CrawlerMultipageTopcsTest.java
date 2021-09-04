@@ -2,6 +2,7 @@ package org.qty.crawler;
 
 import org.apache.commons.io.IOUtils;
 import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -22,7 +23,12 @@ class CrawlerMultipageTopcsTest {
 
     @Test
     public void testCrawler_2page_topics() {
-        Crawler crawler = new Crawler(multiPageFetch());
+        Crawler crawler = new Crawler(multiPageFetch()) {
+            @Override
+            public int getMaxPage(Document document) {
+                return 2;
+            }
+        };
         List<Topic> topics = crawler.topics();
 
         List<String> expected = Arrays.asList(
