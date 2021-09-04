@@ -10,10 +10,23 @@ public class HelloWorld {
     public static void main(String[] args) throws IOException {
         Document document = Jsoup.connect("https://ithelp.ithome.com.tw/2021ironman/signup/list").get();
         FileUtils.write(new File("list.html"), document.toString(), "utf-8");
+        int lastPage = parseLastPage(document);
+        System.out.println(lastPage);
+    }
 
+    private static int parseLastPage(Document document) {
         String pageListSelector = "div.border-frame.clearfix > div.contestants-wrapper > div.text-center > ul a";
+        int maxPage = 0;
         for (Element element : document.select(pageListSelector)) {
-            System.out.println(element);
+            try {
+                int page = Integer.parseInt(element.text());
+                if (maxPage < page) {
+                    maxPage = page;
+                }
+            } catch (Exception e) {
+            }
+
         }
+        return maxPage;
     }
 }
