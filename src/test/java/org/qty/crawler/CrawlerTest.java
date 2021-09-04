@@ -13,7 +13,7 @@ class CrawlerTest {
 
     @Test
     public void testCrawler_fetch_topics() {
-        Crawler crawler = new Crawler();
+        Crawler crawler = new Crawler(createFakeFetch());
         List<Topic> topics = crawler.topics();
 
         List<String> expected = Arrays.asList("來學習寫安卓手機的程式吧-Kotlin語言",
@@ -29,6 +29,15 @@ class CrawlerTest {
 
         List<String> titles = topics.stream().map(Topic::getTitle).collect(Collectors.toList());
         assertEquals(expected, titles);
+    }
+
+    private Fetch createFakeFetch() {
+        return new Fetch() {
+            @Override
+            public String get(String source) {
+                return null;
+            }
+        };
     }
 
 }
