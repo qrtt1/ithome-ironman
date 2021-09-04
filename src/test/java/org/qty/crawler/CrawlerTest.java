@@ -1,6 +1,7 @@
 package org.qty.crawler;
 
 import org.apache.commons.io.IOUtils;
+import org.jsoup.nodes.Document;
 import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
@@ -16,7 +17,12 @@ class CrawlerTest {
 
     @Test
     public void testCrawler_fetch_topics() {
-        Crawler crawler = new Crawler(createFakeFetch());
+        Crawler crawler = new Crawler(createFakeFetch()) {
+            @Override
+            public int getMaxPage(Document document) {
+                return 1;
+            }
+        };
         List<Topic> topics = crawler.topics();
 
         List<String> expected = Arrays.asList("來學習寫安卓手機的程式吧-Kotlin語言",
