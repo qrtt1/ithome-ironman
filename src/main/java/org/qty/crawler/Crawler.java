@@ -29,4 +29,20 @@ public class Crawler {
                 }
         ).collect(Collectors.toList());
     }
+
+    public int getMaxPage(Document document) {
+        String pageListSelector = "div.border-frame.clearfix > div.contestants-wrapper > div.text-center > ul a";
+        int maxPage = 0;
+        for (Element element : document.select(pageListSelector)) {
+            try {
+                int page = Integer.parseInt(element.text());
+                if (maxPage < page) {
+                    maxPage = page;
+                }
+            } catch (Exception e) {
+            }
+
+        }
+        return maxPage;
+    }
 }
