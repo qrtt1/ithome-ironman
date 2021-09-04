@@ -69,7 +69,7 @@ class CrawlerMultipageTopcsTest {
                 if (source.endsWith("page=2")) {
                     return readFromResource("/p2.html");
                 }
-                throw new IllegalArgumentException("bad source: " + source);
+                return readFromResource("/topics.html");
             }
         };
     }

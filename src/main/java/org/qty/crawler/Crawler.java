@@ -5,6 +5,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 
 import java.io.IOException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -21,6 +22,18 @@ public class Crawler {
     public List<Topic> topics() {
         String content = fetch.get(ALL_TOPICS_URL);
         Document document = Jsoup.parse(content);
+
+        ArrayList<Topic> topics = new ArrayList<>();
+        for (int page = 1; page <= getMaxPage(document); page++) {
+            String singlePageUrl = ALL_TOPICS_URL + "?page=" + page;
+            Document topicsDoc = Jsoup.parse(fetch.get(singlePageUrl));
+            topics.addAll(parseTopics(topicsDoc));
+        }
+
+        return topics;
+    }
+
+    private List<Topic> parseTopics(Document document) {
         return document.select("div.border-frame.clearfix > div.contestants-wrapper > div.contestants-list").stream().map(
                 (elem) -> {
                     Topic t = new Topic();
