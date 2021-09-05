@@ -25,7 +25,7 @@ class CrawlerTest {
         };
         List<Topic> topics = crawler.topics();
 
-        List<String> expected = Arrays.asList("來學習寫安卓手機的程式吧-Kotlin語言",
+        List<String> expectedTitles = Arrays.asList("來學習寫安卓手機的程式吧-Kotlin語言",
                 "大學生必學的 30個Python技巧",
                 "Google Assistant 開發與語音使用者介面設計",
                 "機智接案生活 - WooCommerce 金流串接實戰",
@@ -37,7 +37,21 @@ class CrawlerTest {
                 "30 天 Java 從陌生到更陌生");
 
         List<String> titles = topics.stream().map(Topic::getTitle).collect(Collectors.toList());
-        assertEquals(expected, titles);
+        assertEquals(expectedTitles, titles);
+
+        List<String> expectedUrls = Arrays.asList("https://ithelp.ithome.com.tw/users/20140419/ironman/4096",
+                "https://ithelp.ithome.com.tw/users/20140998/ironman/4362",
+                "https://ithelp.ithome.com.tw/users/20141015/ironman/4365",
+                "https://ithelp.ithome.com.tw/users/20133765/ironman/4367",
+                "https://ithelp.ithome.com.tw/users/20125854/ironman/4112",
+                "https://ithelp.ithome.com.tw/users/20099494/ironman/4373",
+                "https://ithelp.ithome.com.tw/users/20122678/ironman/3864",
+                "https://ithelp.ithome.com.tw/users/20139923/ironman/3866",
+                "https://ithelp.ithome.com.tw/users/20129510/ironman/4385",
+                "https://ithelp.ithome.com.tw/users/20140066/ironman/3878");
+        List<String> urls = topics.stream().map(Topic::getUrl).collect(Collectors.toList());
+        assertEquals(expectedUrls, urls);
+
     }
 
     private Fetch createFakeFetch() {
