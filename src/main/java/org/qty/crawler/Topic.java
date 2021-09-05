@@ -4,6 +4,7 @@ public class Topic {
 
     String title;
     String url;
+    int view;
 
     public String getTitle() {
         return title;
@@ -19,5 +20,13 @@ public class Topic {
 
     public void setUrl(String url) {
         this.url = url;
+    }
+
+    public int getView() {
+        return view;
+    }
+
+    public void setView(int view) {
+        this.view = view;
     }
 }

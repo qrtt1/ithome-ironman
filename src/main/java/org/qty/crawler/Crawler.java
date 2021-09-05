@@ -3,6 +3,7 @@ package org.qty.crawler;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
+import org.jsoup.select.Elements;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -58,5 +59,17 @@ public class Crawler {
 
         }
         return maxPage;
+    }
+
+    public void update(Topic topic) {
+        Document document = Jsoup.parse(fetch.get(topic.getUrl()));
+        Elements elements = document.select(".qa-condition__count");
+
+        int sum = 0;
+        for (int i = 2; i < elements.size(); i += 3) {
+            sum += Integer.parseInt(elements.get(i).text());
+        }
+
+        topic.setView(sum);
     }
 }
