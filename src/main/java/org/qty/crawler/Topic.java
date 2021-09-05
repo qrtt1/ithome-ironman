@@ -29,4 +29,13 @@ public class Topic {
     public void setView(int view) {
         this.view = view;
     }
+
+    @Override
+    public String toString() {
+        return "Topic{" +
+                "title='" + title + '\'' +
+                ", url='" + url + '\'' +
+                ", view=" + view +
+                '}';
+    }
 }
