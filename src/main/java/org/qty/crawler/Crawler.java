@@ -38,6 +38,7 @@ public class Crawler {
                 (elem) -> {
                     Topic t = new Topic();
                     t.setTitle(elem.select("a.contestants-list__title").text());
+                    t.setUrl(elem.select("a.contestants-list__title").attr("href"));
                     return t;
                 }
         ).collect(Collectors.toList());
