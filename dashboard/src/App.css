@@ -1,0 +1,59 @@
+body {
+  font-family: "Noto Sans TC", sans-serif;
+  font-weight: 300;
+  font-size: 11pt;
+  overflow-x: hidden;
+}
+
+.Header {
+  margin: 0;
+  font-size: 16pt;
+  padding: 10px;
+  padding-right: 64px;
+  font-weight: 500;
+  width: 97%;
+  margin-bottom: 1em;
+  position: fixed;
+  top: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.App {
+  margin-top: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.TopicContainer {
+  display: flex;
+  text-align: start;
+  margin: 0.5em;
+}
+
+.TopicTitle {
+  min-width: 300px;
+}
+
+.TopicView {
+  min-width: 60px;
+}
+
+.TopicCategory {
+  min-width: 200px;
+}
+
+.TopicAuthor {
+  min-width: 280px;
+}
+
+.HighLight {
+  color: black;
+  /* font-weight: 500; */
+  background-color: greenyellow;
+}
