@@ -6,12 +6,11 @@ import org.junit.jupiter.api.Test;
 
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CrawlerTest {
 
@@ -51,6 +50,19 @@ class CrawlerTest {
                 "https://ithelp.ithome.com.tw/users/20140066/ironman/3878");
         List<String> urls = topics.stream().map(Topic::getUrl).collect(Collectors.toList());
         assertEquals(expectedUrls, urls);
+
+        List<String> expectedCategories = Arrays.asList("Mobile Development",
+                "影片教學",
+                "AI & Data",
+                "Modern Web",
+                "Modern Web",
+                "Software Development",
+                "AI & Data",
+                "AI & Data",
+                "AI & Data",
+                "Software Development");
+        List<String> categories = topics.stream().map(Topic::getCategory).collect(Collectors.toList());
+        assertEquals(expectedCategories, categories);
 
     }
 

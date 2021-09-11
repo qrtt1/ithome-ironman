@@ -5,7 +5,6 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
@@ -40,14 +39,15 @@ public class Crawler {
                     Topic t = new Topic();
                     t.setTitle(elem.select("a.contestants-list__title").text());
                     t.setUrl(elem.select("a.contestants-list__title").attr("href"));
+                    t.setCategory(elem.select("div.contestants-group").text());
                     return t;
                 }
         ).collect(Collectors.toList());
     }
 
     public int getMaxPage(Document document) {
-        String pageListSelector = "div.border-frame.clearfix > div.contestants-wrapper > div.text-center > ul a";
-        int maxPage = 0;
+        String pageListSelector = ".pagination li";
+        int maxPage = 1;
         for (Element element : document.select(pageListSelector)) {
             try {
                 int page = Integer.parseInt(element.text());
@@ -61,8 +61,34 @@ public class Crawler {
         return maxPage;
     }
 
+    public int getMaxPageInTopic(Document document) {
+        return getMaxPage(document);
+    }
+
     public void update(Topic topic) {
+        try {
+            executeUpdate(topic);
+        } catch (Exception e) {
+            topic.setView(0);
+        }
+    }
+
+    private void executeUpdate(Topic topic) {
         Document document = Jsoup.parse(fetch.get(topic.getUrl()));
+        topic.setAuthor(document.select("div.profile-header__name").first().text());
+        topic.setProfileUrl(document.select("a.profile-nav__link").first().attr("href"));
+        topic.setView(getViewInTopicPage(document));
+
+        int maxPageInTopic = getMaxPageInTopic(document);
+        if (maxPageInTopic > 1) {
+            for (int i = 2; i <= maxPageInTopic; i++) {
+                Document doc = Jsoup.parse(fetch.get(topic.getUrl() + "?page=" + i));
+                topic.setView(topic.getView() + getViewInTopicPage(doc));
+            }
+        }
+    }
+
+    private int getViewInTopicPage(Document document) {
         Elements elements = document.select(".qa-condition__count");
 
         int sum = 0;
@@ -70,6 +96,6 @@ public class Crawler {
             sum += Integer.parseInt(elements.get(i).text());
         }
 
-        topic.setView(sum);
+        return sum;
     }
 }

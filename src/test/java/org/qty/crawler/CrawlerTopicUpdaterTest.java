@@ -21,8 +21,14 @@ class CrawlerTopicUpdaterTest {
         Topic topic = new Topic();
         topic.setUrl("/topic_page.html");
         crawler.update(topic);
+
         // pre-calculated view count was 472
         assertEquals(472, topic.getView());
+
+        // body > div.container.index-top > div > div > div:nth-child(1) > div.profile-header.clearfix > div.profile-header__content > div.profile-header__name
+        assertEquals("ggwu (ggwu)", topic.getAuthor());
+        assertEquals("https://ithelp.ithome.com.tw/users/20141356/profile", topic.getProfileUrl());
+
     }
 
     private Fetch createFakeFetch() {
