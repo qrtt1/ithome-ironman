@@ -9,12 +9,14 @@ body {
   margin: 0;
   font-size: 16pt;
   padding: 10px;
-  padding-right: 64px;
+  padding-left: 2em;
   font-weight: 500;
   width: 97%;
   margin-bottom: 1em;
   position: fixed;
   top: 0;
+  background-color: black;
+  color: silver;
 }
 
 a {
@@ -52,8 +54,6 @@ a {
   min-width: 280px;
 }
 
-.HighLight {
-  color: black;
-  /* font-weight: 500; */
+.TopicContainer:hover {
   background-color: greenyellow;
 }
