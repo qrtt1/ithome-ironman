@@ -1,5 +1,6 @@
 plugins {
     id 'java'
+    id 'application'
 }
 
 group 'org.qty'
@@ -9,9 +10,14 @@ repositories {
     mavenCentral()
 }
 
+application {
+    mainClass = 'org.qty.crawler.DataUpdater'
+}
+
 dependencies {
     implementation 'org.jsoup:jsoup:1.14.2'
     implementation 'commons-io:commons-io:2.11.0'
+    implementation 'commons-codec:commons-codec:1.15'
     implementation 'com.google.code.gson:gson:2.8.8'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'

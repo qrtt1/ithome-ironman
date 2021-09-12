@@ -7,6 +7,7 @@ public class Topic {
     String url;
     String author;
     String profileUrl;
+    String anchor;
     int view;
     long lastUpdated;
 
@@ -64,6 +65,14 @@ public class Topic {
 
     public void setLastUpdated(long lastUpdated) {
         this.lastUpdated = lastUpdated;
+    }
+
+    public String getAnchor() {
+        return anchor;
+    }
+
+    public void setAnchor(String anchor) {
+        this.anchor = anchor;
     }
 
     @Override

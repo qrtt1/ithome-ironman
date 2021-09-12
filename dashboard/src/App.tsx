@@ -7,10 +7,17 @@ interface TopicProps {
   url: string;
   author: string;
   profileUrl: string;
-  view: Number;
+  view: number;
+  lastUpdated: number;
 }
 
+const dataSource = 'data.json';
+
 const Topic = (props: TopicProps) => {
+  const userIsGone = props.title && !props.author;
+  if (userIsGone) {
+    return <></>;
+  }
   const Item = (props: { category: string; data?: any; children?: any }) => {
     return (
       <div className={props.category}>
@@ -39,15 +46,24 @@ const Topic = (props: TopicProps) => {
 function App() {
   const [topics, setTopics] = useState([]);
   const [categories, setCategories] = useState([]);
+  const [updated, setUpdated] = useState('');
+
   useEffect(() => {
+    let maxTimestamp: number = 0;
     const load = async () => {
-      const response = await (await fetch('data.json')).text();
+      const response = await (
+        await fetch(dataSource, { cache: 'no-store' })
+      ).text();
       const topics = JSON.parse(response);
       const categories = {};
       topics.map((x: TopicProps) => {
+        if (x.lastUpdated > maxTimestamp) {
+          maxTimestamp = x.lastUpdated;
+        }
         categories[x.category] = 1;
         return x.category;
       });
+      setUpdated(`${new Date(maxTimestamp)}`);
       setCategories(Object.keys(categories).sort());
       topics.sort((a: TopicProps, b: TopicProps) => {
         if (a.view === b.view) {
@@ -61,7 +77,12 @@ function App() {
   }, []);
   return (
     <>
-      <div className='Header'>ITHOME 鐵人賽觀賽看版</div>
+      <div className='Header'>
+        ITHOME 鐵人賽觀賽看版{' '}
+        <span style={{ fontSize: 8, color: 'white', marginLeft: 24 }}>
+          {updated}
+        </span>
+      </div>
       <div className='App'>
         <div>
           {categories.map((c) => (

@@ -1,16 +1,15 @@
 package org.qty.crawler;
 
 import com.google.gson.Gson;
+import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import org.apache.commons.io.FileUtils;
 import org.jsoup.nodes.Document;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class DataUpdater {
 
@@ -22,43 +21,51 @@ public class DataUpdater {
             }
         };
 
-        Map<String, Long> lastUpdates = loadPreviousTopics();
         List<Topic> topics = crawler.topics();
-        sortByLastUpdated(lastUpdates, topics);
+        List<Topic> savedTopics = loadPreviousTopics();
+        if (savedTopics.isEmpty()) {
+            savedTopics = topics;
+        } else {
+            appendNewTopics(savedTopics, topics);
+        }
 
-        System.out.println("total size: " + topics.size());
-        topics.stream().limit(5).forEach(topic -> {
-            crawler.update(topic);
-            System.out.println(topic);
-        });
-
-        FileUtils.write(new File("data.json"), new Gson().toJson(topics), "utf-8");
-    }
-
-    private static void sortByLastUpdated(Map<String, Long> lastUpdates, List<Topic> topics) {
-        topics.forEach(t -> {
-            if (lastUpdates.containsKey(t.getUrl())) {
-                t.setLastUpdated(lastUpdates.get(t.getUrl()));
-            }
-        });
-
-        Collections.sort(topics, (a, b) -> {
+        Collections.sort(savedTopics, (a, b) -> {
             if (a.lastUpdated == b.lastUpdated) {
                 return 0;
             }
             return a.lastUpdated > b.lastUpdated ? 1 : -1;
         });
+
+        System.out.println("size: " + savedTopics.size());
+        savedTopics.stream().limit(50).forEach(topic -> {
+            crawler.update(topic);
+            System.out.println(topic);
+        });
+
+        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Collections.sort(savedTopics, Comparator.comparing(Topic::getUrl));
+        FileUtils.write(new File("data.json"), gson.toJson(savedTopics), "utf-8");
     }
 
-    private static Map<String, Long> loadPreviousTopics() throws IOException {
+    private static void appendNewTopics(List<Topic> savedTopics, List<Topic> topics) {
+        Set<String> existingUrls = savedTopics.stream().map(t -> t.url).collect(Collectors.toSet());
+        topics.forEach(t -> {
+            if (!existingUrls.contains(t.url)) {
+                savedTopics.add(t);
+                System.out.println("Add: " + t);
+            }
+        });
+
+    }
+
+    private static List<Topic> loadPreviousTopics() throws IOException {
+        if (!new File("data.json").exists()) {
+            return new ArrayList<>();
+        }
         String data = FileUtils.readFileToString(new File("data.json"), "utf-8");
         List<Topic> previousTopics = new Gson().fromJson(data, new TypeToken<List<Topic>>() {
         }.getType());
 
-        Map<String, Long> lastUpdates = new HashMap<>();
-        previousTopics.forEach(t -> {
-            lastUpdates.put(t.url, t.lastUpdated);
-        });
-        return lastUpdates;
+        return previousTopics;
     }
 }

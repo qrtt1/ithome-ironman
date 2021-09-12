@@ -1,5 +1,6 @@
 package org.qty.crawler;
 
+import org.apache.commons.codec.digest.DigestUtils;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -90,6 +91,7 @@ public class Crawler {
                 topic.setView(topic.getView() + getViewInTopicPage(doc));
             }
         }
+        topic.setAnchor(DigestUtils.md5Hex(topic.getUrl()));
     }
 
     private int getViewInTopicPage(Document document) {
