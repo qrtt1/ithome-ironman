@@ -38,10 +38,16 @@ const Topic = (props: TopicProps) => {
 
 function App() {
   const [topics, setTopics] = useState([]);
+  const [categories, setCategories] = useState([]);
   useEffect(() => {
     const load = async () => {
       const response = await (await fetch('data.json')).text();
       const topics = JSON.parse(response);
+      const categories = {};
+      topics.map((x: TopicProps) => {
+        categories[x.category] = 1;
+      });
+      setCategories(Object.keys(categories).sort());
       topics.sort((a: TopicProps, b: TopicProps) => {
         if (a.view === b.view) {
           return 0;
@@ -54,13 +60,20 @@ function App() {
   }, []);
   return (
     <>
-      <div className='Header'>
-        ITHOME 鐵人賽觀賽看版
-      </div>
+      <div className='Header'>ITHOME 鐵人賽觀賽看版</div>
       <div className='App'>
         <div>
-          {topics.map((data: TopicProps) => (
-            <Topic {...data} />
+          {categories.map((c) => (
+            <div>
+              <h1>{c}</h1>
+              {topics
+                .filter((x: TopicProps) => {
+                  return x.category === c;
+                })
+                .map((data: TopicProps) => (
+                  <Topic {...data} />
+                ))}
+            </div>
           ))}
         </div>
       </div>
