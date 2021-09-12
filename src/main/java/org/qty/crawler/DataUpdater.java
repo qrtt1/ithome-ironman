@@ -27,7 +27,7 @@ public class DataUpdater {
         sortByLastUpdated(lastUpdates, topics);
 
         System.out.println("total size: " + topics.size());
-        topics.stream().limit(5).forEach(topic -> {
+        topics.stream().limit(50).forEach(topic -> {
             crawler.update(topic);
             System.out.println(topic);
         });
