@@ -8,6 +8,7 @@ public class Topic {
     String author;
     String profileUrl;
     int view;
+    long lastUpdated;
 
     public String getCategory() {
         return category;
@@ -57,6 +58,14 @@ public class Topic {
         this.view = view;
     }
 
+    public long getLastUpdated() {
+        return lastUpdated;
+    }
+
+    public void setLastUpdated(long lastUpdated) {
+        this.lastUpdated = lastUpdated;
+    }
+
     @Override
     public String toString() {
         return "Topic{" +
@@ -66,6 +75,7 @@ public class Topic {
                 ", author='" + author + '\'' +
                 ", profileUrl='" + profileUrl + '\'' +
                 ", view=" + view +
+                ", lastUpdated=" + lastUpdated +
                 '}';
     }
 }

@@ -14,17 +14,16 @@ public class RealWorld {
         Crawler crawler = new Crawler(new DefaultFetch()) {
             @Override
             public int getMaxPage(Document document) {
-                return 3;
+                return super.getMaxPage(document);
             }
         };
 
         List<Topic> topics = crawler.topics();
-        System.out.println(topics.size());
+
         for (Topic topic : topics) {
             crawler.update(topic);
-            System.out.println(topic);
         }
 
-        FileUtils.write(new File("output.json"), new Gson().toJson(topics), "utf-8");
+        FileUtils.write(new File("data.json"), new Gson().toJson(topics), "utf-8");
     }
 }

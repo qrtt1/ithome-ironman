@@ -46,6 +46,7 @@ function App() {
       const categories = {};
       topics.map((x: TopicProps) => {
         categories[x.category] = 1;
+        return x.category;
       });
       setCategories(Object.keys(categories).sort());
       topics.sort((a: TopicProps, b: TopicProps) => {

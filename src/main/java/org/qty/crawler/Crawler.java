@@ -70,6 +70,10 @@ public class Crawler {
             executeUpdate(topic);
         } catch (Exception e) {
             topic.setView(0);
+            System.err.println("ERR: " + topic);
+            e.printStackTrace();
+        } finally {
+            topic.setLastUpdated(System.currentTimeMillis());
         }
     }
 
