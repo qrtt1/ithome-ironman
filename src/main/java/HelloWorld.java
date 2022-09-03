@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class HelloWorld {
     public static void main(String[] args) throws IOException {
-        Document document = Jsoup.connect("https://ithelp.ithome.com.tw/2021ironman/signup/list").get();
+        Document document = Jsoup.connect("https://ithelp.ithome.com.tw/2022ironman/signup/list").get();
         FileUtils.write(new File("list.html"), document.toString(), "utf-8");
         int lastPage = parseLastPage(document);
         System.out.println(lastPage);
