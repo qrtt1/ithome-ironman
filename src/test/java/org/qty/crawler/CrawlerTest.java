@@ -1,6 +1,7 @@
 package org.qty.crawler;
 
 import org.apache.commons.io.IOUtils;
+import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.junit.jupiter.api.Test;
 
@@ -14,6 +15,13 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class CrawlerTest {
 
+
+    @Test
+    public void testCrawler_parseMaxPage() {
+        Crawler crawler = new Crawler(null);
+        assertEquals(63, crawler.getMaxPage(Jsoup.parse(createFakeFetch().get(Crawler.CONTENT_LIST))));
+    }
+
     @Test
     public void testCrawler_fetch_topics() {
         Crawler crawler = new Crawler(createFakeFetch()) {
@@ -24,43 +32,43 @@ class CrawlerTest {
         };
         List<Topic> topics = crawler.topics();
 
-        List<String> expectedTitles = Arrays.asList("來學習寫安卓手機的程式吧-Kotlin語言",
-                "大學生必學的 30個Python技巧",
-                "Google Assistant 開發與語音使用者介面設計",
-                "機智接案生活 - WooCommerce 金流串接實戰",
-                "[ 重構倒數30天，你的網站不Vue白不Vue ]",
-                "C# 入门",
-                "AI ninja project",
-                "我不太懂 AI，可是我會一點 Python 和 Azure",
-                "觀賞魚辨識的YOLO全餐",
-                "30 天 Java 從陌生到更陌生");
+        List<String> expectedTitles = Arrays.asList("[Dot Net Core](圖解系列與常用套件)",
+                "Moleculer 家家酒",
+                "從 Node.js 開發者到量化交易者：打造屬於自己的投資系統",
+                "網頁開發（html.css）",
+                "上班到一半突然被通知被炒了的我只好來寫個賓果",
+                "工程師轉職新手爸爸 三十天讓你不當豬隊友",
+                "寫寫歷年職場經歷過的大小事或近期所學習的知識啟發",
+                "Quest for Hyperskewb",
+                "了解AI多一點點",
+                "亞洲雲端黑馬－阿里雲的七大必學應用");
 
         List<String> titles = topics.stream().map(Topic::getTitle).collect(Collectors.toList());
         assertEquals(expectedTitles, titles);
 
-        List<String> expectedUrls = Arrays.asList("https://ithelp.ithome.com.tw/users/20140419/ironman/4096",
-                "https://ithelp.ithome.com.tw/users/20140998/ironman/4362",
-                "https://ithelp.ithome.com.tw/users/20141015/ironman/4365",
-                "https://ithelp.ithome.com.tw/users/20133765/ironman/4367",
-                "https://ithelp.ithome.com.tw/users/20125854/ironman/4112",
-                "https://ithelp.ithome.com.tw/users/20099494/ironman/4373",
-                "https://ithelp.ithome.com.tw/users/20122678/ironman/3864",
-                "https://ithelp.ithome.com.tw/users/20139923/ironman/3866",
-                "https://ithelp.ithome.com.tw/users/20129510/ironman/4385",
-                "https://ithelp.ithome.com.tw/users/20140066/ironman/3878");
+        List<String> expectedUrls = Arrays.asList("https://ithelp.ithome.com.tw/users/20144614/ironman/5120",
+                "https://ithelp.ithome.com.tw/users/20107175/ironman/5388",
+                "https://ithelp.ithome.com.tw/users/20150150/ironman/5145",
+                "https://ithelp.ithome.com.tw/users/20120843/ironman/5158",
+                "https://ithelp.ithome.com.tw/users/20140063/ironman/5417",
+                "https://ithelp.ithome.com.tw/users/20129292/ironman/5178",
+                "https://ithelp.ithome.com.tw/users/20151917/ironman/5437",
+                "https://ithelp.ithome.com.tw/users/20103524/ironman/5183",
+                "https://ithelp.ithome.com.tw/users/20150784/ironman/5200",
+                "https://ithelp.ithome.com.tw/users/20150173/ironman/4947");
         List<String> urls = topics.stream().map(Topic::getUrl).collect(Collectors.toList());
         assertEquals(expectedUrls, urls);
 
-        List<String> expectedCategories = Arrays.asList("Mobile Development",
-                "影片教學",
-                "AI & Data",
-                "Modern Web",
-                "Modern Web",
+        List<String> expectedCategories = Arrays.asList("自我挑戰組",
                 "Software Development",
+                "Software Development",
+                "自我挑戰組",
+                "Mobile Development",
+                "自我挑戰組",
+                "自我挑戰組",
+                "自我挑戰組",
                 "AI & Data",
-                "AI & Data",
-                "AI & Data",
-                "Software Development");
+                "自我挑戰組");
         List<String> categories = topics.stream().map(Topic::getCategory).collect(Collectors.toList());
         assertEquals(expectedCategories, categories);
 
