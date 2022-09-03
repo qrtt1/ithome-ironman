@@ -34,4 +34,4 @@ jobs:
           git commit -am "Automated report" || true
           git push || true
           
-          aws s3 cp data.json s3://ithome-ironman-watcher/2022/data.json
+          aws s3 cp data.json s3://ithome-ironman-watcher/2022/data.json --acl public-read
