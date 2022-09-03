@@ -22,6 +22,9 @@ jobs:
       - name: Run
         env:
           data: ${{ secrets.DATA }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ AWS_SECRET_ACCESS_KEY.DATA }}
+          AWS_DEFAULT_REGION: ${{ AWS_DEFAULT_REGION.DATA }}
         run: |
           ./gradlew run
           
@@ -30,3 +33,5 @@ jobs:
           git add data.json
           git commit -am "Automated report" || true
           git push || true
+          
+          aws s3 cp data.json s3://ithome-ironman-watcher/2022/data.json
