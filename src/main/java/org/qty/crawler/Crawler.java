@@ -118,6 +118,8 @@ public class Crawler {
             article.setPublished(
                     LocalDateTime.parse(publishTimes.get(idx).attr("title"),
                             DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+
+            article.setIso8601Published(article.getPublished().format(DateTimeFormatter.ISO_DATE_TIME));
             return article;
         })).collect(Collectors.toList());
     }

@@ -6,6 +6,15 @@ public class Article implements Comparable<Article> {
     String url;
     String title;
     LocalDateTime published;
+    String iso8601Published;
+
+    public String getIso8601Published() {
+        return iso8601Published;
+    }
+
+    public void setIso8601Published(String iso8601Published) {
+        this.iso8601Published = iso8601Published;
+    }
 
     public String getUrl() {
         return url;
