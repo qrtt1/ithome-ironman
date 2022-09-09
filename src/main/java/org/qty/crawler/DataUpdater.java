@@ -37,7 +37,7 @@ public class DataUpdater {
         });
 
         System.out.println("size: " + savedTopics.size());
-        savedTopics.stream().limit(50).forEach(topic -> {
+        savedTopics.stream().limit(100).forEach(topic -> {
             crawler.update(topic);
             System.out.println(topic);
         });
