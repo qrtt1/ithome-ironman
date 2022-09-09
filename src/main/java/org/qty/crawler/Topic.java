@@ -1,5 +1,8 @@
 package org.qty.crawler;
 
+import java.util.Set;
+import java.util.TreeSet;
+
 public class Topic {
 
     String category;
@@ -10,6 +13,8 @@ public class Topic {
     String anchor;
     int view;
     long lastUpdated;
+
+    Set<Article> articles = new TreeSet<>();
 
     public String getCategory() {
         return category;
@@ -75,6 +80,15 @@ public class Topic {
         this.anchor = anchor;
     }
 
+    public Set<Article> getArticles() {
+        return articles;
+    }
+
+    public void setArticles(Set<Article> articles) {
+        this.articles = articles;
+    }
+
+
     @Override
     public String toString() {
         return "Topic{" +
@@ -83,8 +97,10 @@ public class Topic {
                 ", url='" + url + '\'' +
                 ", author='" + author + '\'' +
                 ", profileUrl='" + profileUrl + '\'' +
+                ", anchor='" + anchor + '\'' +
                 ", view=" + view +
                 ", lastUpdated=" + lastUpdated +
+                ", articles=" + articles +
                 '}';
     }
 }

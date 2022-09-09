@@ -6,9 +6,13 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class Crawler {
 
@@ -88,14 +92,34 @@ public class Crawler {
         topic.setProfileUrl(document.select("a.profile-nav__link").first().attr("href"));
         topic.setView(getViewInTopicPage(document));
 
+        topic.articles.addAll(extractArticles(document));
+
         int maxPageInTopic = getMaxPageInTopic(document);
         if (maxPageInTopic > 1) {
             for (int i = 2; i <= maxPageInTopic; i++) {
                 Document doc = Jsoup.parse(fetch.get(topic.getUrl() + "?page=" + i));
                 topic.setView(topic.getView() + getViewInTopicPage(doc));
+                topic.articles.addAll(extractArticles(doc));
             }
         }
         topic.setAnchor(DigestUtils.md5Hex(topic.getUrl()));
+    }
+
+    private List<Article> extractArticles(Document document) {
+        Elements titleAndLinks = document.select("a.qa-list__title-link");
+        Elements publishTimes = document.select("a.qa-list__info-time");
+
+        return IntStream.range(0, titleAndLinks.size()).boxed().map((idx -> {
+            Article article = new Article();
+            article.setTitle(titleAndLinks.get(idx).text());
+            article.setUrl(titleAndLinks.get(idx).attr("href").strip());
+
+            // 2022-09-02 09:16:19
+            article.setPublished(
+                    LocalDateTime.parse(publishTimes.get(idx).attr("title"),
+                            DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
+            return article;
+        })).collect(Collectors.toList());
     }
 
     private int getViewInTopicPage(Document document) {
