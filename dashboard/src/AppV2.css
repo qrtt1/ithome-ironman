@@ -1,0 +1,34 @@
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 400;
+    font-size: 11pt;
+    overflow-x: hidden;
+}
+
+.nav {
+    background-color: #00a0e9;
+    height: 50px;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.category {
+    margin: 15px;
+    padding: 15px;
+    font-weight: 600;
+    background-color: rgb(235, 236, 240);
+    border-radius: 7px;
+}
+
+.topic {
+    font-weight: 400;
+    background-color: white;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+}
+
+.topic:hover {
+    background-color: lightgreen;
+}
