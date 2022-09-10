@@ -56,7 +56,10 @@ function Topic(props: { topic: TopicEntry }) {
     if (latestArticle != null) {
         const diffHours = moment(refData).diff(moment(new Date(latestArticle.iso8601Published)), "hours");
         if (diffHours >= 25) {
-            status = {content: "屬惹", color: "red", date: latestArticle.iso8601Published}
+            status = {content: "微危", color: "red", date: latestArticle.iso8601Published}
+        }
+        if (diffHours >= 48) {
+            status = {content: "屬惹", color: "blackAlpha", date: latestArticle.iso8601Published}
         }
         if (diffHours <= 25) {
             status = {content: "安全", color: "blue", date: latestArticle.iso8601Published}
