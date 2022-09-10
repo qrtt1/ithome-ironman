@@ -15,12 +15,7 @@ const root = createRoot(document.getElementById('root'));
 
 root.render(
     <React.StrictMode>
-        <BrowserRouter>
-            <Routes>
-                <Route path="/" element={<App/>}/>
-                <Route path="/index.html" element={<AppV2/>}/>
-            </Routes>
-        </BrowserRouter>
+        <AppV2/>
     </React.StrictMode>
 );
 

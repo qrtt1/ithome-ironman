@@ -54,6 +54,10 @@ public class Crawler {
 
     public int getMaxPage(Document document) {
         String pageListSelector = ".pagination-inner a";
+        return getMaxPageBySelector(document, pageListSelector);
+    }
+
+    private static int getMaxPageBySelector(Document document, String pageListSelector) {
         int maxPage = 1;
         for (Element element : document.select(pageListSelector)) {
             try {
@@ -69,7 +73,7 @@ public class Crawler {
     }
 
     public int getMaxPageInTopic(Document document) {
-        return getMaxPage(document);
+        return getMaxPageBySelector(document, ".pagination a");
     }
 
     public void update(Topic topic) {
@@ -95,6 +99,7 @@ public class Crawler {
         topic.articles.addAll(extractArticles(document));
 
         int maxPageInTopic = getMaxPageInTopic(document);
+//        getMaxPageBySelector
         if (maxPageInTopic > 1) {
             for (int i = 2; i <= maxPageInTopic; i++) {
                 Document doc = Jsoup.parse(fetch.get(topic.getUrl() + "?page=" + i));
