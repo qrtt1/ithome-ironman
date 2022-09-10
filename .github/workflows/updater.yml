@@ -35,4 +35,4 @@ jobs:
           git push || true
           
           aws s3 cp data.json s3://ithome-ironman-watcher/2022/data.json --acl public-read
-          aws s3 cp data.json s3://ithome-ironman-watcher/2022/ui-data.json --acl public-read
+          aws s3 cp data.json s3://ithome-ironman-watcher/2022v2/ui-data.json --acl public-read
