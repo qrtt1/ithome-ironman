@@ -5,6 +5,7 @@ import com.google.gson.GsonBuilder;
 import com.google.gson.reflect.TypeToken;
 import org.apache.commons.io.FileUtils;
 import org.jsoup.nodes.Document;
+import org.qty.crawler.uidata.UIDataModel;
 
 import java.io.File;
 import java.io.IOException;
@@ -45,6 +46,7 @@ public class DataUpdater {
         Gson gson = new GsonBuilder().setPrettyPrinting().create();
         Collections.sort(savedTopics, Comparator.comparing(Topic::getUrl));
         FileUtils.write(new File("data.json"), gson.toJson(savedTopics), "utf-8");
+        FileUtils.write(new File("ui-data.json"), gson.toJson(UIDataModel.convertForUI(savedTopics)), "utf-8");
     }
 
     private static void appendNewTopics(List<Topic> savedTopics, List<Topic> topics) {
@@ -58,7 +60,7 @@ public class DataUpdater {
 
     }
 
-    private static List<Topic> loadPreviousTopics() throws IOException {
+    public static List<Topic> loadPreviousTopics() throws IOException {
         if (!new File("data.json").exists()) {
             return new ArrayList<>();
         }

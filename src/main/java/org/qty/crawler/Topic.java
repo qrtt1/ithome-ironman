@@ -1,9 +1,10 @@
 package org.qty.crawler;
 
+import java.util.Objects;
 import java.util.Set;
 import java.util.TreeSet;
 
-public class Topic {
+public class Topic implements Comparable<Topic> {
 
     String category;
     String title;
@@ -91,16 +92,12 @@ public class Topic {
 
     @Override
     public String toString() {
-        return "Topic{" +
-                "category='" + category + '\'' +
-                ", title='" + title + '\'' +
-                ", url='" + url + '\'' +
-                ", author='" + author + '\'' +
-                ", profileUrl='" + profileUrl + '\'' +
-                ", anchor='" + anchor + '\'' +
-                ", view=" + view +
-                ", lastUpdated=" + lastUpdated +
-                ", articles=" + articles +
-                '}';
+        return "Topic{" + "category='" + category + '\'' + ", title='" + title + '\'' + ", url='" + url + '\'' + ", author='" + author + '\'' + ", profileUrl='" + profileUrl + '\'' + ", anchor='" + anchor + '\'' + ", view=" + view + ", lastUpdated=" + lastUpdated + ", articles=" + articles + '}';
+    }
+
+
+    @Override
+    public int compareTo(Topic o) {
+        return o.getView() - view;
     }
 }
