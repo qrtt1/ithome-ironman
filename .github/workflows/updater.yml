@@ -3,7 +3,7 @@ name: Runner
 on:
   push:
     branches: [ "main" ]
-    paths-ignore: [ "data.json" ]
+    paths-ignore: [ "data.json", "ui-data.json" ]
   schedule:
     - cron: '*/30 * * * *'
 
@@ -30,8 +30,9 @@ jobs:
           
           git config --global user.name 'ithome-watcher'
           git config --global user.email 'ithome-watcher@users.noreply.github.com'
-          git add data.json
+          git add data.json ui-data.json
           git commit -am "Automated report" || true
           git push || true
           
           aws s3 cp data.json s3://ithome-ironman-watcher/2022/data.json --acl public-read
+          aws s3 cp data.json s3://ithome-ironman-watcher/2022/ui-data.json --acl public-read
