@@ -1,21 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import AppV2 from "./AppV2";
-import {
-    BrowserRouter,
-    Routes,
-    Route,
-} from "react-router-dom";
 import {createRoot} from "react-dom/client";
+import AppV2 from "./AppV2";
 
 const root = createRoot(document.getElementById('root'));
 
+function MyRoute() {
+    if (window.location.href.includes('/2022v2/')) {
+        return <AppV2/>
+    }
+    return <App/>
+}
+
 root.render(
     <React.StrictMode>
-        <AppV2/>
+        <MyRoute/>
     </React.StrictMode>
 );
 
