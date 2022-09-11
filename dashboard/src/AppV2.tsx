@@ -51,6 +51,7 @@ function Topic(props: { topic: TopicEntry }) {
         return new Date(o.iso8601Published)
     });
 
+    // TODO 需要有完賽跟從未參賽就棄賽的判斷 (9/1 ~ 9/16)
     let status: Status = {content: "期待", color: "purple", date: ""};
     if (latestArticle != null) {
         const diffHours = moment(refData).diff(moment(new Date(latestArticle.iso8601Published)), "hours");
@@ -93,7 +94,6 @@ function Topic(props: { topic: TopicEntry }) {
                                backgroundColor="gray.400" color="white">
                             {latestArticle && latestArticle.title}</Badge>
                     </a>
-
                 }
                 <Badge pl={5} pr={5} colorScheme="gray"> {topic.author}</Badge>
             </Flex>
