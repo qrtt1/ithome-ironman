@@ -4,7 +4,6 @@ import {useEffect, useState} from "react";
 import {maxBy} from "lodash";
 import {ThemeTypings} from "@chakra-ui/styled-system";
 import moment from "moment";
-import {stat} from "fs";
 
 
 async function fetchData() {
@@ -55,20 +54,18 @@ function Topic(props: { topic: TopicEntry }) {
     let status: Status = {content: "期待", color: "purple", date: ""};
     if (latestArticle != null) {
         const diffHours = moment(refData).diff(moment(new Date(latestArticle.iso8601Published)), "hours");
-        if (diffHours >= 25) {
-            status = {content: "微危", color: "red", date: latestArticle.iso8601Published}
+        const diffDays = moment(refData).diff(moment(new Date(latestArticle.iso8601Published)), "days");
+        if (diffDays > 2) {
+            status = {content: "斷賽", color: "blackAlpha", date: latestArticle.iso8601Published}
         }
-        if (diffHours >= 48) {
-            status = {content: "屬惹", color: "blackAlpha", date: latestArticle.iso8601Published}
-        }
-        if (diffHours <= 25) {
+        if (diffDays <= 2) {
             status = {content: "安全", color: "blue", date: latestArticle.iso8601Published}
         }
         if (diffHours <= 12) {
             status = {content: "新的", color: "green", date: latestArticle.iso8601Published}
         }
 
-        // console.log(`${topic.title} => ${diffHours} => ${status}`);
+        console.log(`${topic.title} => ${diffDays} => ${status}`);
     }
 
 
