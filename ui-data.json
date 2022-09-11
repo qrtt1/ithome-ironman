@@ -103,7 +103,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20112053/profile",
         "anchor": "677c642c49750709b1a6e52e8cbc9d2c",
         "view": 0,
-        "lastUpdated": 1662887065061,
+        "lastUpdated": 1662901992876,
         "articles": []
       },
       {
@@ -125,7 +125,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20126723/profile",
         "anchor": "da23883c07e388606fc2d0e5bce98bec",
         "view": 0,
-        "lastUpdated": 1662889000877,
+        "lastUpdated": 1662902041804,
         "articles": []
       },
       {
@@ -1246,8 +1246,8 @@
         "author": "ReccaChao (ReccaChao)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20120550/profile",
         "anchor": "24fd76e0792f1d0ddae8aadde660238a",
-        "view": 1538,
-        "lastUpdated": 1662888984265,
+        "view": 1546,
+        "lastUpdated": 1662902024095,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287229",
@@ -2063,6 +2063,198 @@
       },
       {
         "category": "Software Development",
+        "title": "持續進化論",
+        "url": "https://ithelp.ithome.com.tw/users/20115048/ironman/5533",
+        "author": "擎天崗的松阪牛 (kurt6783)",
+        "profileUrl": "https://ithelp.ithome.com.tw/users/20115048/profile",
+        "anchor": "b4fb4dcc5205e7a5f8f88f6be326facd",
+        "view": 1378,
+        "lastUpdated": 1662902002422,
+        "articles": [
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287211",
+            "title": "DAY01 - 前言",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 1
+              },
+              "time": {
+                "hour": 23,
+                "minute": 36,
+                "second": 56,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-01T23:36:56"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287401",
+            "title": "DAY02 - 環境配置",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 2
+              },
+              "time": {
+                "hour": 21,
+                "minute": 54,
+                "second": 27,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-02T21:54:27"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287688",
+            "title": "DAY03 - 我的面試",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 3
+              },
+              "time": {
+                "hour": 23,
+                "minute": 19,
+                "second": 19,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-03T23:19:19"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287866",
+            "title": "DAY04 - 心目中工程師的等級",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 4
+              },
+              "time": {
+                "hour": 23,
+                "minute": 4,
+                "second": 43,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-04T23:04:43"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287886",
+            "title": "DAY05 - 實習面試官",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 5
+              },
+              "time": {
+                "hour": 18,
+                "minute": 8,
+                "second": 7,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-05T18:08:07"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288128",
+            "title": "DAY06 - 資料庫這檔事",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 6
+              },
+              "time": {
+                "hour": 17,
+                "minute": 32,
+                "second": 10,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-06T17:32:10"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288277",
+            "title": "DAY07 - 站在巨人的肩膀",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 7
+              },
+              "time": {
+                "hour": 15,
+                "minute": 1,
+                "second": 16,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-07T15:01:16"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288600",
+            "title": "DAY08 - 創造的工具",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 8
+              },
+              "time": {
+                "hour": 10,
+                "minute": 45,
+                "second": 36,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-08T10:45:36"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288812",
+            "title": "DAY09 - 輔助參數",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 9
+              },
+              "time": {
+                "hour": 10,
+                "minute": 16,
+                "second": 55,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-09T10:16:55"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10289050",
+            "title": "DAY10 - 返樸歸真",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 10
+              },
+              "time": {
+                "hour": 16,
+                "minute": 40,
+                "second": 46,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-10T16:40:46"
+          }
+        ]
+      },
+      {
+        "category": "Software Development",
         "title": "學 Python 到底可以幹麻勒？",
         "url": "https://ithelp.ithome.com.tw/users/20091306/ironman/5522",
         "author": "oxxo (oxxo)",
@@ -2268,198 +2460,6 @@
               }
             },
             "iso8601Published": "2022-09-11T00:32:24"
-          }
-        ]
-      },
-      {
-        "category": "Software Development",
-        "title": "持續進化論",
-        "url": "https://ithelp.ithome.com.tw/users/20115048/ironman/5533",
-        "author": "擎天崗的松阪牛 (kurt6783)",
-        "profileUrl": "https://ithelp.ithome.com.tw/users/20115048/profile",
-        "anchor": "b4fb4dcc5205e7a5f8f88f6be326facd",
-        "view": 1363,
-        "lastUpdated": 1662887076089,
-        "articles": [
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287211",
-            "title": "DAY01 - 前言",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 1
-              },
-              "time": {
-                "hour": 23,
-                "minute": 36,
-                "second": 56,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-01T23:36:56"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287401",
-            "title": "DAY02 - 環境配置",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 2
-              },
-              "time": {
-                "hour": 21,
-                "minute": 54,
-                "second": 27,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-02T21:54:27"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287688",
-            "title": "DAY03 - 我的面試",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 3
-              },
-              "time": {
-                "hour": 23,
-                "minute": 19,
-                "second": 19,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-03T23:19:19"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287866",
-            "title": "DAY04 - 心目中工程師的等級",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 4
-              },
-              "time": {
-                "hour": 23,
-                "minute": 4,
-                "second": 43,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-04T23:04:43"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287886",
-            "title": "DAY05 - 實習面試官",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 5
-              },
-              "time": {
-                "hour": 18,
-                "minute": 8,
-                "second": 7,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-05T18:08:07"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288128",
-            "title": "DAY06 - 資料庫這檔事",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 6
-              },
-              "time": {
-                "hour": 17,
-                "minute": 32,
-                "second": 10,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-06T17:32:10"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288277",
-            "title": "DAY07 - 站在巨人的肩膀",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 7
-              },
-              "time": {
-                "hour": 15,
-                "minute": 1,
-                "second": 16,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-07T15:01:16"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288600",
-            "title": "DAY08 - 創造的工具",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 8
-              },
-              "time": {
-                "hour": 10,
-                "minute": 45,
-                "second": 36,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-08T10:45:36"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288812",
-            "title": "DAY09 - 輔助參數",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 9
-              },
-              "time": {
-                "hour": 10,
-                "minute": 16,
-                "second": 55,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-09T10:16:55"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10289050",
-            "title": "DAY10 - 返樸歸真",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 10
-              },
-              "time": {
-                "hour": 16,
-                "minute": 40,
-                "second": 46,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-10T16:40:46"
           }
         ]
       },
@@ -3238,8 +3238,8 @@
         "author": "jrycw (jrycw)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20152192/profile",
         "anchor": "559872a326bd43737e2151dec1d2cc2d",
-        "view": 901,
-        "lastUpdated": 1662888987260,
+        "view": 911,
+        "lastUpdated": 1662902027148,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287811",
@@ -3550,8 +3550,8 @@
         "author": "ReccaChao (ReccaChao)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20120550/profile",
         "anchor": "d961d9ef680e09d44fd4ab567d3d02df",
-        "view": 746,
-        "lastUpdated": 1662888985029,
+        "view": 755,
+        "lastUpdated": 1662902024878,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10288483",
@@ -4102,8 +4102,8 @@
         "author": "Kate (xoolwater)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129197/profile",
         "anchor": "ece02191dc970257f7e32a14374843a5",
-        "view": 474,
-        "lastUpdated": 1662889006829,
+        "view": 483,
+        "lastUpdated": 1662902048466,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10288398",
@@ -4924,8 +4924,8 @@
         "author": "daniel26127143 (daniel26127143)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20142937/profile",
         "anchor": "142dc198629dd7307491f1609659c661",
-        "view": 111,
-        "lastUpdated": 1662887067564,
+        "view": 115,
+        "lastUpdated": 1662901995171,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10288996",
@@ -5102,7 +5102,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20114746/profile",
         "anchor": "d84348474989f188830d595c89320250",
         "view": 0,
-        "lastUpdated": 1662887073700,
+        "lastUpdated": 1662902000257,
         "articles": []
       },
       {
@@ -5113,7 +5113,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20115241/profile",
         "anchor": "429aa10804c2b058d39dd3efa3cead53",
         "view": 0,
-        "lastUpdated": 1662887078116,
+        "lastUpdated": 1662902004123,
         "articles": []
       },
       {
@@ -5124,7 +5124,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20120425/profile",
         "anchor": "7b16f57554ebc4a62ad6d6aa9eae6ad5",
         "view": 0,
-        "lastUpdated": 1662888981079,
+        "lastUpdated": 1662902021044,
         "articles": []
       },
       {
@@ -5135,7 +5135,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20121445/profile",
         "anchor": "3e6ab7a1bb00b299a1393583212da5c9",
         "view": 0,
-        "lastUpdated": 1662888991793,
+        "lastUpdated": 1662902032151,
         "articles": []
       },
       {
@@ -5146,7 +5146,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20121771/profile",
         "anchor": "1fe15956dcb3ba78dc284b4e49720b55",
         "view": 0,
-        "lastUpdated": 1662888993106,
+        "lastUpdated": 1662902033538,
         "articles": []
       },
       {
@@ -5157,7 +5157,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20122678/profile",
         "anchor": "a5306745024ea0ec84726cc4dbc41ff6",
         "view": 0,
-        "lastUpdated": 1662888994757,
+        "lastUpdated": 1662902035245,
         "articles": []
       },
       {
@@ -5168,7 +5168,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20123889/profile",
         "anchor": "1214b1fba59648cba2edaa86848ef047",
         "view": 0,
-        "lastUpdated": 1662888996727,
+        "lastUpdated": 1662902037226,
         "articles": []
       },
       {
@@ -5179,7 +5179,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20127950/profile",
         "anchor": "ef31396d4381bef6385ec2d76b243bf3",
         "view": 0,
-        "lastUpdated": 1662889001921,
+        "lastUpdated": 1662902042961,
         "articles": []
       },
       {
@@ -5190,7 +5190,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20128999/profile",
         "anchor": "784384b3540f1f221fd3960d2d1cb976",
         "view": 0,
-        "lastUpdated": 1662889004527,
+        "lastUpdated": 1662902046024,
         "articles": []
       },
       {
@@ -5201,7 +5201,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129747/profile",
         "anchor": "23f2ec6cd20fc206adb5d7ad529916b3",
         "view": 0,
-        "lastUpdated": 1662889016751,
+        "lastUpdated": 1662902058798,
         "articles": []
       },
       {
@@ -5256,7 +5256,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20131400/profile",
         "anchor": "7a40edb5de6401c51246d2fca66c0b57",
         "view": 0,
-        "lastUpdated": 1662888970948,
+        "lastUpdated": 1662902010361,
         "articles": []
       },
       {
@@ -5278,7 +5278,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20133400/profile",
         "anchor": "0969d01e49ce2c278ec5148c7a9673fc",
         "view": 0,
-        "lastUpdated": 1662889005050,
+        "lastUpdated": 1662902046574,
         "articles": []
       },
       {
@@ -5839,7 +5839,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20152182/profile",
         "anchor": "4ad48e740ae745e90218e8c7502e7765",
         "view": 0,
-        "lastUpdated": 1662888982169,
+        "lastUpdated": 1662902022210,
         "articles": []
       },
       {
@@ -5872,7 +5872,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20152405/profile",
         "anchor": "9d740aa293f1641c548c971e079279e7",
         "view": 0,
-        "lastUpdated": 1662888986213,
+        "lastUpdated": 1662902026091,
         "articles": []
       }
     ],
@@ -6859,7 +6859,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20117813/profile",
         "anchor": "e94e7cccf729298285fba7cc259fc524",
         "view": 0,
-        "lastUpdated": 1662887083185,
+        "lastUpdated": 1662902008193,
         "articles": []
       },
       {
@@ -6870,7 +6870,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20118525/profile",
         "anchor": "bbf649dbdece92bf20a94c92d4276d2e",
         "view": 0,
-        "lastUpdated": 1662888971457,
+        "lastUpdated": 1662902010903,
         "articles": []
       },
       {
@@ -6892,7 +6892,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20128973/profile",
         "anchor": "5b793ff48da7ab4d4babb1482eefd984",
         "view": 0,
-        "lastUpdated": 1662889004044,
+        "lastUpdated": 1662902045441,
         "articles": []
       },
       {
@@ -7601,8 +7601,8 @@
         "author": "Tim Hsu (hsuchihting)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20119300/profile",
         "anchor": "3bd4f7224cd7668ca9b335ceea8b9286",
-        "view": 1866,
-        "lastUpdated": 1662888976801,
+        "view": 1892,
+        "lastUpdated": 1662902016397,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287144",
@@ -8011,6 +8011,216 @@
               }
             },
             "iso8601Published": "2022-09-11T17:50:40"
+          }
+        ]
+      },
+      {
+        "category": "自我挑戰組",
+        "title": "資料庫新手入門--以PostgreSQL為例",
+        "url": "https://ithelp.ithome.com.tw/users/20129430/ironman/5469",
+        "author": "大卷尾 (KunYuChang)",
+        "profileUrl": "https://ithelp.ithome.com.tw/users/20129430/profile",
+        "anchor": "50e5b9ed58a7ab4146486cbdad8463c8",
+        "view": 1589,
+        "lastUpdated": 1662902052535,
+        "articles": [
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287168",
+            "title": "Day 01 使用資料庫的原因",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 1
+              },
+              "time": {
+                "hour": 23,
+                "minute": 54,
+                "second": 2,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-01T23:54:02"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287305",
+            "title": "Day 02 使用PostgreSQL的原因",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 2
+              },
+              "time": {
+                "hour": 19,
+                "minute": 26,
+                "second": 21,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-02T19:26:21"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287686",
+            "title": "Day 03 什麼是SQL",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 3
+              },
+              "time": {
+                "hour": 23,
+                "minute": 11,
+                "second": 21,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-03T23:11:21"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287801",
+            "title": "Day 04 什麼是DBMS",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 4
+              },
+              "time": {
+                "hour": 16,
+                "minute": 42,
+                "second": 6,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-04T16:42:06"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288059",
+            "title": "Day 05 什麼是RDBMS",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 5
+              },
+              "time": {
+                "hour": 19,
+                "minute": 10,
+                "second": 43,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-05T19:10:43"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288247",
+            "title": "Day 06 安裝資料庫與編輯器",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 6
+              },
+              "time": {
+                "hour": 19,
+                "minute": 32,
+                "second": 31,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-06T19:32:31"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288457",
+            "title": "Day 07 建立資料庫",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 7
+              },
+              "time": {
+                "hour": 19,
+                "minute": 19,
+                "second": 3,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-07T19:19:03"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288566",
+            "title": "Day 08 建立資料表",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 8
+              },
+              "time": {
+                "hour": 5,
+                "minute": 7,
+                "second": 1,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-08T05:07:01"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288799",
+            "title": "Day 09 寫入資料",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 9
+              },
+              "time": {
+                "hour": 9,
+                "minute": 17,
+                "second": 21,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-09T09:17:21"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10289111",
+            "title": "Day 10 資料表的設定兩三事",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 10
+              },
+              "time": {
+                "hour": 21,
+                "minute": 57,
+                "second": 55,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-10T21:57:55"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10289210",
+            "title": "Day 11 資料怎麼弄(CRUD)",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 11
+              },
+              "time": {
+                "hour": 10,
+                "minute": 9,
+                "second": 18,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-11T10:09:18"
           }
         ]
       },
@@ -8431,216 +8641,6 @@
               }
             },
             "iso8601Published": "2022-09-11T09:41:12"
-          }
-        ]
-      },
-      {
-        "category": "自我挑戰組",
-        "title": "資料庫新手入門--以PostgreSQL為例",
-        "url": "https://ithelp.ithome.com.tw/users/20129430/ironman/5469",
-        "author": "大卷尾 (KunYuChang)",
-        "profileUrl": "https://ithelp.ithome.com.tw/users/20129430/profile",
-        "anchor": "50e5b9ed58a7ab4146486cbdad8463c8",
-        "view": 1565,
-        "lastUpdated": 1662889010514,
-        "articles": [
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287168",
-            "title": "Day 01 使用資料庫的原因",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 1
-              },
-              "time": {
-                "hour": 23,
-                "minute": 54,
-                "second": 2,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-01T23:54:02"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287305",
-            "title": "Day 02 使用PostgreSQL的原因",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 2
-              },
-              "time": {
-                "hour": 19,
-                "minute": 26,
-                "second": 21,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-02T19:26:21"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287686",
-            "title": "Day 03 什麼是SQL",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 3
-              },
-              "time": {
-                "hour": 23,
-                "minute": 11,
-                "second": 21,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-03T23:11:21"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287801",
-            "title": "Day 04 什麼是DBMS",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 4
-              },
-              "time": {
-                "hour": 16,
-                "minute": 42,
-                "second": 6,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-04T16:42:06"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288059",
-            "title": "Day 05 什麼是RDBMS",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 5
-              },
-              "time": {
-                "hour": 19,
-                "minute": 10,
-                "second": 43,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-05T19:10:43"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288247",
-            "title": "Day 06 安裝資料庫與編輯器",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 6
-              },
-              "time": {
-                "hour": 19,
-                "minute": 32,
-                "second": 31,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-06T19:32:31"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288457",
-            "title": "Day 07 建立資料庫",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 7
-              },
-              "time": {
-                "hour": 19,
-                "minute": 19,
-                "second": 3,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-07T19:19:03"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288566",
-            "title": "Day 08 建立資料表",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 8
-              },
-              "time": {
-                "hour": 5,
-                "minute": 7,
-                "second": 1,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-08T05:07:01"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288799",
-            "title": "Day 09 寫入資料",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 9
-              },
-              "time": {
-                "hour": 9,
-                "minute": 17,
-                "second": 21,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-09T09:17:21"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10289111",
-            "title": "Day 10 資料表的設定兩三事",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 10
-              },
-              "time": {
-                "hour": 21,
-                "minute": 57,
-                "second": 55,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-10T21:57:55"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10289210",
-            "title": "Day 11 資料怎麼弄(CRUD)",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 11
-              },
-              "time": {
-                "hour": 10,
-                "minute": 9,
-                "second": 18,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-11T10:09:18"
           }
         ]
       },
@@ -9414,6 +9414,216 @@
       },
       {
         "category": "自我挑戰組",
+        "title": "自我學習Java",
+        "url": "https://ithelp.ithome.com.tw/users/20120940/ironman/5087",
+        "author": "ethan8510099 (ethan8510099)",
+        "profileUrl": "https://ithelp.ithome.com.tw/users/20120940/profile",
+        "anchor": "4ed72a4403f8c36bb0ae17395b4aca73",
+        "view": 1301,
+        "lastUpdated": 1662902029443,
+        "articles": [
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287181",
+            "title": "Day1 建置Java開發環境和自我介紹",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 1
+              },
+              "time": {
+                "hour": 15,
+                "minute": 56,
+                "second": 6,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-01T15:56:06"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287417",
+            "title": "Day2 Java 是什麼？ Java 能做什麼？Java 的優點有哪些？",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 2
+              },
+              "time": {
+                "hour": 18,
+                "minute": 42,
+                "second": 47,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-02T18:42:47"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287596",
+            "title": "Day3 開始撰寫第一支Java程式:Hello World !",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 3
+              },
+              "time": {
+                "hour": 14,
+                "minute": 50,
+                "second": 31,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-03T14:50:31"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10287794",
+            "title": "Day4 認識Java的基本型別與變數",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 4
+              },
+              "time": {
+                "hour": 15,
+                "minute": 53,
+                "second": 32,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-04T15:53:32"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288016",
+            "title": "Day5 認識Java 布林值 (boolean)",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 5
+              },
+              "time": {
+                "hour": 15,
+                "minute": 10,
+                "second": 19,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-05T15:10:19"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288216",
+            "title": "Day6 認識Java 字元(char)",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 6
+              },
+              "time": {
+                "hour": 15,
+                "minute": 23,
+                "second": 2,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-06T15:23:02"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288432",
+            "title": "Day7 練習byte與short運算",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 7
+              },
+              "time": {
+                "hour": 16,
+                "minute": 9,
+                "second": 18,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-07T16:09:18"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288639",
+            "title": "Day8 認識 int 運算",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 8
+              },
+              "time": {
+                "hour": 15,
+                "minute": 53,
+                "second": 47,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-08T15:53:47"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288854",
+            "title": "Day9 認識 float 與 double",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 9
+              },
+              "time": {
+                "hour": 15,
+                "minute": 40,
+                "second": 57,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-09T15:40:57"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288889",
+            "title": "Day10 練習Java 基本型別 混合運算+轉型處理",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 10
+              },
+              "time": {
+                "hour": 0,
+                "minute": 46,
+                "second": 13,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-10T00:46:13"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10289262",
+            "title": "Day11 認識if 基本語法",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 11
+              },
+              "time": {
+                "hour": 15,
+                "minute": 55,
+                "second": 31,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-11T15:55:31"
+          }
+        ]
+      },
+      {
+        "category": "自我挑戰組",
         "title": "[Dot Net Core](圖解系列與常用套件)",
         "url": "https://ithelp.ithome.com.tw/users/20144614/ironman/5120",
         "author": "czxdas (czxdas)",
@@ -10021,216 +10231,6 @@
               }
             },
             "iso8601Published": "2022-09-11T19:14:08"
-          }
-        ]
-      },
-      {
-        "category": "自我挑戰組",
-        "title": "自我學習Java",
-        "url": "https://ithelp.ithome.com.tw/users/20120940/ironman/5087",
-        "author": "ethan8510099 (ethan8510099)",
-        "profileUrl": "https://ithelp.ithome.com.tw/users/20120940/profile",
-        "anchor": "4ed72a4403f8c36bb0ae17395b4aca73",
-        "view": 1269,
-        "lastUpdated": 1662888989378,
-        "articles": [
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287181",
-            "title": "Day1 建置Java開發環境和自我介紹",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 1
-              },
-              "time": {
-                "hour": 15,
-                "minute": 56,
-                "second": 6,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-01T15:56:06"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287417",
-            "title": "Day2 Java 是什麼？ Java 能做什麼？Java 的優點有哪些？",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 2
-              },
-              "time": {
-                "hour": 18,
-                "minute": 42,
-                "second": 47,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-02T18:42:47"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287596",
-            "title": "Day3 開始撰寫第一支Java程式:Hello World !",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 3
-              },
-              "time": {
-                "hour": 14,
-                "minute": 50,
-                "second": 31,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-03T14:50:31"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10287794",
-            "title": "Day4 認識Java的基本型別與變數",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 4
-              },
-              "time": {
-                "hour": 15,
-                "minute": 53,
-                "second": 32,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-04T15:53:32"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288016",
-            "title": "Day5 認識Java 布林值 (boolean)",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 5
-              },
-              "time": {
-                "hour": 15,
-                "minute": 10,
-                "second": 19,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-05T15:10:19"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288216",
-            "title": "Day6 認識Java 字元(char)",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 6
-              },
-              "time": {
-                "hour": 15,
-                "minute": 23,
-                "second": 2,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-06T15:23:02"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288432",
-            "title": "Day7 練習byte與short運算",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 7
-              },
-              "time": {
-                "hour": 16,
-                "minute": 9,
-                "second": 18,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-07T16:09:18"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288639",
-            "title": "Day8 認識 int 運算",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 8
-              },
-              "time": {
-                "hour": 15,
-                "minute": 53,
-                "second": 47,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-08T15:53:47"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288854",
-            "title": "Day9 認識 float 與 double",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 9
-              },
-              "time": {
-                "hour": 15,
-                "minute": 40,
-                "second": 57,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-09T15:40:57"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288889",
-            "title": "Day10 練習Java 基本型別 混合運算+轉型處理",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 10
-              },
-              "time": {
-                "hour": 0,
-                "minute": 46,
-                "second": 13,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-10T00:46:13"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10289262",
-            "title": "Day11 認識if 基本語法",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 11
-              },
-              "time": {
-                "hour": 15,
-                "minute": 55,
-                "second": 31,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-11T15:55:31"
           }
         ]
       },
@@ -14033,8 +14033,8 @@
         "author": "Ado Lin (misado)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129873/profile",
         "anchor": "52145975660e2ff90ee10545714f0297",
-        "view": 861,
-        "lastUpdated": 1662889019505,
+        "view": 873,
+        "lastUpdated": 1662902061663,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287484",
@@ -14430,6 +14430,126 @@
       },
       {
         "category": "自我挑戰組",
+        "title": "敏捷你個炒飯",
+        "url": "https://ithelp.ithome.com.tw/users/20118596/ironman/5358",
+        "author": "金山街文學社 (reinslozz)",
+        "profileUrl": "https://ithelp.ithome.com.tw/users/20118596/profile",
+        "anchor": "b586ee7610f3a689e72548b3524ad7b0",
+        "view": 830,
+        "lastUpdated": 1662902011819,
+        "articles": [
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288082",
+            "title": "D1: [漫畫]敏捷你個炒飯",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 5
+              },
+              "time": {
+                "hour": 21,
+                "minute": 15,
+                "second": 36,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-05T21:15:36"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288264",
+            "title": "D2: [漫畫]敏捷你個炒飯 第1話",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 6
+              },
+              "time": {
+                "hour": 20,
+                "minute": 51,
+                "second": 12,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-06T20:51:12"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288484",
+            "title": "D3: [漫畫]敏捷你個炒飯 第1.5話",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 7
+              },
+              "time": {
+                "hour": 21,
+                "minute": 24,
+                "second": 56,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-07T21:24:56"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288729",
+            "title": "D4: [漫畫]敏捷你個炒飯 第2話",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 8
+              },
+              "time": {
+                "hour": 22,
+                "minute": 46,
+                "second": 56,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-08T22:46:56"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288887",
+            "title": "D5: [漫畫]敏捷你個炒飯 第2.5話",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 9
+              },
+              "time": {
+                "hour": 18,
+                "minute": 52,
+                "second": 39,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-09T18:52:39"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10289079",
+            "title": "D6: [漫畫]敏捷你個炒飯 第3話",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 10
+              },
+              "time": {
+                "hour": 20,
+                "minute": 8,
+                "second": 27,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-10T20:08:27"
+          }
+        ]
+      },
+      {
+        "category": "自我挑戰組",
         "title": "JavaScript - 30天 - 自學挑戰",
         "url": "https://ithelp.ithome.com.tw/users/20152092/ironman/5561",
         "author": "allenli (allenli)",
@@ -14609,8 +14729,8 @@
         "author": "gmfcd128 (gmfcd128)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20114934/profile",
         "anchor": "f470c08c8c7f3b02047e82e8c67f8b82",
-        "view": 799,
-        "lastUpdated": 1662887074974,
+        "view": 813,
+        "lastUpdated": 1662902001448,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287261",
@@ -15456,133 +15576,13 @@
       },
       {
         "category": "自我挑戰組",
-        "title": "敏捷你個炒飯",
-        "url": "https://ithelp.ithome.com.tw/users/20118596/ironman/5358",
-        "author": "金山街文學社 (reinslozz)",
-        "profileUrl": "https://ithelp.ithome.com.tw/users/20118596/profile",
-        "anchor": "b586ee7610f3a689e72548b3524ad7b0",
-        "view": 765,
-        "lastUpdated": 1662888972351,
-        "articles": [
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288082",
-            "title": "D1: [漫畫]敏捷你個炒飯",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 5
-              },
-              "time": {
-                "hour": 21,
-                "minute": 15,
-                "second": 36,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-05T21:15:36"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288264",
-            "title": "D2: [漫畫]敏捷你個炒飯 第1話",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 6
-              },
-              "time": {
-                "hour": 20,
-                "minute": 51,
-                "second": 12,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-06T20:51:12"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288484",
-            "title": "D3: [漫畫]敏捷你個炒飯 第1.5話",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 7
-              },
-              "time": {
-                "hour": 21,
-                "minute": 24,
-                "second": 56,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-07T21:24:56"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288729",
-            "title": "D4: [漫畫]敏捷你個炒飯 第2話",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 8
-              },
-              "time": {
-                "hour": 22,
-                "minute": 46,
-                "second": 56,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-08T22:46:56"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288887",
-            "title": "D5: [漫畫]敏捷你個炒飯 第2.5話",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 9
-              },
-              "time": {
-                "hour": 18,
-                "minute": 52,
-                "second": 39,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-09T18:52:39"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10289079",
-            "title": "D6: [漫畫]敏捷你個炒飯 第3話",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 10
-              },
-              "time": {
-                "hour": 20,
-                "minute": 8,
-                "second": 27,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-10T20:08:27"
-          }
-        ]
-      },
-      {
-        "category": "自我挑戰組",
         "title": "Linux 新手成長紀錄",
         "url": "https://ithelp.ithome.com.tw/users/20129482/ironman/5006",
         "author": "٩۹(๑•̀ω•́ ๑)۶ (gn757541)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129482/profile",
         "anchor": "ad1276e0e8a3d4c92ba3e26381ab0c26",
-        "view": 761,
-        "lastUpdated": 1662889011422,
+        "view": 767,
+        "lastUpdated": 1662902053513,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287848",
@@ -15911,8 +15911,8 @@
         "author": "Max Cheng (alexcheng2018)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20112100/profile",
         "anchor": "b77990ee96f354bc9d28e2109735bdb0",
-        "view": 719,
-        "lastUpdated": 1662887066070,
+        "view": 727,
+        "lastUpdated": 1662901993859,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287996",
@@ -17171,8 +17171,8 @@
         "author": "POKA (poka_in_ash)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129507/profile",
         "anchor": "9acebf398e0737f10560f9353453d915",
-        "view": 548,
-        "lastUpdated": 1662889012439,
+        "view": 558,
+        "lastUpdated": 1662902054557,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10288086",
@@ -17429,8 +17429,8 @@
         "author": "hannnahTW (hanforwork896)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20149362/profile",
         "anchor": "8c8a85478848d37905163bb398afc649",
-        "view": 513,
-        "lastUpdated": 1662888996200,
+        "view": 518,
+        "lastUpdated": 1662902036650,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10288417",
@@ -17531,8 +17531,8 @@
         "author": "nord001 (nord001)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129599/profile",
         "anchor": "256e862408c6e1e89a3befe7aabba83c",
-        "view": 492,
-        "lastUpdated": 1662889013956,
+        "view": 496,
+        "lastUpdated": 1662902055895,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287093",
@@ -18096,7 +18096,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20121075/profile",
         "anchor": "03fecea953071bee0200b393673a7234",
         "view": 324,
-        "lastUpdated": 1662888990252,
+        "lastUpdated": 1662902030347,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10288090",
@@ -18461,8 +18461,8 @@
         "author": "aliceric27 (aliceric27)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20152417/profile",
         "anchor": "ac079df4af9087da6ea3a2805b77a6c5",
-        "view": 123,
-        "lastUpdated": 1662888978015,
+        "view": 126,
+        "lastUpdated": 1662902017646,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10288928",
@@ -18509,8 +18509,8 @@
         "author": "test0902 (test0902)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20120552/profile",
         "anchor": "c064fd3702aaed7483bb4c7b85e6f94a",
-        "view": 120,
-        "lastUpdated": 1662888985678,
+        "view": 121,
+        "lastUpdated": 1662902025505,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287264",
@@ -18795,7 +18795,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20113505/profile",
         "anchor": "893c80be43888a6f852c4118ca986f1f",
         "view": 0,
-        "lastUpdated": 1662887069577,
+        "lastUpdated": 1662901996860,
         "articles": []
       },
       {
@@ -18806,7 +18806,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20114343/profile",
         "anchor": "173a7314db67ba6cecb7918439d50ced",
         "view": 0,
-        "lastUpdated": 1662887070272,
+        "lastUpdated": 1662901997443,
         "articles": []
       },
       {
@@ -18817,7 +18817,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20115192/profile",
         "anchor": "6ad97172fe1303fcf140e49d8b5365e3",
         "view": 0,
-        "lastUpdated": 1662887076759,
+        "lastUpdated": 1662902002988,
         "articles": []
       },
       {
@@ -18828,7 +18828,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20116003/profile",
         "anchor": "e12bc29650ec45e9463739be197c8dc1",
         "view": 0,
-        "lastUpdated": 1662887080222,
+        "lastUpdated": 1662902005951,
         "articles": []
       },
       {
@@ -18839,7 +18839,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20116357/profile",
         "anchor": "98ddfc5be9139bd6bec96ace899e3af0",
         "view": 0,
-        "lastUpdated": 1662887080928,
+        "lastUpdated": 1662902006521,
         "articles": []
       },
       {
@@ -18861,7 +18861,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20120293/profile",
         "anchor": "56eaf7656495afd4911430e2ae68d911",
         "view": 0,
-        "lastUpdated": 1662888979532,
+        "lastUpdated": 1662902019348,
         "articles": []
       },
       {
@@ -18872,7 +18872,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20120425/profile",
         "anchor": "0a4c5142c70805d6157b714d32306e22",
         "view": 0,
-        "lastUpdated": 1662888980582,
+        "lastUpdated": 1662902020509,
         "articles": []
       },
       {
@@ -18883,7 +18883,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20120833/profile",
         "anchor": "9d755c904c51b2f282bfd24e7ead178c",
         "view": 0,
-        "lastUpdated": 1662888987777,
+        "lastUpdated": 1662902027709,
         "articles": []
       },
       {
@@ -18894,7 +18894,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20122305/profile",
         "anchor": "4f378228fa09da4a8b59c02be703b827",
         "view": 0,
-        "lastUpdated": 1662888993702,
+        "lastUpdated": 1662902034104,
         "articles": []
       },
       {
@@ -18916,7 +18916,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20123085/profile",
         "anchor": "820bedd120c294020d9fdaaec39a591c",
         "view": 0,
-        "lastUpdated": 1662888995315,
+        "lastUpdated": 1662902035811,
         "articles": []
       },
       {
@@ -18938,7 +18938,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20125853/profile",
         "anchor": "1ee58ac238956ec0118cdb9e0bfeeec8",
         "view": 0,
-        "lastUpdated": 1662888998837,
+        "lastUpdated": 1662902039476,
         "articles": []
       },
       {
@@ -18949,7 +18949,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20125961/profile",
         "anchor": "bcd1c88af6084455c0b6743ffff3ef76",
         "view": 0,
-        "lastUpdated": 1662888999320,
+        "lastUpdated": 1662902040056,
         "articles": []
       },
       {
@@ -18960,7 +18960,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20126335/profile",
         "anchor": "4951d0a08a567d661a2c1c127e8cdd23",
         "view": 0,
-        "lastUpdated": 1662888999800,
+        "lastUpdated": 1662902040641,
         "articles": []
       },
       {
@@ -18971,7 +18971,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20128286/profile",
         "anchor": "ff8a3c7aab732a1ded926a86b3490e31",
         "view": 0,
-        "lastUpdated": 1662889002978,
+        "lastUpdated": 1662902044326,
         "articles": []
       },
       {
@@ -18993,7 +18993,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129020/profile",
         "anchor": "1a7116aeee2a77a4f71cbcbc50df07b9",
         "view": 0,
-        "lastUpdated": 1662889005579,
+        "lastUpdated": 1662902047132,
         "articles": []
       },
       {
@@ -19004,7 +19004,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129225/profile",
         "anchor": "3307d1694ec1733ffac9a913753e3179",
         "view": 0,
-        "lastUpdated": 1662889007997,
+        "lastUpdated": 1662902049805,
         "articles": []
       },
       {
@@ -19015,7 +19015,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129510/profile",
         "anchor": "7da9303719e7e30886a64cdf74048ae3",
         "view": 0,
-        "lastUpdated": 1662889012969,
+        "lastUpdated": 1662902055132,
         "articles": []
       },
       {
@@ -19543,7 +19543,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20148658/profile",
         "anchor": "b2b1f8dfaaba82dcdc95e697fe2abf5b",
         "view": 0,
-        "lastUpdated": 1662887077441,
+        "lastUpdated": 1662902003560,
         "articles": []
       },
       {
@@ -20511,7 +20511,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20152180/profile",
         "anchor": "94db8f1048d904c681a2eed48f07b07f",
         "view": 0,
-        "lastUpdated": 1662888981661,
+        "lastUpdated": 1662902021618,
         "articles": []
       },
       {
@@ -20577,7 +20577,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20152298/profile",
         "anchor": "f90fc807b810c4a1c9f01e82b1e7f9b6",
         "view": 0,
-        "lastUpdated": 1662887070936,
+        "lastUpdated": 1662901997994,
         "articles": []
       },
       {
@@ -22193,7 +22193,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20115823/profile",
         "anchor": "b32d9051d0f778b39fbf8a4bba9d43c5",
         "view": 0,
-        "lastUpdated": 1662887078790,
+        "lastUpdated": 1662902004800,
         "articles": []
       },
       {
@@ -22204,7 +22204,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20120030/profile",
         "anchor": "51d0e6b73e0e1b525f20308022470b85",
         "view": 0,
-        "lastUpdated": 1662888979012,
+        "lastUpdated": 1662902018765,
         "articles": []
       },
       {
@@ -22215,7 +22215,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129616/profile",
         "anchor": "1d261ab6d74a853aa8f59f885aafa265",
         "view": 0,
-        "lastUpdated": 1662889014510,
+        "lastUpdated": 1662902056442,
         "articles": []
       },
       {
@@ -22948,8 +22948,8 @@
         "author": "ddyme (kenny06478)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129416/profile",
         "anchor": "353d1bece0b11fe5f6a6184786500404",
-        "view": 694,
-        "lastUpdated": 1662889008899,
+        "view": 728,
+        "lastUpdated": 1662902050814,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287893",
@@ -23639,6 +23639,90 @@
       },
       {
         "category": "Mobile Development",
+        "title": "寫Jetpack Compose ，會很有畫面哦!",
+        "url": "https://ithelp.ithome.com.tw/users/20121643/ironman/5483",
+        "author": "kevin_chiu (kevin_chiu)",
+        "profileUrl": "https://ithelp.ithome.com.tw/users/20121643/profile",
+        "anchor": "4f9d9be75dd562c31a5e91439a85cab3",
+        "view": 282,
+        "lastUpdated": 1662902032961,
+        "articles": [
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288454",
+            "title": "寫Jetpack Compose ，會很有畫面哦! - Day1",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 7
+              },
+              "time": {
+                "hour": 20,
+                "minute": 12,
+                "second": 29,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-07T20:12:29"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288671",
+            "title": "寫Jetpack Compose ，會很有畫面哦! - Day2 Hello World!",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 8
+              },
+              "time": {
+                "hour": 20,
+                "minute": 27,
+                "second": 26,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-08T20:27:26"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10288870",
+            "title": "寫Jetpack Compose ，會很有畫面哦! - Day3 基本概念 - Composable functions",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 9
+              },
+              "time": {
+                "hour": 16,
+                "minute": 51,
+                "second": 52,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-09T16:51:52"
+          },
+          {
+            "url": "https://ithelp.ithome.com.tw/articles/10289075",
+            "title": "寫Jetpack Compose ，會很有畫面哦! - Day4 基本概念 - Layouts",
+            "published": {
+              "date": {
+                "year": 2022,
+                "month": 9,
+                "day": 10
+              },
+              "time": {
+                "hour": 21,
+                "minute": 23,
+                "second": 37,
+                "nano": 0
+              }
+            },
+            "iso8601Published": "2022-09-10T21:23:37"
+          }
+        ]
+      },
+      {
+        "category": "Mobile Development",
         "title": "轉職成 Android Developer 的最後一哩路",
         "url": "https://ithelp.ithome.com.tw/users/20151953/ironman/5475",
         "author": "Hank_Huang (Hank_Huang)",
@@ -23723,90 +23807,6 @@
       },
       {
         "category": "Mobile Development",
-        "title": "寫Jetpack Compose ，會很有畫面哦!",
-        "url": "https://ithelp.ithome.com.tw/users/20121643/ironman/5483",
-        "author": "kevin_chiu (kevin_chiu)",
-        "profileUrl": "https://ithelp.ithome.com.tw/users/20121643/profile",
-        "anchor": "4f9d9be75dd562c31a5e91439a85cab3",
-        "view": 274,
-        "lastUpdated": 1662888992585,
-        "articles": [
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288454",
-            "title": "寫Jetpack Compose ，會很有畫面哦! - Day1",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 7
-              },
-              "time": {
-                "hour": 20,
-                "minute": 12,
-                "second": 29,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-07T20:12:29"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288671",
-            "title": "寫Jetpack Compose ，會很有畫面哦! - Day2 Hello World!",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 8
-              },
-              "time": {
-                "hour": 20,
-                "minute": 27,
-                "second": 26,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-08T20:27:26"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10288870",
-            "title": "寫Jetpack Compose ，會很有畫面哦! - Day3 基本概念 - Composable functions",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 9
-              },
-              "time": {
-                "hour": 16,
-                "minute": 51,
-                "second": 52,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-09T16:51:52"
-          },
-          {
-            "url": "https://ithelp.ithome.com.tw/articles/10289075",
-            "title": "寫Jetpack Compose ，會很有畫面哦! - Day4 基本概念 - Layouts",
-            "published": {
-              "date": {
-                "year": 2022,
-                "month": 9,
-                "day": 10
-              },
-              "time": {
-                "hour": 21,
-                "minute": 23,
-                "second": 37,
-                "nano": 0
-              }
-            },
-            "iso8601Published": "2022-09-10T21:23:37"
-          }
-        ]
-      },
-      {
-        "category": "Mobile Development",
         "title": "開錯主題",
         "url": "https://ithelp.ithome.com.tw/users/20111119/ironman/5221",
         "author": "Terry L. (terrylinooo)",
@@ -23824,7 +23824,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20117052/profile",
         "anchor": "77d97540eba55c3c0bb57aacd3cf6dce",
         "view": 0,
-        "lastUpdated": 1662887081779,
+        "lastUpdated": 1662902007064,
         "articles": []
       },
       {
@@ -23846,7 +23846,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20124384/profile",
         "anchor": "d8226740a1d933d36147bd530b6d4671",
         "view": 0,
-        "lastUpdated": 1662888997231,
+        "lastUpdated": 1662902037789,
         "articles": []
       },
       {
@@ -23857,7 +23857,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20126714/profile",
         "anchor": "5a998b817646f55ef4ba64ca822b3173",
         "view": 0,
-        "lastUpdated": 1662889000340,
+        "lastUpdated": 1662902041220,
         "articles": []
       },
       {
@@ -23868,7 +23868,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129789/profile",
         "anchor": "d59cb2f0006eb21b3f431e4aa970db0a",
         "view": 0,
-        "lastUpdated": 1662889017254,
+        "lastUpdated": 1662902059345,
         "articles": []
       },
       {
@@ -23879,7 +23879,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129825/profile",
         "anchor": "18ddabfca1a774911183f7dbdce62d8b",
         "view": 0,
-        "lastUpdated": 1662889018311,
+        "lastUpdated": 1662902060490,
         "articles": []
       },
       {
@@ -24265,8 +24265,8 @@
         "author": "ReccaChao (ReccaChao)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20120550/profile",
         "anchor": "c6b43030b0b22169d900e2837af9b5a4",
-        "view": 2870,
-        "lastUpdated": 1662888983202,
+        "view": 2889,
+        "lastUpdated": 1662902023309,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287232",
@@ -26641,8 +26641,8 @@
         "author": "Tzu (jzs2home)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20119035/profile",
         "anchor": "a3664cbbd05f527d8fb0250f5909f1ac",
-        "view": 1025,
-        "lastUpdated": 1662888974616,
+        "view": 1033,
+        "lastUpdated": 1662902014084,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287247",
@@ -26851,8 +26851,8 @@
         "author": "olddunk (olddunk)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20118113/profile",
         "anchor": "b4924179b769d753d201842838669cbd",
-        "view": 972,
-        "lastUpdated": 1662887084201,
+        "view": 983,
+        "lastUpdated": 1662902009214,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287910",
@@ -28462,7 +28462,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20112409/profile",
         "anchor": "16df18b303121538c07dfcb11e3142e8",
         "view": 0,
-        "lastUpdated": 1662887066787,
+        "lastUpdated": 1662901994446,
         "articles": []
       },
       {
@@ -28473,7 +28473,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20112529/profile",
         "anchor": "ab99744b7c49281bf36b818d08de12a1",
         "view": 0,
-        "lastUpdated": 1662887072310,
+        "lastUpdated": 1662901999124,
         "articles": []
       },
       {
@@ -28484,7 +28484,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20112618/profile",
         "anchor": "0231bdcffb554642edf0e2e9ce0305d8",
         "view": 0,
-        "lastUpdated": 1662887068246,
+        "lastUpdated": 1662901995748,
         "articles": []
       },
       {
@@ -28495,7 +28495,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20112656/profile",
         "anchor": "8eb2502298930859d493d48a8ac6dd60",
         "view": 0,
-        "lastUpdated": 1662887068909,
+        "lastUpdated": 1662901996301,
         "articles": []
       },
       {
@@ -28506,7 +28506,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20114417/profile",
         "anchor": "d8216ec1caad86fb9f820e0952470e80",
         "view": 0,
-        "lastUpdated": 1662887073006,
+        "lastUpdated": 1662901999692,
         "articles": []
       },
       {
@@ -28517,7 +28517,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20115908/profile",
         "anchor": "ade15525dabb77da78104fbbf364b14d",
         "view": 0,
-        "lastUpdated": 1662887079475,
+        "lastUpdated": 1662902005389,
         "articles": []
       },
       {
@@ -28539,7 +28539,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20117461/profile",
         "anchor": "38b3dd5362f25a61f2f46c36571f71c1",
         "view": 0,
-        "lastUpdated": 1662887082496,
+        "lastUpdated": 1662902007624,
         "articles": []
       },
       {
@@ -28550,7 +28550,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20118788/profile",
         "anchor": "dfd28650c9b6b8b5c098bffe92dd9562",
         "view": 0,
-        "lastUpdated": 1662888972899,
+        "lastUpdated": 1662902012359,
         "articles": []
       },
       {
@@ -28561,7 +28561,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20119062/profile",
         "anchor": "4ca7d8039191b4c927e4bab802b1bb00",
         "view": 0,
-        "lastUpdated": 1662888975122,
+        "lastUpdated": 1662902014667,
         "articles": []
       },
       {
@@ -28572,7 +28572,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20119300/profile",
         "anchor": "38ecbd7e019b670708396c5563798c60",
         "view": 0,
-        "lastUpdated": 1662888977285,
+        "lastUpdated": 1662902016954,
         "articles": []
       },
       {
@@ -28583,7 +28583,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20119486/profile",
         "anchor": "21cbe01c3d00205af82f9f3d2e759372",
         "view": 0,
-        "lastUpdated": 1662888978512,
+        "lastUpdated": 1662902018197,
         "articles": []
       },
       {
@@ -28594,7 +28594,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20120338/profile",
         "anchor": "a4568b74c24df420e24b9c3f43b0b45a",
         "view": 0,
-        "lastUpdated": 1662888980034,
+        "lastUpdated": 1662902019925,
         "articles": []
       },
       {
@@ -28605,7 +28605,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20121085/profile",
         "anchor": "1e138489bdf7511f57df2b4944e31a1d",
         "view": 0,
-        "lastUpdated": 1662888991248,
+        "lastUpdated": 1662902031573,
         "articles": []
       },
       {
@@ -28616,7 +28616,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20124548/profile",
         "anchor": "2d7c43cca69797ef6878a6c5a218d791",
         "view": 0,
-        "lastUpdated": 1662888997732,
+        "lastUpdated": 1662902038353,
         "articles": []
       },
       {
@@ -28627,7 +28627,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20124767/profile",
         "anchor": "2c5ecf1f80f567e964d9138dbf435018",
         "view": 0,
-        "lastUpdated": 1662888998280,
+        "lastUpdated": 1662902038931,
         "articles": []
       },
       {
@@ -28638,7 +28638,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20127418/profile",
         "anchor": "6ec59322dd845661b17dce39f6682eb1",
         "view": 0,
-        "lastUpdated": 1662889001399,
+        "lastUpdated": 1662902042400,
         "articles": []
       },
       {
@@ -28649,7 +28649,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129072/profile",
         "anchor": "132a457b4d26fc503083ff92b68d786c",
         "view": 0,
-        "lastUpdated": 1662889006133,
+        "lastUpdated": 1662902047664,
         "articles": []
       },
       {
@@ -28660,7 +28660,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129729/profile",
         "anchor": "fe7725147ef65f40f68440c2a63c87a5",
         "view": 0,
-        "lastUpdated": 1662889015541,
+        "lastUpdated": 1662902057565,
         "articles": []
       },
       {
@@ -28814,7 +28814,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20140317/profile",
         "anchor": "88dec02e968e02d256c23b0fef069c71",
         "view": 0,
-        "lastUpdated": 1662888970409,
+        "lastUpdated": 1662902009790,
         "articles": []
       },
       {
@@ -29397,7 +29397,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20151586/profile",
         "anchor": "06fc93f4d7012736226828d682e3586e",
         "view": 0,
-        "lastUpdated": 1662887071611,
+        "lastUpdated": 1662901998549,
         "articles": []
       },
       {
@@ -30249,7 +30249,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20121075/profile",
         "anchor": "873a5ee2f9ce61c3a4ef33f4a521dd03",
         "view": 0,
-        "lastUpdated": 1662888990738,
+        "lastUpdated": 1662902031017,
         "articles": []
       },
       {
@@ -30260,7 +30260,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129794/profile",
         "anchor": "a73465f99849d63d0231cef420495ecf",
         "view": 0,
-        "lastUpdated": 1662889017800,
+        "lastUpdated": 1662902059918,
         "articles": []
       },
       {
@@ -30729,8 +30729,8 @@
         "author": "楊舒安 (chinchillann)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129220/profile",
         "anchor": "6ebab544683907c692696476acd59188",
-        "view": 318,
-        "lastUpdated": 1662889007468,
+        "view": 320,
+        "lastUpdated": 1662902049242,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10288312",
@@ -30873,7 +30873,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20129635/profile",
         "anchor": "d589e3a44f69947682ba924ebc4ed99a",
         "view": 0,
-        "lastUpdated": 1662889015004,
+        "lastUpdated": 1662902057007,
         "articles": []
       },
       {
@@ -32164,7 +32164,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20141437/profile",
         "anchor": "9b75ebb0a4389af339e420fa681d3327",
         "view": 59,
-        "lastUpdated": 1662889016176,
+        "lastUpdated": 1662902058252,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10289161",
@@ -32249,7 +32249,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20122413/profile",
         "anchor": "7952814966404c8ac3f53007f3899211",
         "view": 0,
-        "lastUpdated": 1662888994207,
+        "lastUpdated": 1662902034673,
         "articles": []
       },
       {
@@ -32995,8 +32995,8 @@
         "author": "Emma (cat1437fish)",
         "profileUrl": "https://ithelp.ithome.com.tw/users/20128286/profile",
         "anchor": "9243fccbeb6c9a265d08003fbf0d7b54",
-        "view": 146,
-        "lastUpdated": 1662889002491,
+        "view": 147,
+        "lastUpdated": 1662902043602,
         "articles": [
           {
             "url": "https://ithelp.ithome.com.tw/articles/10287197",
@@ -33081,7 +33081,7 @@
         "profileUrl": "https://ithelp.ithome.com.tw/users/20128964/profile",
         "anchor": "21c8c646ba848d5a4f8d8d4c0c4f9ff6",
         "view": 0,
-        "lastUpdated": 1662889003522,
+        "lastUpdated": 1662902044895,
         "articles": []
       },
       {
