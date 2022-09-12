@@ -32,3 +32,9 @@ body {
 .topic:hover {
     background-color: lightgray;
 }
+
+.tag {
+    height: 22px;
+    margin-left: 2px;
+    margin-left: 2px;
+}

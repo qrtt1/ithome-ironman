@@ -11,6 +11,9 @@ function MyRoute() {
     if (window.location.href.includes('/2022v2/')) {
         return <AppV2/>
     }
+    if (window.location.href.includes('localhost')) {
+        return <AppV2/>
+    }
     return <App/>
 }
 

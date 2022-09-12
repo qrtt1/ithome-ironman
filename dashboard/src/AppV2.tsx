@@ -30,6 +30,7 @@ interface TopicEntry {
     view: number;
     lastUpdated: number;
     articles: Array<ArticleEntry>;
+    status: string;
 }
 
 interface UIData {
@@ -51,22 +52,30 @@ function Topic(props: { topic: TopicEntry }) {
         return new Date(o.iso8601Published)
     });
 
-    // TODO 需要有完賽跟從未參賽就棄賽的判斷 (9/1 ~ 9/16)
-    let status: Status = {content: "期待", color: "purple", date: ""};
-    if (latestArticle != null) {
-        const diffHours = moment(refData).diff(moment(new Date(latestArticle.iso8601Published)), "hours");
-        const diffDays = moment(refData).diff(moment(new Date(latestArticle.iso8601Published)), "days");
-        if (diffDays > 2) {
-            status = {content: "斷賽", color: "blackAlpha", date: latestArticle.iso8601Published}
-        }
-        if (diffDays <= 2) {
-            status = {content: "安全", color: "blue", date: latestArticle.iso8601Published}
-        }
-        if (diffHours <= 12) {
-            status = {content: "新的", color: "green", date: latestArticle.iso8601Published}
-        }
+    const STATUS_MAP = {
+        ONGOING: {
+            name: "安全",
+            color: "blue"
+        },
+        NOT_STARTED: {
+            name: "期待",
+            color: "purple",
+        },
+        FAILED: {name: "中斷", color: "blackAlpha"},
+    };
+    const status_tag = STATUS_MAP[topic.status] || {name: "未知", color: "red"};
 
-        console.log(`${topic.title} => ${diffDays} => ${status}`);
+    let status: Status = {
+        content: status_tag.name,
+        color: status_tag.color,
+        date: latestArticle?.iso8601Published || ""
+    };
+
+    let updateToday = false;
+    if (latestArticle) {
+        if (moment(new Date(latestArticle.iso8601Published)).diff(moment.now(), 'days') == 0) {
+            updateToday = true;
+        }
     }
 
 
@@ -80,6 +89,7 @@ function Topic(props: { topic: TopicEntry }) {
                 <Tooltip label={status.date}>
                     <Badge pl={5} pr={5} colorScheme={status.color}>{status.content}</Badge>
                 </Tooltip>
+
             </Flex>
             <Flex>
                 <a href={topic.url}>
@@ -88,14 +98,20 @@ function Topic(props: { topic: TopicEntry }) {
             </Flex>
             <Spacer/>
             <Flex>
-                {latestArticle &&
-                    <a href={latestArticle.url} target="_blank">
-                        <Badge mr={1} pl={5} pr={5}
-                               backgroundColor="gray.400" color="white">
-                            {latestArticle && latestArticle.title}</Badge>
-                    </a>
+                {updateToday &&
+                    <Badge className="tag" colorScheme="green">今日更新</Badge>
                 }
-                <Badge pl={5} pr={5} colorScheme="gray"> {topic.author}</Badge>
+                {latestArticle && !updateToday &&
+                    <Badge className="tag" colorScheme="red">尚未更新</Badge>
+                }
+                {latestArticle &&
+                    <Badge className="tag"
+                           backgroundColor="gray.400" color="white"> <a href={latestArticle.url} target="_blank">
+                        {latestArticle && latestArticle.title}</a>
+                    </Badge>
+
+                }
+                <Badge className="tag" colorScheme="gray"> {topic.author}</Badge>
             </Flex>
         </Flex>
 
