@@ -1,6 +1,6 @@
 import {Badge, Box, Center, ChakraProvider, Flex, Spacer, Tooltip} from '@chakra-ui/react'
 import "./AppV2.css"
-import {useEffect, useState} from "react";
+import {useEffect, useMemo, useRef, useState} from "react";
 import {maxBy} from "lodash";
 import {ThemeTypings} from "@chakra-ui/styled-system";
 import moment from "moment";
@@ -130,14 +130,31 @@ function Category(props: { category: string, data: UIData }) {
 }
 
 
+function NavBar(props: { data: UIData }) {
+    const {data} = props;
+    const refs = useRef({})
+
+    return (
+        <Box>
+            <Flex className="nav" alignItems="center" position="fixed" top="0px" width="100vw">
+                <Box ml="16px" mr="16px">ITHome 鐵人賽</Box>
+
+            </Flex>
+
+            {/* empty nav for top padding */}
+            <Flex className="nav"/>
+        </Box>
+    )
+}
+
 function AppV2() {
 
     const [data, setData] = useState<UIData | null>();
 
     useEffect(() => {
         const load = async () => {
-            const data = await fetchData();
-            setData(data);
+            const response: UIData = await fetchData();
+            setData(response);
         };
         load();
     }, []);
@@ -145,9 +162,7 @@ function AppV2() {
     return (
         <ChakraProvider>
             <Box>
-                <Flex className="nav" alignItems="center">
-                    <Box ml="16px">ITHome 鐵人賽</Box>
-                </Flex>
+                <NavBar data={data}/>
                 {
                     data && data.categories.map(c => <Category key={c} category={c} data={data}/>)
                 }
