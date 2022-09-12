@@ -98,12 +98,22 @@ public class Topic implements Comparable<Topic> {
         this.articles = articles;
     }
 
-
     @Override
     public String toString() {
-        return "Topic{" + "category='" + category + '\'' + ", title='" + title + '\'' + ", url='" + url + '\'' + ", author='" + author + '\'' + ", profileUrl='" + profileUrl + '\'' + ", anchor='" + anchor + '\'' + ", view=" + view + ", lastUpdated=" + lastUpdated + ", articles=" + articles + '}';
+        final StringBuffer sb = new StringBuffer("Topic{");
+        sb.append("category='").append(category).append('\'');
+        sb.append(", title='").append(title).append('\'');
+        sb.append(", url='").append(url).append('\'');
+        sb.append(", author='").append(author).append('\'');
+        sb.append(", profileUrl='").append(profileUrl).append('\'');
+        sb.append(", anchor='").append(anchor).append('\'');
+        sb.append(", view=").append(view);
+        sb.append(", lastUpdated=").append(lastUpdated);
+        sb.append(", articles=").append(articles);
+        sb.append(", status=").append(status);
+        sb.append('}');
+        return sb.toString();
     }
-
 
     @Override
     public int compareTo(Topic o) {
