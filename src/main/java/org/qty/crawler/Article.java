@@ -68,6 +68,6 @@ public class Article implements Comparable<Article> {
         if (o == null || o.published == null) {
             throw new RuntimeException("Cannot compare with null");
         }
-        return o.published.compareTo(this.published);
+        return this.published.compareTo(o.published);
     }
 }

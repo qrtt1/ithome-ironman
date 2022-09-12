@@ -91,6 +91,7 @@ public class Crawler {
     private void executeUpdate(Topic topic) {
         Document document = Jsoup.parse(fetch.get(topic.getUrl()));
         PageSampler.save(document, "topic_page.html");
+        PageSampler.save(document, "topic_page_1.html");
 
         topic.setAuthor(document.select("div.profile-header__name").first().text());
         topic.setProfileUrl(document.select("a.profile-nav__link").first().attr("href"));
@@ -99,14 +100,15 @@ public class Crawler {
         topic.articles.addAll(extractArticles(document));
 
         int maxPageInTopic = getMaxPageInTopic(document);
-//        getMaxPageBySelector
         if (maxPageInTopic > 1) {
             for (int i = 2; i <= maxPageInTopic; i++) {
+                PageSampler.save(document, String.format("topic_page_%d.html", i));
                 Document doc = Jsoup.parse(fetch.get(topic.getUrl() + "?page=" + i));
                 topic.setView(topic.getView() + getViewInTopicPage(doc));
                 topic.articles.addAll(extractArticles(doc));
             }
         }
+        topic.updateStatus();
         topic.setAnchor(DigestUtils.md5Hex(topic.getUrl()));
     }
 

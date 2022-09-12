@@ -1,8 +1,15 @@
 package org.qty.crawler;
 
+import java.time.LocalDate;
 import java.util.Objects;
 import java.util.Set;
 import java.util.TreeSet;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
+
+enum Status {
+    NOT_STARTED, ONGOING, FAILED, COMPLETED
+}
 
 public class Topic implements Comparable<Topic> {
 
@@ -16,6 +23,8 @@ public class Topic implements Comparable<Topic> {
     long lastUpdated;
 
     Set<Article> articles = new TreeSet<>();
+
+    Status status = Status.NOT_STARTED;
 
     public String getCategory() {
         return category;
@@ -99,5 +108,50 @@ public class Topic implements Comparable<Topic> {
     @Override
     public int compareTo(Topic o) {
         return o.getView() - view;
+    }
+
+    public void updateStatus() {
+        LocalDate deadlineForStarting = LocalDate.of(2022, 9, 17);
+        LocalDate deadlineForEnding = deadlineForStarting.plusDays(30);
+
+        // status: not started
+        // 1. there are no articles and before the date: 9/17
+        // 2. if the date after 9/16 and no articles should be failed not be not started
+        if (this.articles.isEmpty()) {
+            if (LocalDate.now().isBefore(deadlineForStarting)) {
+                status = Status.NOT_STARTED;
+            } else {
+                status = Status.FAILED;
+            }
+            return;
+        }
+
+        // status: failed
+        // 1. have not published any articles before 9/17 (at least should get started at 9/16)
+        // 2. there are articles between [start date] and min(today, end date) but not matched the criteria one articles per day
+
+        // status: ongoing
+        // 1. the topic has been started and not failed
+
+        // how? generate 30 date and matching the articles
+        LocalDate firstDate = this.articles.stream().sorted().findFirst().get().getPublished().toLocalDate();
+        Set<LocalDate> expectedDates = IntStream.range(0, 30).boxed().map(d -> firstDate.plusDays(d)).collect(Collectors.toSet());
+        this.articles.stream().forEach(a -> {
+            expectedDates.remove(a.getPublished().toLocalDate());
+        });
+
+        if (expectedDates.isEmpty()) {
+            status = Status.COMPLETED;
+            return;
+        }
+
+        Set<LocalDate> unfinishedDates = expectedDates.stream().filter((d) -> d.isBefore(LocalDate.now())).collect(Collectors.toSet());
+        if (unfinishedDates.size() > 1) {
+            status = Status.FAILED;
+        } else {
+            status = Status.ONGOING;
+        }
+
+        return;
     }
 }
