@@ -46,7 +46,6 @@ interface Status {
 
 function Topic(props: { topic: TopicEntry }) {
     const {topic} = props;
-    const refData = new Date();
 
     const latestArticle = maxBy(topic.articles, (o) => {
         return new Date(o.iso8601Published)
@@ -92,7 +91,7 @@ function Topic(props: { topic: TopicEntry }) {
 
             </Flex>
             <Flex>
-                <a href={topic.url}>
+                <a href={topic.url} target="_blank">
                     {topic.title}
                 </a>
             </Flex>
