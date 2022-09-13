@@ -15,12 +15,7 @@ import java.util.stream.Collectors;
 public class DataUpdater {
 
     public static void main(String[] args) throws IOException {
-        Crawler crawler = new Crawler(new DefaultFetch()) {
-            @Override
-            public int getMaxPage(Document document) {
-                return super.getMaxPage(document);
-            }
-        };
+        Crawler crawler = new Crawler(new DefaultFetch());
 
         List<Topic> topics = crawler.topics();
         List<Topic> savedTopics = loadPreviousTopics();

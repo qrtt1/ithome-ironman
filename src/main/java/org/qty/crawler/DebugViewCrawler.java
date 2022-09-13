@@ -17,16 +17,11 @@ import java.util.List;
 public class DebugViewCrawler {
 
     public static void main(String[] args) throws IOException {
-        Crawler crawler = new Crawler(new DefaultFetch()) {
-            @Override
-            public int getMaxPage(Document document) {
-                return super.getMaxPage(document);
-            }
-        };
+        Crawler crawler = new Crawler(new DefaultFetch());
 
 
         List<Topic> savedTopics = loadPreviousTopics();
-        savedTopics.stream().filter(t->t.url.equals("https://ithelp.ithome.com.tw/users/20138542/ironman/4954")).forEach(topic -> {
+        savedTopics.stream().filter(t -> t.url.equals("https://ithelp.ithome.com.tw/users/20138542/ironman/4954")).forEach(topic -> {
             crawler.update(topic);
             System.out.println(topic);
         });
