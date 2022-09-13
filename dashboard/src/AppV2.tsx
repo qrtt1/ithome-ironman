@@ -1,10 +1,12 @@
-import {Badge, Box, Center, ChakraProvider, Flex, Spacer, Tooltip} from '@chakra-ui/react'
+import {Badge, Box, Center, ChakraProvider, Flex, Icon, Spacer, Tooltip} from '@chakra-ui/react'
 import "./AppV2.css"
 import {useEffect, useMemo, useRef, useState} from "react";
-import {maxBy} from "lodash";
+import {functions, maxBy} from "lodash";
 import {ThemeTypings} from "@chakra-ui/styled-system";
 import moment from "moment";
 
+import {ReactComponent as ListAllIcon} from "@vscode/codicons/src/icons/layers-active.svg";
+import {ReactComponent as ListPublishedIcon} from "@vscode/codicons/src/icons/layers-dot.svg";
 
 async function fetchData() {
     const dataSource = 'ui-data.json';
@@ -42,6 +44,12 @@ interface Status {
     color: ThemeTypings["colorSchemes"];
     content: string;
     date: string;
+}
+
+
+interface FunctionSet {
+    setAllTopic: (state: boolean) => void,
+    allTopic: boolean
 }
 
 function Topic(props: { topic: TopicEntry }) {
@@ -88,9 +96,8 @@ function Topic(props: { topic: TopicEntry }) {
                 <Tooltip label={status.date}>
                     <Badge pl={5} pr={5} colorScheme={status.color}>{status.content}</Badge>
                 </Tooltip>
-
             </Flex>
-            <Flex>
+            <Flex minWidth="200px">
                 <a href={topic.url} target="_blank">
                     {topic.title}
                 </a>
@@ -117,28 +124,52 @@ function Topic(props: { topic: TopicEntry }) {
     )
 }
 
-function Category(props: { category: string, data: UIData }) {
-    const {category, data} = props;
+function Category(props: { category: string, data: UIData, allTopic: boolean }) {
+    const {category, data, allTopic} = props;
     return (
         <Flex className="category" direction="column">
             <Flex mb="15px">{category}</Flex>
             {
-                data.topics[category].map(t => <Topic key={t.url} topic={t}/>)
+                data.topics[category].map(t => {
+                    if (allTopic) {
+                        return <Topic key={t.url} topic={t}/>
+                    }
+
+                    if (t.articles.length > 0) {
+                        return <Topic key={t.url} topic={t}/>
+                    }
+
+                })
             }
         </Flex>
     )
 }
 
+function TopicFilter(props: { functionSet: FunctionSet }) {
+    const {allTopic, setAllTopic} = props.functionSet
+    return (
+        <Flex ml="16px" mr="16px" fontSize="10pt" alignItems="center">
+            <a onClick={(e) => {
+                console.log("xd");
+                setAllTopic(!allTopic);
+            }} style={{display: "flex", cursor: "pointer"}}>
+                {allTopic ? <ListAllIcon/> : <ListPublishedIcon/>}
+                {allTopic && <Box ml="5px">顯示所有主題(包含未發表過的主題)</Box>}
+                {!allTopic && <Box ml="5px">顯示參賽中發表主題</Box>}
+            </a>
+        </Flex>
+    )
+}
 
-function NavBar(props: { data: UIData }) {
-    const {data} = props;
-    const refs = useRef({})
+
+function NavBar(props: { data: UIData, functionSet: FunctionSet }) {
+    const {data, functionSet} = props;
 
     return (
         <Box>
             <Flex className="nav" alignItems="center" position="fixed" top="0px" width="100vw">
                 <Box ml="16px" mr="16px">ITHome 鐵人賽</Box>
-
+                <TopicFilter functionSet={functionSet}/>
             </Flex>
 
             {/* empty nav for top padding */}
@@ -147,9 +178,14 @@ function NavBar(props: { data: UIData }) {
     )
 }
 
+
 function AppV2() {
 
     const [data, setData] = useState<UIData | null>();
+
+    const [allTopic, setAllTopic] = useState(false);
+
+    const functionSet = {allTopic, setAllTopic}
 
     useEffect(() => {
         const load = async () => {
@@ -162,9 +198,10 @@ function AppV2() {
     return (
         <ChakraProvider>
             <Box>
-                <NavBar data={data}/>
+                <NavBar data={data}
+                        functionSet={functionSet}/>
                 {
-                    data && data.categories.map(c => <Category key={c} category={c} data={data}/>)
+                    data && data.categories.map(c => <Category key={c} category={c} data={data} allTopic={allTopic}/>)
                 }
             </Box>
         </ChakraProvider>
