@@ -196,13 +196,6 @@ function AppV2() {
         load();
     }, []);
 
-    extra_data.categories.forEach(c => {
-        for (let t in extra_data.topics[c]) {
-            console.log(t);
-        }
-        // console.log(extra_data.topics[c]);
-    })
-
 
     return (
         <ChakraProvider>
