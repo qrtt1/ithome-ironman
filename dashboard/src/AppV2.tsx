@@ -1,12 +1,13 @@
-import {Badge, Box, Center, ChakraProvider, Flex, Icon, Spacer, Tooltip} from '@chakra-ui/react'
+import {Badge, Box, ChakraProvider, Flex, Spacer, Tooltip} from '@chakra-ui/react'
 import "./AppV2.css"
-import {useEffect, useMemo, useRef, useState} from "react";
-import {functions, maxBy} from "lodash";
+import {useEffect, useState} from "react";
+import {maxBy} from "lodash";
 import {ThemeTypings} from "@chakra-ui/styled-system";
 import moment from "moment";
 
 import {ReactComponent as ListAllIcon} from "@vscode/codicons/src/icons/layers-active.svg";
 import {ReactComponent as ListPublishedIcon} from "@vscode/codicons/src/icons/layers-dot.svg";
+import extra_data from "./extra.json"
 
 async function fetchData() {
     const dataSource = 'ui-data.json';
@@ -195,6 +196,14 @@ function AppV2() {
         load();
     }, []);
 
+    extra_data.categories.forEach(c => {
+        for (let t in extra_data.topics[c]) {
+            console.log(t);
+        }
+        // console.log(extra_data.topics[c]);
+    })
+
+
     return (
         <ChakraProvider>
             <Box>
@@ -202,6 +211,10 @@ function AppV2() {
                         functionSet={functionSet}/>
                 {
                     data && data.categories.map(c => <Category key={c} category={c} data={data} allTopic={allTopic}/>)
+                }
+                {
+                    extra_data && extra_data.categories.map(c =>
+                        <Category key={c} category={c} data={extra_data} allTopic={true}/>)
                 }
             </Box>
         </ChakraProvider>
