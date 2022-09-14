@@ -106,7 +106,7 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
                     </a>
                 </Flex>
                 <Spacer/>
-                <Flex>
+                <Flex alignItems="center">
                     {updateToday &&
                         <Badge className="tag" colorScheme="green">今日更新</Badge>
                     }
@@ -120,7 +120,9 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
                         </Badge>
 
                     }
-                    <Badge className="tag" colorScheme="gray"> {topic.author}</Badge>
+                    <a href={topic.profileUrl} target="_blank">
+                        <Badge className="tag" colorScheme="gray"> {topic.author}</Badge>
+                    </a>
                 </Flex>
             </Flex>
 
@@ -155,8 +157,10 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
 
                         <Flex alignItems="center" mb="10px">
                             <PersonIcon style={{marginRight: "3px"}}/>
-                            <Badge className="tag" colorScheme="gray"
-                                   style={{width: "fit-content"}}> {topic.author}</Badge>
+                            <a href={topic.profileUrl} target="_blank">
+                                <Badge className="tag" colorScheme="gray"
+                                       style={{width: "fit-content"}}> {topic.author}</Badge>
+                            </a>
                         </Flex>
 
 
