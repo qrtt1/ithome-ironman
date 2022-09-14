@@ -131,7 +131,7 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
 
     // smaller screen
     return (
-        <Flex className="topic" p="5px" direction="column">
+        <Flex className="topic_small" p="5px" direction="column">
             <Flex>
                 <Badge colorScheme={status.color}>{status.content}</Badge>
                 <Badge ml="3px" colorScheme="blackAlpha">{topic.view}</Badge>

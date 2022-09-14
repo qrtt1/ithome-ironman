@@ -33,6 +33,20 @@ body {
     background-color: lightgray;
 }
 
+.topic_small {
+    font-weight: 400;
+    background-color: white;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    border-radius: 3px;
+}
+
+.topic_small:hover {
+    font-weight: 800;
+    border-width: 2px;
+    border-color: rgb(255, 203, 130);
+}
+
 .tag {
     height: 22px;
     margin-left: 2px;
