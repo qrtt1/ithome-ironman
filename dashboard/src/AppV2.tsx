@@ -1,4 +1,4 @@
-import {Badge, Box, ChakraProvider, Flex, Spacer, Tooltip} from '@chakra-ui/react'
+import {Badge, Box, ChakraProvider, Flex, Spacer, Tooltip, useMediaQuery} from '@chakra-ui/react'
 import "./AppV2.css"
 import {useEffect, useState} from "react";
 import {maxBy} from "lodash";
@@ -53,8 +53,8 @@ interface FunctionSet {
     allTopic: boolean
 }
 
-function Topic(props: { topic: TopicEntry }) {
-    const {topic} = props;
+function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
+    const {topic, bigLayout} = props;
 
     const latestArticle = maxBy(topic.articles, (o) => {
         return new Date(o.iso8601Published)
@@ -86,46 +86,81 @@ function Topic(props: { topic: TopicEntry }) {
         }
     }
 
+    if (bigLayout) {
+        return (
+            <Flex className="topic" p="2px">
+                <Flex minWidth="50px" pl="15px">
+                    {topic.view}
+                </Flex>
+                <Flex minWidth="87px" justifyContent="center">
+                    <Tooltip label={status.date}>
+                        <Badge pl={5} pr={5} colorScheme={status.color}>{status.content}</Badge>
+                    </Tooltip>
+                </Flex>
+                <Flex minWidth="200px">
+                    <a href={topic.url} target="_blank">
+                        {topic.title}
+                    </a>
+                </Flex>
+                <Spacer/>
+                <Flex>
+                    {updateToday &&
+                        <Badge className="tag" colorScheme="green">今日更新</Badge>
+                    }
+                    {latestArticle && !updateToday &&
+                        <Badge className="tag" colorScheme="red">尚未更新</Badge>
+                    }
+                    {latestArticle &&
+                        <Badge className="tag"
+                               backgroundColor="gray.400" color="white"> <a href={latestArticle.url} target="_blank">
+                            {latestArticle && latestArticle.title}</a>
+                        </Badge>
 
+                    }
+                    <Badge className="tag" colorScheme="gray"> {topic.author}</Badge>
+                </Flex>
+            </Flex>
+
+        )
+    }
+
+    // smaller screen
     return (
-
-        <Flex className="topic" p="2px">
-            <Flex minWidth="50px" pl="15px">
-                {topic.view}
-            </Flex>
-            <Flex minWidth="87px" justifyContent="center">
-                <Tooltip label={status.date}>
-                    <Badge pl={5} pr={5} colorScheme={status.color}>{status.content}</Badge>
-                </Tooltip>
-            </Flex>
-            <Flex minWidth="200px">
-                <a href={topic.url} target="_blank">
-                    {topic.title}
-                </a>
-            </Flex>
-            <Spacer/>
+        <Flex className="topic" p="5px" direction="column">
             <Flex>
+                <Badge colorScheme={status.color}>{status.content}</Badge>
+                <Badge ml="3px" colorScheme="blackAlpha">{topic.view}</Badge>
                 {updateToday &&
-                    <Badge className="tag" colorScheme="green">今日更新</Badge>
+                    <Badge ml="3px" className="tag" colorScheme="green">今日更新</Badge>
                 }
                 {latestArticle && !updateToday &&
-                    <Badge className="tag" colorScheme="red">尚未更新</Badge>
+                    <Badge ml="3px" className="tag" colorScheme="red">尚未更新</Badge>
                 }
+                <Badge ml="3px" className="tag" colorScheme="gray"> {topic.author}</Badge>
+            </Flex>
+            <Flex>
+                <Flex minWidth="200px">
+                    <a href={topic.url} target="_blank">
+                        {topic.title}
+                    </a>
+                </Flex>
+            </Flex>
+            <Flex>
                 {latestArticle &&
                     <Badge className="tag"
                            backgroundColor="gray.400" color="white"> <a href={latestArticle.url} target="_blank">
                         {latestArticle && latestArticle.title}</a>
                     </Badge>
-
                 }
-                <Badge className="tag" colorScheme="gray"> {topic.author}</Badge>
             </Flex>
         </Flex>
 
     )
+
 }
 
 function Category(props: { category: string, data: UIData, allTopic: boolean }) {
+    const [isLargerThan400] = useMediaQuery('(min-width: 400px)')
     const {category, data, allTopic} = props;
     return (
         <Flex className="category" direction="column">
@@ -133,11 +168,11 @@ function Category(props: { category: string, data: UIData, allTopic: boolean }) 
             {
                 data.topics[category].map(t => {
                     if (allTopic) {
-                        return <Topic key={t.url} topic={t}/>
+                        return <Topic key={t.url} topic={t} bigLayout={isLargerThan400}/>
                     }
 
                     if (t.articles.length > 0) {
-                        return <Topic key={t.url} topic={t}/>
+                        return <Topic key={t.url} topic={t} bigLayout={isLargerThan400}/>
                     }
 
                 })
