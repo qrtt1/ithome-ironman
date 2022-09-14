@@ -138,14 +138,14 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
                 }
                 <Badge ml="3px" className="tag" colorScheme="gray"> {topic.author}</Badge>
             </Flex>
-            <Flex>
+            <Flex mt={3}>
                 <Flex minWidth="200px">
                     <a href={topic.url} target="_blank">
                         {topic.title}
                     </a>
                 </Flex>
             </Flex>
-            <Flex>
+            <Flex mt={3}>
                 {latestArticle &&
                     <Badge className="tag"
                            backgroundColor="gray.400" color="white"> <a href={latestArticle.url} target="_blank">
