@@ -7,6 +7,9 @@ import moment from "moment";
 
 import {ReactComponent as ListAllIcon} from "@vscode/codicons/src/icons/layers-active.svg";
 import {ReactComponent as ListPublishedIcon} from "@vscode/codicons/src/icons/layers-dot.svg";
+import {ReactComponent as PersonIcon} from "@vscode/codicons/src/icons/person.svg";
+import {ReactComponent as BookIcon} from "@vscode/codicons/src/icons/book.svg";
+import {ReactComponent as EditIcon} from "@vscode/codicons/src/icons/edit.svg";
 import extra_data from "./extra.json"
 
 async function fetchData() {
@@ -136,10 +139,11 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
                 {latestArticle && !updateToday &&
                     <Badge ml="3px" className="tag" colorScheme="red">尚未更新</Badge>
                 }
-                <Badge ml="3px" className="tag" colorScheme="gray"> {topic.author}</Badge>
+
             </Flex>
             <Flex mt={3}>
-                <Flex minWidth="200px">
+                <Flex minWidth="200px" alignItems="center">
+                    <BookIcon style={{marginRight: "5px"}}/>
                     <a href={topic.url} target="_blank">
                         {topic.title}
                     </a>
@@ -147,10 +151,29 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
             </Flex>
             <Flex mt={3}>
                 {latestArticle &&
-                    <Badge className="tag"
-                           backgroundColor="gray.400" color="white"> <a href={latestArticle.url} target="_blank">
-                        {latestArticle && latestArticle.title}</a>
-                    </Badge>
+                    <Flex direction="column">
+
+                        <Flex alignItems="center" mb="10px">
+                            <PersonIcon style={{marginRight: "3px"}}/>
+                            <Badge className="tag" colorScheme="gray"
+                                   style={{width: "fit-content"}}> {topic.author}</Badge>
+                        </Flex>
+
+
+                        <Flex alignItems="center">
+                            <EditIcon style={{marginRight: "5px"}}/>
+                            <a href={latestArticle.url} target="_blank"
+                               style={{
+                                   fontSize: "12px", width: "fit-content",
+                                   color: "white", fontWeight: "700",
+                                   padding: "5px", borderRadius: "5px",
+                                   backgroundColor: "rgb(160, 172, 192)"
+                               }}>
+                                {latestArticle && latestArticle.title}</a>
+
+                        </Flex>
+
+                    </Flex>
                 }
             </Flex>
         </Flex>
