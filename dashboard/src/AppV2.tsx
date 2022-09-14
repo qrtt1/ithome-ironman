@@ -160,7 +160,7 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
 }
 
 function Category(props: { category: string, data: UIData, allTopic: boolean }) {
-    const [isLargerThan400] = useMediaQuery('(min-width: 400px)')
+    const [bigLayout] = useMediaQuery('(min-width: 700px)')
     const {category, data, allTopic} = props;
     return (
         <Flex className="category" direction="column">
@@ -168,11 +168,11 @@ function Category(props: { category: string, data: UIData, allTopic: boolean }) 
             {
                 data.topics[category].map(t => {
                     if (allTopic) {
-                        return <Topic key={t.url} topic={t} bigLayout={isLargerThan400}/>
+                        return <Topic key={t.url} topic={t} bigLayout={bigLayout}/>
                     }
 
                     if (t.articles.length > 0) {
-                        return <Topic key={t.url} topic={t} bigLayout={isLargerThan400}/>
+                        return <Topic key={t.url} topic={t} bigLayout={bigLayout}/>
                     }
 
                 })
