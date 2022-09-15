@@ -187,7 +187,7 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
 }
 
 function Category(props: { category: string, data: UIData, allTopic: boolean }) {
-    const [bigLayout] = useMediaQuery('(min-width: 700px)')
+    const [bigLayout] = useMediaQuery('(min-width: 750px)')
     const {category, data, allTopic} = props;
     return (
         <Flex className="category" direction="column">
