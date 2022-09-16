@@ -7,7 +7,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20001591/profile",
     "anchor": "e7dadb10ffaabda2717d94554e78d4fb",
     "view": 0,
-    "lastUpdated": 1663291191328,
+    "lastUpdated": 1663301008156,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -19,7 +19,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20005722/profile",
     "anchor": "70f6d37177819972e76dce1b5ae6f634",
     "view": 0,
-    "lastUpdated": 1663291191901,
+    "lastUpdated": 1663301008670,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -30,8 +30,8 @@
     "author": "Ivan (wyattkid)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20005722/profile",
     "anchor": "815779aeca781d94d35a47e3cfc84b89",
-    "view": 56,
-    "lastUpdated": 1663291192531,
+    "view": 65,
+    "lastUpdated": 1663301009218,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291000",
@@ -61,8 +61,8 @@
     "author": "SunAllen (sunallen)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20006132/profile",
     "anchor": "4d3a38defddd06368a9699a4fdab484c",
-    "view": 397,
-    "lastUpdated": 1663289672674,
+    "view": 405,
+    "lastUpdated": 1663300907538,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289696",
@@ -165,7 +165,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20010931/profile",
     "anchor": "8d6e40870fa30fc4cd780362e04241b7",
     "view": 0,
-    "lastUpdated": 1663291193086,
+    "lastUpdated": 1663301009723,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -177,7 +177,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20013608/profile",
     "anchor": "dd04992b49dc874c1a6b851caf2444f5",
     "view": 0,
-    "lastUpdated": 1663291193659,
+    "lastUpdated": 1663301010234,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -213,7 +213,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20046160/profile",
     "anchor": "74cda48c26f9f2ea380d78210155187b",
     "view": 0,
-    "lastUpdated": 1663291194248,
+    "lastUpdated": 1663301010751,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -225,7 +225,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20046160/profile",
     "anchor": "b894b8319972d919ad9531da0dd09f9d",
     "view": 6,
-    "lastUpdated": 1663291195229,
+    "lastUpdated": 1663301011304,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288994",
@@ -256,7 +256,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20046160/profile",
     "anchor": "eab24c053be928777aa2d08eaf8c46e7",
     "view": 0,
-    "lastUpdated": 1663291195767,
+    "lastUpdated": 1663301011779,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -268,7 +268,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20053725/profile",
     "anchor": "768e4565628552b4e334ff1a9f1c49f8",
     "view": 0,
-    "lastUpdated": 1663291196416,
+    "lastUpdated": 1663301012302,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -279,10 +279,29 @@
     "author": "聊聊程式 (evaoo)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20053819/profile",
     "anchor": "72d5180dc2784f0343f42675100dcf49",
-    "view": 0,
-    "lastUpdated": 1663291196994,
-    "articles": [],
-    "status": "NOT_STARTED"
+    "view": 14,
+    "lastUpdated": 1663301012877,
+    "articles": [
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10287560",
+        "title": "試煉1 - 如何消滅 Magic strings",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 9,
+            "minute": 34,
+            "second": 9,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T09:34:09"
+      }
+    ],
+    "status": "ONGOING"
   },
   {
     "category": "DevOps",
@@ -323,7 +342,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20065770/profile",
     "anchor": "67d7ac78b8c31af564988054b1c916e3",
     "view": 0,
-    "lastUpdated": 1663291197546,
+    "lastUpdated": 1663301013405,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -347,7 +366,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20066863/profile",
     "anchor": "b47c625b3d6845c0a230685c7cc4caaa",
     "view": 0,
-    "lastUpdated": 1663291198136,
+    "lastUpdated": 1663301013925,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -642,7 +661,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20077752/profile",
     "anchor": "004dae66748144067509ae2c784e0977",
     "view": 0,
-    "lastUpdated": 1663291198700,
+    "lastUpdated": 1663301014421,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -654,7 +673,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20083367/profile",
     "anchor": "639c396c2a88242aed30ce28f0c6b90b",
     "view": 0,
-    "lastUpdated": 1663291199286,
+    "lastUpdated": 1663301014939,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -666,7 +685,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20083367/profile",
     "anchor": "0b8c96c10ab011c49c62821346a0dca6",
     "view": 0,
-    "lastUpdated": 1663291199845,
+    "lastUpdated": 1663301015448,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -678,7 +697,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20084263/profile",
     "anchor": "c88bd5c4c05fe41e9dbe69d0fe759684",
     "view": 0,
-    "lastUpdated": 1663291200453,
+    "lastUpdated": 1663301015973,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -690,7 +709,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20086249/profile",
     "anchor": "88660f268f1b68a87deb0287f9f177dc",
     "view": 0,
-    "lastUpdated": 1663291201013,
+    "lastUpdated": 1663301016507,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -701,8 +720,8 @@
     "author": "oxxo (oxxo)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20091306/profile",
     "anchor": "ffc681b944a1ae6cfcb042849f4de006",
-    "view": 457,
-    "lastUpdated": 1663289716243,
+    "view": 513,
+    "lastUpdated": 1663300948271,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289544",
@@ -775,6 +794,24 @@
           }
         },
         "iso8601Published": "2022-09-15T09:55:36"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291548",
+        "title": "( Day 5 ) OpenCV 汽車偵測",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 23,
+            "second": 37,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:23:37"
       }
     ],
     "status": "ONGOING"
@@ -1087,8 +1124,8 @@
     "author": "oxxo (oxxo)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20091306/profile",
     "anchor": "759217afef0e38e06dbbaba16df67455",
-    "view": 304,
-    "lastUpdated": 1663289700776,
+    "view": 317,
+    "lastUpdated": 1663300934965,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289589",
@@ -1161,6 +1198,24 @@
           }
         },
         "iso8601Published": "2022-09-15T10:00:29"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291555",
+        "title": "( Day 5 ) QPushButton 按鈕",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 31,
+            "second": 1,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:31:01"
       }
     ],
     "status": "ONGOING"
@@ -1173,7 +1228,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20091344/profile",
     "anchor": "0df0e9a85e0021e60fc732e2d79e127d",
     "view": 0,
-    "lastUpdated": 1663291201708,
+    "lastUpdated": 1663301017025,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -1196,8 +1251,8 @@
     "author": "不惑的胖虎 (rs6000)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20093588/profile",
     "anchor": "1cd9879f88a7fe0e56439b9e66cc1905",
-    "view": 8,
-    "lastUpdated": 1663291176610,
+    "view": 12,
+    "lastUpdated": 1663300995318,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290807",
@@ -1216,6 +1271,24 @@
           }
         },
         "iso8601Published": "2022-09-15T23:38:17"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291583",
+        "title": "DAY02 - 最糟的開局",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 11,
+            "minute": 27,
+            "second": 9,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T11:27:09"
       }
     ],
     "status": "ONGOING"
@@ -1228,7 +1301,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20094570/profile",
     "anchor": "a76910d8adc0d75a3a4cf0c6de554a0f",
     "view": 0,
-    "lastUpdated": 1663291202619,
+    "lastUpdated": 1663301017569,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -1282,8 +1355,8 @@
     "author": "r76021061 (r76021061)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20098886/profile",
     "anchor": "8034ef2c82e6f8e4606fe8576e459ba8",
-    "view": 328,
-    "lastUpdated": 1663289667285,
+    "view": 332,
+    "lastUpdated": 1663300902387,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289452",
@@ -1386,7 +1459,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20102255/profile",
     "anchor": "56e61f97a35e5ecd9ffce255bfbe3a38",
     "view": 0,
-    "lastUpdated": 1663291203277,
+    "lastUpdated": 1663301018094,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -1693,7 +1766,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103233/profile",
     "anchor": "deeb01cf7ea2a13627c54f26520cd6b0",
     "view": 0,
-    "lastUpdated": 1663291203850,
+    "lastUpdated": 1663301018592,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -1735,8 +1808,8 @@
     "author": "法蘭克 (frankhu)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103331/profile",
     "anchor": "39f5025623500284fc0a38348b40481f",
-    "view": 27,
-    "lastUpdated": 1663291204508,
+    "view": 28,
+    "lastUpdated": 1663301019160,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287142",
@@ -1767,7 +1840,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103331/profile",
     "anchor": "6ea7a2d5d5aef2bf3faba5c166fedd27",
     "view": 0,
-    "lastUpdated": 1663291205069,
+    "lastUpdated": 1663301019635,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -1790,10 +1863,29 @@
     "author": "astrobackhacker (astrobackhacker)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103436/profile",
     "anchor": "067140ef04749943a057f477685dd73f",
-    "view": 0,
-    "lastUpdated": 1663291220188,
-    "articles": [],
-    "status": "NOT_STARTED"
+    "view": 38,
+    "lastUpdated": 1663301033084,
+    "articles": [
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10290805",
+        "title": "[0]：序",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 9,
+            "minute": 26,
+            "second": 51,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T09:26:51"
+      }
+    ],
+    "status": "ONGOING"
   },
   {
     "category": "自我挑戰組",
@@ -1803,7 +1895,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103451/profile",
     "anchor": "34df59c6ea648accb3842d4ee18de741",
     "view": 0,
-    "lastUpdated": 1663291208226,
+    "lastUpdated": 1663301022523,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -2116,7 +2208,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103635/profile",
     "anchor": "2c4f6a6bed5124e010a823914930bd10",
     "view": 0,
-    "lastUpdated": 1663291208791,
+    "lastUpdated": 1663301023168,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -2128,7 +2220,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103647/profile",
     "anchor": "8c246363c42a9b7583bd8eef10563cc9",
     "view": 0,
-    "lastUpdated": 1663291209391,
+    "lastUpdated": 1663301023707,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -2140,7 +2232,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103668/profile",
     "anchor": "a06acc49a39dc883247077e53f20e26c",
     "view": 0,
-    "lastUpdated": 1663291209961,
+    "lastUpdated": 1663301024207,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -2152,9 +2244,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103676/profile",
     "anchor": "e8d172bac8e616bd8f89fa3ab75aa5be",
     "view": 0,
-    "lastUpdated": 1663289698204,
+    "lastUpdated": 1663300932435,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "自我挑戰組",
@@ -2176,7 +2268,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103688/profile",
     "anchor": "e3284108593d3a2f4e126126bbc5cda1",
     "view": 0,
-    "lastUpdated": 1663291210569,
+    "lastUpdated": 1663301024727,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -2470,8 +2562,8 @@
     "author": "Brian 三十不立 (brain00021)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103744/profile",
     "anchor": "5dc2a28c90ffc5f879e0e45ca2d3e450",
-    "view": 75,
-    "lastUpdated": 1663291229717,
+    "view": 78,
+    "lastUpdated": 1663301041784,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290992",
@@ -2501,8 +2593,8 @@
     "author": "秘密基地 (azx011014)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103817/profile",
     "anchor": "aa06ef71a6d09bc130357c74a9950ec4",
-    "view": 182,
-    "lastUpdated": 1663291211412,
+    "view": 211,
+    "lastUpdated": 1663301025376,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287654",
@@ -2539,6 +2631,24 @@
           }
         },
         "iso8601Published": "2022-09-15T08:33:30"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10290933",
+        "title": "Day03 - 為何不寫行內樣式就好了？",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 19,
+            "second": 29,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:19:29"
       }
     ],
     "status": "ONGOING"
@@ -2550,8 +2660,8 @@
     "author": "JC (cchhsu)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103824/profile",
     "anchor": "7a7d4bcd433104c840dfca35921deb19",
-    "view": 32,
-    "lastUpdated": 1663291212095,
+    "view": 38,
+    "lastUpdated": 1663301025978,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289823",
@@ -2581,8 +2691,8 @@
     "author": "eyelash*睫毛 (eyelash)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103826/profile",
     "anchor": "0e8a7489441f030440296b8bb7998b09",
-    "view": 12,
-    "lastUpdated": 1663291212836,
+    "view": 14,
+    "lastUpdated": 1663301026550,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291236",
@@ -2613,7 +2723,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103852/profile",
     "anchor": "6fa4c010251fa7630dc948397849a354",
     "view": 0,
-    "lastUpdated": 1663291159064,
+    "lastUpdated": 1663300978464,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -2625,7 +2735,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103854/profile",
     "anchor": "2db42521574b876d586db4cc3fa96955",
     "view": 0,
-    "lastUpdated": 1663291213460,
+    "lastUpdated": 1663301027055,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -2648,8 +2758,8 @@
     "author": "peter279k (peter279k)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103975/profile",
     "anchor": "3c7355aca6074c3bea7d9a6dfbc324f8",
-    "view": 11,
-    "lastUpdated": 1663291214143,
+    "view": 53,
+    "lastUpdated": 1663301027702,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291212",
@@ -2668,6 +2778,24 @@
           }
         },
         "iso8601Published": "2022-09-15T22:39:03"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291525",
+        "title": "day2-什麼是ClickHouse",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 3,
+            "second": 57,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:03:57"
       }
     ],
     "status": "ONGOING"
@@ -2680,7 +2808,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20103989/profile",
     "anchor": "c3f4e028bc325034fd0fd36765d83f9a",
     "view": 0,
-    "lastUpdated": 1663291214732,
+    "lastUpdated": 1663301028219,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -2704,7 +2832,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20104220/profile",
     "anchor": "a76a32798e21c32bd1694350ccc1bf00",
     "view": 9,
-    "lastUpdated": 1663291215419,
+    "lastUpdated": 1663301028768,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291288",
@@ -3035,8 +3163,8 @@
     "author": "Rson Wilson (blueghost)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20105528/profile",
     "anchor": "77f6f543008d5ee84cc7d322aaf4e50c",
-    "view": 37,
-    "lastUpdated": 1663291216084,
+    "view": 43,
+    "lastUpdated": 1663301029356,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291359",
@@ -3067,7 +3195,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20106250/profile",
     "anchor": "27741308373a46baf7ce0c65dcf6eda0",
     "view": 0,
-    "lastUpdated": 1663291216649,
+    "lastUpdated": 1663301029842,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -3079,9 +3207,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20106999/profile",
     "anchor": "ef70d7f49b04363ea9068f93586035df",
     "view": 0,
-    "lastUpdated": 1663289656420,
+    "lastUpdated": 1663300891409,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "自我挑戰組",
@@ -3090,8 +3218,8 @@
     "author": "Howard (tnstiger)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20107159/profile",
     "anchor": "f9ce80e5772ba04ab5ce97fb7af5f6e5",
-    "view": 40,
-    "lastUpdated": 1663291217289,
+    "view": 45,
+    "lastUpdated": 1663301030403,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291364",
@@ -3423,7 +3551,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20107195/profile",
     "anchor": "9a64365c239008b7360d3cf6c52f09b9",
     "view": 0,
-    "lastUpdated": 1663291217832,
+    "lastUpdated": 1663301030903,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -3435,7 +3563,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20107197/profile",
     "anchor": "b6c28829255bb263c9c36283f1863b31",
     "view": 0,
-    "lastUpdated": 1663291225869,
+    "lastUpdated": 1663301038164,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -3621,8 +3749,8 @@
     "author": "HelloKayac (egg734631)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20107239/profile",
     "anchor": "fe8b0946b1b2c2edc3c60f57bae81f63",
-    "view": 150,
-    "lastUpdated": 1663291226555,
+    "view": 200,
+    "lastUpdated": 1663301038854,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290624",
@@ -3659,6 +3787,24 @@
           }
         },
         "iso8601Published": "2022-09-15T23:30:22"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291213",
+        "title": "如何製作月曆 date grid 【 calendar | 我不會寫 React Component 】",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 11,
+            "minute": 13,
+            "second": 52,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T11:13:52"
       }
     ],
     "status": "ONGOING"
@@ -3682,8 +3828,8 @@
     "author": "Kuma (bearhsu2)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20107429/profile",
     "anchor": "fb2172d4bf524bce373152ad8fa72dfb",
-    "view": 437,
-    "lastUpdated": 1663289707843,
+    "view": 438,
+    "lastUpdated": 1663300941108,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287266",
@@ -3731,8 +3877,8 @@
     "author": "Samuel (kuanyu)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20107452/profile",
     "anchor": "c08fe52082d36a16b51b4cedd4980d22",
-    "view": 233,
-    "lastUpdated": 1663291165182,
+    "view": 237,
+    "lastUpdated": 1663300984767,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289321",
@@ -3798,8 +3944,8 @@
     "author": "Samuel (kuanyu)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20107452/profile",
     "anchor": "6b2c68dfa3bbc243d17dcfd644b77316",
-    "view": 233,
-    "lastUpdated": 1663289721611,
+    "view": 240,
+    "lastUpdated": 1663300953401,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288604",
@@ -3883,8 +4029,8 @@
     "author": "彭偉鎧 (wkpeng)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20107482/profile",
     "anchor": "a4c1df29ecdb1b9804a884190204f028",
-    "view": 22,
-    "lastUpdated": 1663291227268,
+    "view": 33,
+    "lastUpdated": 1663301039440,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291286",
@@ -4197,8 +4343,8 @@
     "author": "萊恩 (wisdomryanlin)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20107753/profile",
     "anchor": "b6dfa41e028bb4c1f322b3710e6a4ac3",
-    "view": 310,
-    "lastUpdated": 1663289690601,
+    "view": 313,
+    "lastUpdated": 1663300925598,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287223",
@@ -4247,7 +4393,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20107758/profile",
     "anchor": "5587196155c414d9b52ced378f9e4fc7",
     "view": 0,
-    "lastUpdated": 1663291189384,
+    "lastUpdated": 1663301006530,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -4259,7 +4405,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20107789/profile",
     "anchor": "205a2d4a8c7c7a30d7a3835577c5bd9a",
     "view": 0,
-    "lastUpdated": 1663291232197,
+    "lastUpdated": 1663301044162,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -4270,10 +4416,29 @@
     "author": "飛飛 (feifei)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20108446/profile",
     "anchor": "dceb1216dabe071e5f65fa17627bc2c9",
-    "view": 0,
-    "lastUpdated": 1663291232772,
-    "articles": [],
-    "status": "NOT_STARTED"
+    "view": 41,
+    "lastUpdated": 1663301044766,
+    "articles": [
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291516",
+        "title": "AD Security - [Day1] 一起來學 AD 安全吧！：自我介紹與文章規劃",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 11,
+            "minute": 9,
+            "second": 47,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T11:09:47"
+      }
+    ],
+    "status": "ONGOING"
   },
   {
     "category": "自我挑戰組",
@@ -4282,8 +4447,8 @@
     "author": "tryit163281 (tryit163281)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20108649/profile",
     "anchor": "011abd1e1dbb622a58c1776fa3b3a1be",
-    "view": 65,
-    "lastUpdated": 1663291207099,
+    "view": 68,
+    "lastUpdated": 1663301021364,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291408",
@@ -4326,7 +4491,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20108931/profile",
     "anchor": "8e603d527285b07093d2f25693bc6946",
     "view": 0,
-    "lastUpdated": 1663291233334,
+    "lastUpdated": 1663301045247,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -4337,8 +4502,8 @@
     "author": "Felix阿甫 (zx8714245)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20108931/profile",
     "anchor": "d7b50fe3ba830b8269d78967a227ec1d",
-    "view": 57,
-    "lastUpdated": 1663291233951,
+    "view": 58,
+    "lastUpdated": 1663301045822,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291376",
@@ -4369,7 +4534,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20108931/profile",
     "anchor": "03b16b576343c8dd749b35416e66fc76",
     "view": 36,
-    "lastUpdated": 1663289703882,
+    "lastUpdated": 1663300937534,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291374",
@@ -5001,8 +5166,8 @@
     "author": "Eric Xie (lazcat)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20109549/profile",
     "anchor": "afc509fc3b452decd49450a1cbca036f",
-    "view": 205,
-    "lastUpdated": 1663289715484,
+    "view": 211,
+    "lastUpdated": 1663300947390,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287290",
@@ -5087,7 +5252,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20109645/profile",
     "anchor": "b2fbe59ecd1da9f628a6085d805ae8ae",
     "view": 0,
-    "lastUpdated": 1663291234510,
+    "lastUpdated": 1663301046342,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -5665,7 +5830,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20110321/profile",
     "anchor": "c48bf2f121279dab49df216fcb5dca41",
     "view": 0,
-    "lastUpdated": 1663291235086,
+    "lastUpdated": 1663301046870,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -5959,8 +6124,8 @@
     "author": "EN (ianchen0119)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20110850/profile",
     "anchor": "d5a43a48703775c976473f5538902f3b",
-    "view": 420,
-    "lastUpdated": 1663289707132,
+    "view": 429,
+    "lastUpdated": 1663300940454,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289318",
@@ -6063,7 +6228,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20111119/profile",
     "anchor": "a619b1998de66c883c656a882411e53d",
     "view": 0,
-    "lastUpdated": 1663291235673,
+    "lastUpdated": 1663301047391,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -6357,8 +6522,8 @@
     "author": "貓貓工程師 Ting Ting (tingtinghsu)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20111177/profile",
     "anchor": "f05ad8588536094ef90c5277a26c65bd",
-    "view": 117,
-    "lastUpdated": 1663291236416,
+    "view": 125,
+    "lastUpdated": 1663301048103,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290774",
@@ -6406,8 +6571,8 @@
     "author": "Taiming (eefozeo)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20111490/profile",
     "anchor": "6fb38e19b2a345059cb507b1e1ef5ad5",
-    "view": 57,
-    "lastUpdated": 1663291237276,
+    "view": 113,
+    "lastUpdated": 1663301048705,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290783",
@@ -6426,6 +6591,24 @@
           }
         },
         "iso8601Published": "2022-09-15T08:08:23"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291521",
+        "title": "【Day02】什麼是防禦性 CSS?",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 9,
+            "minute": 58,
+            "second": 15,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T09:58:15"
       }
     ],
     "status": "ONGOING"
@@ -7332,8 +7515,8 @@
     "author": "json_liang (json_liang)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20111580/profile",
     "anchor": "802f0f17337e75c39d03a8c42b59be10",
-    "view": 154,
-    "lastUpdated": 1663291238117,
+    "view": 160,
+    "lastUpdated": 1663301049415,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290836",
@@ -7400,7 +7583,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20111629/profile",
     "anchor": "05f603cfcb5b06d4d565d0da2954f26d",
     "view": 0,
-    "lastUpdated": 1663291185548,
+    "lastUpdated": 1663301003460,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -7411,8 +7594,8 @@
     "author": "轟天旅人 (linsheng24)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20111629/profile",
     "anchor": "819735398c2fcd8a28841851a62eb4d8",
-    "view": 107,
-    "lastUpdated": 1663291188190,
+    "view": 111,
+    "lastUpdated": 1663301005539,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290226",
@@ -7461,7 +7644,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20111653/profile",
     "anchor": "a634ccd7762597306a5eb7df599a01ac",
     "view": 0,
-    "lastUpdated": 1663291238708,
+    "lastUpdated": 1663301049937,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -7473,7 +7656,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20111653/profile",
     "anchor": "f28971fb5066a65fbba1771272282f82",
     "view": 64,
-    "lastUpdated": 1663291239364,
+    "lastUpdated": 1663301050582,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287070",
@@ -7522,7 +7705,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20111867/profile",
     "anchor": "e382cf5438e5cff600aaf02888a2c77b",
     "view": 0,
-    "lastUpdated": 1663291239948,
+    "lastUpdated": 1663301051124,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -7564,8 +7747,8 @@
     "author": "竹風之翼 (weston224)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20111946/profile",
     "anchor": "a2a0331806f2dc520b4491c474030f7b",
-    "view": 152,
-    "lastUpdated": 1663291240666,
+    "view": 158,
+    "lastUpdated": 1663301051760,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290754",
@@ -7644,8 +7827,8 @@
     "author": "sunny (sunny_0403)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20112053/profile",
     "anchor": "677c642c49750709b1a6e52e8cbc9d2c",
-    "view": 65,
-    "lastUpdated": 1663291241407,
+    "view": 105,
+    "lastUpdated": 1663301052386,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290793",
@@ -7904,8 +8087,8 @@
     "author": "dc88 (dc88)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20112289/profile",
     "anchor": "c6e691402aa544cfc8cac483ac534510",
-    "view": 130,
-    "lastUpdated": 1663291242066,
+    "view": 132,
+    "lastUpdated": 1663301053088,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290224",
@@ -7953,8 +8136,8 @@
     "author": "卡卡恩 (tmt514)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20112376/profile",
     "anchor": "540f97686c2acce0dda3db878de205af",
-    "view": 138,
-    "lastUpdated": 1663291147396,
+    "view": 146,
+    "lastUpdated": 1663300966939,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290239",
@@ -7991,6 +8174,24 @@
           }
         },
         "iso8601Published": "2022-09-15T09:39:41"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291552",
+        "title": "世界各國的資奧",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 30,
+            "second": 40,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:30:40"
       }
     ],
     "status": "ONGOING"
@@ -8003,7 +8204,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20112409/profile",
     "anchor": "16df18b303121538c07dfcb11e3142e8",
     "view": 0,
-    "lastUpdated": 1663291242692,
+    "lastUpdated": 1663301053735,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -8094,7 +8295,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20112529/profile",
     "anchor": "ab99744b7c49281bf36b818d08de12a1",
     "view": 0,
-    "lastUpdated": 1663291243256,
+    "lastUpdated": 1663301054260,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -8106,7 +8307,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20112618/profile",
     "anchor": "0231bdcffb554642edf0e2e9ce0305d8",
     "view": 0,
-    "lastUpdated": 1663291243825,
+    "lastUpdated": 1663301054797,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -8117,8 +8318,8 @@
     "author": "Vita Ora (vitata710)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20112656/profile",
     "anchor": "8eb2502298930859d493d48a8ac6dd60",
-    "view": 17,
-    "lastUpdated": 1663291244515,
+    "view": 20,
+    "lastUpdated": 1663301055371,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291352",
@@ -8160,8 +8361,8 @@
     "author": "tico88612 (tico88612)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20112934/profile",
     "anchor": "30097e1fd5b9a41cd2c100752bc23e05",
-    "view": 9,
-    "lastUpdated": 1663291183827,
+    "view": 10,
+    "lastUpdated": 1663301001914,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288654",
@@ -8191,8 +8392,8 @@
     "author": "kevinyay945 (kevinyay945)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20113505/profile",
     "anchor": "893c80be43888a6f852c4118ca986f1f",
-    "view": 123,
-    "lastUpdated": 1663291245224,
+    "view": 155,
+    "lastUpdated": 1663301056072,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287253",
@@ -8259,7 +8460,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20114343/profile",
     "anchor": "173a7314db67ba6cecb7918439d50ced",
     "view": 0,
-    "lastUpdated": 1663291245785,
+    "lastUpdated": 1663301056596,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -8271,7 +8472,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20114417/profile",
     "anchor": "d8216ec1caad86fb9f820e0952470e80",
     "view": 15,
-    "lastUpdated": 1663291246457,
+    "lastUpdated": 1663301057197,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290549",
@@ -8301,8 +8502,8 @@
     "author": "shadow_gold (shadow_gold)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20114746/profile",
     "anchor": "d84348474989f188830d595c89320250",
-    "view": 3,
-    "lastUpdated": 1663291247070,
+    "view": 4,
+    "lastUpdated": 1663301057724,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290012",
@@ -8332,8 +8533,8 @@
     "author": "shadow_gold (shadow_gold)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20114746/profile",
     "anchor": "2733f2d14fb4eb318a4ace021c7707af",
-    "view": 6,
-    "lastUpdated": 1663291206402,
+    "view": 7,
+    "lastUpdated": 1663301020774,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291324",
@@ -8942,7 +9143,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20115192/profile",
     "anchor": "6ad97172fe1303fcf140e49d8b5365e3",
     "view": 81,
-    "lastUpdated": 1663291150892,
+    "lastUpdated": 1663300970467,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289541",
@@ -8973,7 +9174,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20115241/profile",
     "anchor": "429aa10804c2b058d39dd3efa3cead53",
     "view": 0,
-    "lastUpdated": 1663291247664,
+    "lastUpdated": 1663301058252,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -9268,7 +9469,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20115823/profile",
     "anchor": "b32d9051d0f778b39fbf8a4bba9d43c5",
     "view": 0,
-    "lastUpdated": 1663291248243,
+    "lastUpdated": 1663301058785,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -9279,8 +9480,8 @@
     "author": "rzchen (rzchen)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20115908/profile",
     "anchor": "ade15525dabb77da78104fbbf364b14d",
-    "view": 62,
-    "lastUpdated": 1663291248899,
+    "view": 64,
+    "lastUpdated": 1663301059393,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287826",
@@ -9307,11 +9508,11 @@
     "category": "Modern Web",
     "title": "你 React 了嗎? 30 天解鎖 React 技能",
     "url": "https://ithelp.ithome.com.tw/users/20115919/ironman/5602",
-    "author": "lala9990929 (lala9990929)",
+    "author": "Lala Wang (lala9990929)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20115919/profile",
     "anchor": "55f402b6c2c17283316b76f338ad0a7b",
-    "view": 63,
-    "lastUpdated": 1663291249631,
+    "view": 76,
+    "lastUpdated": 1663301059995,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291382",
@@ -9353,8 +9554,8 @@
     "author": "TD (TsungTingDu)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20116003/profile",
     "anchor": "e12bc29650ec45e9463739be197c8dc1",
-    "view": 81,
-    "lastUpdated": 1663289722325,
+    "view": 84,
+    "lastUpdated": 1663300954233,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289655",
@@ -9438,8 +9639,8 @@
     "author": "Mack Chan (mack_chan)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20116357/profile",
     "anchor": "98ddfc5be9139bd6bec96ace899e3af0",
-    "view": 29,
-    "lastUpdated": 1663291250261,
+    "view": 32,
+    "lastUpdated": 1663301060566,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291075",
@@ -9470,7 +9671,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20116448/profile",
     "anchor": "46e153ae1b59aab33c1bb6029fa7546a",
     "view": 0,
-    "lastUpdated": 1663291221906,
+    "lastUpdated": 1663301034622,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -9831,8 +10032,8 @@
     "author": "MarkFly～ (mark33699)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20117052/profile",
     "anchor": "77d97540eba55c3c0bb57aacd3cf6dce",
-    "view": 54,
-    "lastUpdated": 1663291250941,
+    "view": 57,
+    "lastUpdated": 1663301061173,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291338",
@@ -9862,8 +10063,8 @@
     "author": "小雨 (walley_yu)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20117399/profile",
     "anchor": "2e15ad1bbfdba21fa05bc852132a2176",
-    "view": 7,
-    "lastUpdated": 1663291177883,
+    "view": 14,
+    "lastUpdated": 1663300996538,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291227",
@@ -9894,7 +10095,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20117461/profile",
     "anchor": "38b3dd5362f25a61f2f46c36571f71c1",
     "view": 0,
-    "lastUpdated": 1663291251494,
+    "lastUpdated": 1663301061655,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -9906,7 +10107,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20117813/profile",
     "anchor": "e94e7cccf729298285fba7cc259fc524",
     "view": 0,
-    "lastUpdated": 1663291252072,
+    "lastUpdated": 1663301062146,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -10147,7 +10348,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20118140/profile",
     "anchor": "ab0d06b9bd6e6fcc129b8ed906facd30",
     "view": 4,
-    "lastUpdated": 1663289660456,
+    "lastUpdated": 1663300895662,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291292",
@@ -10178,7 +10379,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20118434/profile",
     "anchor": "7845c6f6b38cab413cc5d459be4aab9f",
     "view": 0,
-    "lastUpdated": 1663291252700,
+    "lastUpdated": 1663301062635,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -10189,8 +10390,8 @@
     "author": "ooii8929 (ooii8929)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20118525/profile",
     "anchor": "bbf649dbdece92bf20a94c92d4276d2e",
-    "view": 76,
-    "lastUpdated": 1663291253353,
+    "view": 107,
+    "lastUpdated": 1663301063227,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290917",
@@ -10209,6 +10410,24 @@
           }
         },
         "iso8601Published": "2022-09-15T12:26:03"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291547",
+        "title": "GO 建立初始專案",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 19,
+            "second": 18,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:19:18"
       }
     ],
     "status": "ONGOING"
@@ -10432,7 +10651,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20118788/profile",
     "anchor": "dfd28650c9b6b8b5c098bffe92dd9562",
     "view": 0,
-    "lastUpdated": 1663291253920,
+    "lastUpdated": 1663301063726,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -10444,7 +10663,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20118976/profile",
     "anchor": "dd44d76aeecdf410a8f06130b637925f",
     "view": 0,
-    "lastUpdated": 1663291254488,
+    "lastUpdated": 1663301064235,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -10756,10 +10975,29 @@
     "author": "ShawnL (shawnlin0201)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20119062/profile",
     "anchor": "4ca7d8039191b4c927e4bab802b1bb00",
-    "view": 0,
-    "lastUpdated": 1663291255094,
-    "articles": [],
-    "status": "NOT_STARTED"
+    "view": 1,
+    "lastUpdated": 1663301064844,
+    "articles": [
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10287432",
+        "title": "【初始ノ章】前言與 TOC",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 12,
+            "minute": 0,
+            "second": 27,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T12:00:27"
+      }
+    ],
+    "status": "ONGOING"
   },
   {
     "category": "自我挑戰組",
@@ -11069,8 +11307,8 @@
     "author": "Tim Hsu (hsuchihting)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20119300/profile",
     "anchor": "38ecbd7e019b670708396c5563798c60",
-    "view": 48,
-    "lastUpdated": 1663291255698,
+    "view": 55,
+    "lastUpdated": 1663301065499,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291357",
@@ -11100,8 +11338,8 @@
     "author": "Ray (hsiangfeng)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20119486/profile",
     "anchor": "21cbe01c3d00205af82f9f3d2e759372",
-    "view": 665,
-    "lastUpdated": 1663291256485,
+    "view": 729,
+    "lastUpdated": 1663301066165,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290725",
@@ -11192,8 +11430,8 @@
     "author": "txstudio (txstudio)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20119758/profile",
     "anchor": "9783ee08caeaf578f1323575cfccfa84",
-    "view": 147,
-    "lastUpdated": 1663291257137,
+    "view": 149,
+    "lastUpdated": 1663301066802,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290368",
@@ -11242,7 +11480,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120030/profile",
     "anchor": "51d0e6b73e0e1b525f20308022470b85",
     "view": 0,
-    "lastUpdated": 1663291257693,
+    "lastUpdated": 1663301067302,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -11254,7 +11492,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120073/profile",
     "anchor": "a5e43415b21fc90784dbe0e8a4ebf9df",
     "view": 12,
-    "lastUpdated": 1663291227923,
+    "lastUpdated": 1663301040075,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291099",
@@ -11285,7 +11523,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120293/profile",
     "anchor": "56eaf7656495afd4911430e2ae68d911",
     "view": 0,
-    "lastUpdated": 1663291258283,
+    "lastUpdated": 1663301067822,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -11297,7 +11535,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120327/profile",
     "anchor": "067e1261cd7e551700273e9afb74b4c9",
     "view": 48,
-    "lastUpdated": 1663291259048,
+    "lastUpdated": 1663301068404,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290931",
@@ -11328,7 +11566,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120334/profile",
     "anchor": "86dd0173f8a26e619a08616cd4a47390",
     "view": 0,
-    "lastUpdated": 1663291259613,
+    "lastUpdated": 1663301068915,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -11340,7 +11578,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120338/profile",
     "anchor": "a4568b74c24df420e24b9c3f43b0b45a",
     "view": 0,
-    "lastUpdated": 1663291260305,
+    "lastUpdated": 1663301069422,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -11351,8 +11589,8 @@
     "author": "Jintin (Jintin)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120419/profile",
     "anchor": "6e732687d27983cc258f73587c076a80",
-    "view": 244,
-    "lastUpdated": 1663291261049,
+    "view": 265,
+    "lastUpdated": 1663301070100,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287621",
@@ -11400,8 +11638,8 @@
     "author": "長庚 (dannyliu)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120420/profile",
     "anchor": "f8f924e4c4d93cee8a4baf826b756d27",
-    "view": 43,
-    "lastUpdated": 1663291261671,
+    "view": 55,
+    "lastUpdated": 1663301070659,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289577",
@@ -11432,7 +11670,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120425/profile",
     "anchor": "0a4c5142c70805d6157b714d32306e22",
     "view": 0,
-    "lastUpdated": 1663291263780,
+    "lastUpdated": 1663301072446,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -11444,7 +11682,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120425/profile",
     "anchor": "7b16f57554ebc4a62ad6d6aa9eae6ad5",
     "view": 0,
-    "lastUpdated": 1663291264345,
+    "lastUpdated": 1663301072919,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -11456,7 +11694,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120541/profile",
     "anchor": "f703003fa11c566f8f63b9c9e7946fe7",
     "view": 0,
-    "lastUpdated": 1663291264909,
+    "lastUpdated": 1663301073401,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -12226,8 +12464,8 @@
     "author": "test0902 (test0902)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120552/profile",
     "anchor": "c064fd3702aaed7483bb4c7b85e6f94a",
-    "view": 137,
-    "lastUpdated": 1663291164427,
+    "view": 138,
+    "lastUpdated": 1663300984054,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287264",
@@ -12269,10 +12507,29 @@
     "author": "Keddie (keddie82_)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120833/profile",
     "anchor": "9d755c904c51b2f282bfd24e7ead178c",
-    "view": 0,
-    "lastUpdated": 1663291265482,
-    "articles": [],
-    "status": "NOT_STARTED"
+    "view": 11,
+    "lastUpdated": 1663301074039,
+    "articles": [
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291539",
+        "title": "Day 01 什麼是 HTML 屬性",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 10,
+            "second": 8,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:10:08"
+      }
+    ],
+    "status": "ONGOING"
   },
   {
     "category": "自我挑戰組",
@@ -12848,7 +13105,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20120986/profile",
     "anchor": "77a408c6a659db7da094ded275a4449e",
     "view": 0,
-    "lastUpdated": 1663291266038,
+    "lastUpdated": 1663301074530,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -13071,7 +13328,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20121075/profile",
     "anchor": "873a5ee2f9ce61c3a4ef33f4a521dd03",
     "view": 0,
-    "lastUpdated": 1663291266607,
+    "lastUpdated": 1663301075033,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -13083,7 +13340,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20121085/profile",
     "anchor": "1e138489bdf7511f57df2b4944e31a1d",
     "view": 0,
-    "lastUpdated": 1663291268931,
+    "lastUpdated": 1663301077198,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -13173,8 +13430,8 @@
     "author": "Gary (kevinlai9834)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20121445/profile",
     "anchor": "3e6ab7a1bb00b299a1393583212da5c9",
-    "view": 85,
-    "lastUpdated": 1663291190095,
+    "view": 88,
+    "lastUpdated": 1663301007090,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287287",
@@ -13681,7 +13938,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20121771/profile",
     "anchor": "1fe15956dcb3ba78dc284b4e49720b55",
     "view": 0,
-    "lastUpdated": 1663291269504,
+    "lastUpdated": 1663301077706,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -13693,7 +13950,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20122305/profile",
     "anchor": "4f378228fa09da4a8b59c02be703b827",
     "view": 0,
-    "lastUpdated": 1663291270057,
+    "lastUpdated": 1663301078221,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -13704,8 +13961,8 @@
     "author": "Sunny (WindaSunny)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20122413/profile",
     "anchor": "7952814966404c8ac3f53007f3899211",
-    "view": 294,
-    "lastUpdated": 1663289680321,
+    "view": 314,
+    "lastUpdated": 1663300915566,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288865",
@@ -13807,8 +14064,8 @@
     "author": "騎著山豬的土撥鼠 (gammmkimo)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20122611/profile",
     "anchor": "6335da00f68509c4fb958dab6b7f2fa6",
-    "view": 261,
-    "lastUpdated": 1663289666498,
+    "view": 266,
+    "lastUpdated": 1663300901668,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289348",
@@ -13911,7 +14168,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20122678/profile",
     "anchor": "a5306745024ea0ec84726cc4dbc41ff6",
     "view": 0,
-    "lastUpdated": 1663291270659,
+    "lastUpdated": 1663301078728,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -13935,7 +14192,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20123085/profile",
     "anchor": "820bedd120c294020d9fdaaec39a591c",
     "view": 0,
-    "lastUpdated": 1663291271224,
+    "lastUpdated": 1663301079251,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -13947,7 +14204,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20123889/profile",
     "anchor": "1214b1fba59648cba2edaa86848ef047",
     "view": 0,
-    "lastUpdated": 1663291271834,
+    "lastUpdated": 1663301079734,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -13958,8 +14215,8 @@
     "author": "YeeTiao (n1533512)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20124323/profile",
     "anchor": "cb07b30fafec1ab3a58cc80d2db630ac",
-    "view": 39,
-    "lastUpdated": 1663291174575,
+    "view": 40,
+    "lastUpdated": 1663300993636,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288556",
@@ -13989,8 +14246,8 @@
     "author": "AndyAWD (anandydy529)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20124384/profile",
     "anchor": "d8226740a1d933d36147bd530b6d4671",
-    "view": 20,
-    "lastUpdated": 1663291272525,
+    "view": 23,
+    "lastUpdated": 1663301080330,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288953",
@@ -14095,9 +14352,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20125152/profile",
     "anchor": "1b1f427dcaadac3d371e68ebe5f3493d",
     "view": 0,
-    "lastUpdated": 1663289677723,
+    "lastUpdated": 1663300912999,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "Modern Web",
@@ -15132,8 +15389,8 @@
     "author": "Emma (cat1437fish)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20128286/profile",
     "anchor": "9243fccbeb6c9a265d08003fbf0d7b54",
-    "view": 166,
-    "lastUpdated": 1663291163213,
+    "view": 167,
+    "lastUpdated": 1663300982981,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287197",
@@ -15262,7 +15519,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20128776/profile",
     "anchor": "28226f302bedb73a6b2d70773b0810ce",
     "view": 0,
-    "lastUpdated": 1663291220761,
+    "lastUpdated": 1663301033602,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -15273,8 +15530,8 @@
     "author": "yaoyao_andy (yaoyao_andy)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20128776/profile",
     "anchor": "83d9876a9c3e792104ca4dc8c0ee84a5",
-    "view": 65,
-    "lastUpdated": 1663291230355,
+    "view": 68,
+    "lastUpdated": 1663301042433,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290921",
@@ -15378,8 +15635,8 @@
     "author": "Barry Lam (barrylam)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20128975/profile",
     "anchor": "70c8929f608e469cd991eaf96547c074",
-    "view": 52,
-    "lastUpdated": 1663289703232,
+    "view": 53,
+    "lastUpdated": 1663300936969,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290314",
@@ -15421,8 +15678,8 @@
     "author": "LucianoLee (LucianoLee)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20129020/profile",
     "anchor": "1a7116aeee2a77a4f71cbcbc50df07b9",
-    "view": 367,
-    "lastUpdated": 1663291142009,
+    "view": 390,
+    "lastUpdated": 1663300961863,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287139",
@@ -15495,6 +15752,24 @@
           }
         },
         "iso8601Published": "2022-09-15T09:29:29"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10288053",
+        "title": "Redux 深入淺出 - [ Day 5 ] 檔案拆分",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 9,
+            "minute": 37,
+            "second": 26,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T09:37:26"
       }
     ],
     "status": "ONGOING"
@@ -17704,8 +17979,8 @@
     "author": "我是圈圈 (fmofmofmofmo)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20129635/profile",
     "anchor": "d589e3a44f69947682ba924ebc4ed99a",
-    "view": 211,
-    "lastUpdated": 1663291146740,
+    "view": 222,
+    "lastUpdated": 1663300966299,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290253",
@@ -17868,8 +18143,8 @@
     "author": "Neptune (pinchien)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20129794/profile",
     "anchor": "a73465f99849d63d0231cef420495ecf",
-    "view": 153,
-    "lastUpdated": 1663289694698,
+    "view": 154,
+    "lastUpdated": 1663300929213,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289759",
@@ -18907,8 +19182,8 @@
     "author": "linyencheng (linyencheng)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20130026/profile",
     "anchor": "be1b31d1f0771729ddc0c744d08628c7",
-    "view": 50,
-    "lastUpdated": 1663291267245,
+    "view": 55,
+    "lastUpdated": 1663301075632,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291295",
@@ -18981,8 +19256,8 @@
     "author": "ss1111119 (ss1111119)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20130095/profile",
     "anchor": "88872f8bc7d34d110ce43a238802707b",
-    "view": 64,
-    "lastUpdated": 1663289659801,
+    "view": 70,
+    "lastUpdated": 1663300895048,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291097",
@@ -19012,8 +19287,8 @@
     "author": "sunpochin (pachinko)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20130098/profile",
     "anchor": "95d5406695bb8ab2c0adcd32733739f4",
-    "view": 575,
-    "lastUpdated": 1663289655048,
+    "view": 585,
+    "lastUpdated": 1663300890102,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287172",
@@ -19496,7 +19771,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20130271/profile",
     "anchor": "9afa32b892d5986afbd003ef1d21542d",
     "view": 0,
-    "lastUpdated": 1663291147954,
+    "lastUpdated": 1663300967455,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -19557,7 +19832,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20130413/profile",
     "anchor": "d1bcfa103f05965b8f1a6077909cbc5e",
     "view": 0,
-    "lastUpdated": 1663291222473,
+    "lastUpdated": 1663301035133,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -19949,8 +20224,8 @@
     "author": "i3or2a (i3or2a)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20130568/profile",
     "anchor": "d1350b6f8a640f6954ad21e48a2588ca",
-    "view": 161,
-    "lastUpdated": 1663289664796,
+    "view": 162,
+    "lastUpdated": 1663300900031,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289334",
@@ -20269,10 +20544,29 @@
     "author": "Cinna (cinna)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20130701/profile",
     "anchor": "46ae5a498bc6b5b6bf2ae5725b122b4c",
-    "view": 0,
-    "lastUpdated": 1663291218410,
-    "articles": [],
-    "status": "NOT_STARTED"
+    "view": 5,
+    "lastUpdated": 1663301031504,
+    "articles": [
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10290887",
+        "title": "Day1 我要給你一堆生活化例子! GIT學習資源與簡介",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 11,
+            "minute": 53,
+            "second": 32,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T11:53:32"
+      }
+    ],
+    "status": "ONGOING"
   },
   {
     "category": "Software Development",
@@ -20367,7 +20661,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20130964/profile",
     "anchor": "9a9f2058078bbc9e196499d3aa68169d",
     "view": 0,
-    "lastUpdated": 1663291268363,
+    "lastUpdated": 1663301076675,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -20378,8 +20672,8 @@
     "author": "BugofBook (BugofBook)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20131059/profile",
     "anchor": "90428be2c6539fd438fd04d4faec9158",
-    "view": 7,
-    "lastUpdated": 1663291158482,
+    "view": 10,
+    "lastUpdated": 1663300977962,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10291268",
@@ -20550,8 +20844,8 @@
     "author": "KOLY (kolyfish2)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20132398/profile",
     "anchor": "41a26f0a02f60ba41d0538b42f49a42b",
-    "view": 537,
-    "lastUpdated": 1663289718517,
+    "view": 538,
+    "lastUpdated": 1663300950444,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287083",
@@ -20648,8 +20942,8 @@
     "author": "KOLY (kolyfish2)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20132398/profile",
     "anchor": "e90ab98f89b4fa8f1bbf0ab8ea6be6f3",
-    "view": 40,
-    "lastUpdated": 1663291219044,
+    "view": 0,
+    "lastUpdated": 1663301032000,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290802",
@@ -20692,7 +20986,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20132878/profile",
     "anchor": "e787525164a367e8dde259af6af22b8c",
     "view": 0,
-    "lastUpdated": 1663291267797,
+    "lastUpdated": 1663301076141,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -21500,8 +21794,8 @@
     "author": "93wilsonlu (93wilsonlu)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20135859/profile",
     "anchor": "9c8df3779210af63945e0b09c9597461",
-    "view": 213,
-    "lastUpdated": 1663289702002,
+    "view": 227,
+    "lastUpdated": 1663300935647,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289784",
@@ -22122,8 +22416,8 @@
     "author": "菜腦工程師 (howard199887)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20136443/profile",
     "anchor": "1c6f51cbe3edcc16ce3bba92b011c57b",
-    "view": 381,
-    "lastUpdated": 1663289724849,
+    "view": 390,
+    "lastUpdated": 1663300956424,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289664",
@@ -22341,8 +22635,8 @@
     "author": "seaotter (seaotter)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20138060/profile",
     "anchor": "1fe8ede1e901db19c3b062d789ad517c",
-    "view": 158,
-    "lastUpdated": 1663291148735,
+    "view": 196,
+    "lastUpdated": 1663300968234,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290141",
@@ -22397,6 +22691,24 @@
           }
         },
         "iso8601Published": "2022-09-15T11:28:04"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291564",
+        "title": "Day4- JavaScript的變數以及資料型態",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 58,
+            "second": 41,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:58:41"
       }
     ],
     "status": "ONGOING"
@@ -22721,8 +23033,8 @@
     "author": "Jemma (jemmanine)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20138542/profile",
     "anchor": "ad258be779855752a579d9c921639b89",
-    "view": 1253,
-    "lastUpdated": 1663289670932,
+    "view": 1267,
+    "lastUpdated": 1663300905911,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287251",
@@ -22915,9 +23227,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20138643/profile",
     "anchor": "6d2664622c59a36400377442c96df3cc",
     "view": 0,
-    "lastUpdated": 1663289704474,
+    "lastUpdated": 1663300938091,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "自我挑戰組",
@@ -23397,7 +23709,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20139066/profile",
     "anchor": "95edf1e84015db254009b978d515698c",
     "view": 0,
-    "lastUpdated": 1663291224713,
+    "lastUpdated": 1663301037152,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -23408,8 +23720,8 @@
     "author": "Allen Kuo (0927431374)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20139136/profile",
     "anchor": "5b85348e26ecbcdd0052f2f7f99f9278",
-    "view": 326,
-    "lastUpdated": 1663289687447,
+    "view": 335,
+    "lastUpdated": 1663300922520,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289415",
@@ -23808,7 +24120,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20139212/profile",
     "anchor": "c821fe46bd5d5fab233b292524f01eac",
     "view": 176,
-    "lastUpdated": 1663291166516,
+    "lastUpdated": 1663300986182,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287143",
@@ -23838,8 +24150,8 @@
     "author": "uccuz (justin89721)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20139235/profile",
     "anchor": "0aadd86d3c615fa91492a62af9ad2740",
-    "view": 701,
-    "lastUpdated": 1663289661402,
+    "view": 725,
+    "lastUpdated": 1663300896534,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288958",
@@ -23971,8 +24283,8 @@
     "author": "chu_jin02 (chu_jin02)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20139259/profile",
     "anchor": "858bb454302228159b8175295d03afb3",
-    "view": 431,
-    "lastUpdated": 1663289663147,
+    "view": 440,
+    "lastUpdated": 1663300898338,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289443",
@@ -25729,8 +26041,8 @@
     "author": "chun0917 (chun0917)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20140351/profile",
     "anchor": "f07e1e0c98e712b0787d9127c3c68338",
-    "view": 290,
-    "lastUpdated": 1663289712152,
+    "view": 294,
+    "lastUpdated": 1663300944697,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288030",
@@ -25893,8 +26205,8 @@
     "author": "leoho0722 (leoho0722)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20140363/profile",
     "anchor": "8d6717e504e9f2785c3a3486cd3a4313",
-    "view": 239,
-    "lastUpdated": 1663289671854,
+    "view": 240,
+    "lastUpdated": 1663300906702,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289472",
@@ -25996,8 +26308,8 @@
     "author": "H10yiling (H10yiling)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20140364/profile",
     "anchor": "d1e6aec4751a2465f421de95fb90383e",
-    "view": 296,
-    "lastUpdated": 1663289713171,
+    "view": 298,
+    "lastUpdated": 1663300945436,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289619",
@@ -26099,8 +26411,8 @@
     "author": "fox3allenwan (fox3allenwan)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20140368/profile",
     "anchor": "2cd6b1ff4e6f8b3d370b76f480a4f07c",
-    "view": 177,
-    "lastUpdated": 1663289710529,
+    "view": 179,
+    "lastUpdated": 1663300943253,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289785",
@@ -26227,9 +26539,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20140513/profile",
     "anchor": "ba28792102d8e805c8669a4fb9843f17",
     "view": 0,
-    "lastUpdated": 1663289657818,
+    "lastUpdated": 1663300893194,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "自我挑戰組",
@@ -26239,9 +26551,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20140513/profile",
     "anchor": "367288e69ba6d194595259f292396012",
     "view": 0,
-    "lastUpdated": 1663289658365,
+    "lastUpdated": 1663300893693,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "自我挑戰組",
@@ -27388,8 +27700,8 @@
     "author": "巷中小樹裡 (churng)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20140711/profile",
     "anchor": "51eb29e155e1a36b460db24e52973087",
-    "view": 290,
-    "lastUpdated": 1663291157832,
+    "view": 294,
+    "lastUpdated": 1663300977404,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289989",
@@ -27510,8 +27822,8 @@
     "author": "denny0628 (denny0628)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20140779/profile",
     "anchor": "329b3e1598ef93a9479c62026453d337",
-    "view": 276,
-    "lastUpdated": 1663289720033,
+    "view": 289,
+    "lastUpdated": 1663300951949,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289534",
@@ -28030,7 +28342,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20141015/profile",
     "anchor": "cfe45d8a1743f9bac45a111ea91d6943",
     "view": 277,
-    "lastUpdated": 1663289714577,
+    "lastUpdated": 1663300946595,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289277",
@@ -28664,7 +28976,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20141314/profile",
     "anchor": "c63f05f99cce7d9a554f0b9c921cfb43",
     "view": 0,
-    "lastUpdated": 1663291219619,
+    "lastUpdated": 1663301032523,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -28876,9 +29188,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20141518/profile",
     "anchor": "68cef333e1cf30d8d0e520a5b5508738",
     "view": 0,
-    "lastUpdated": 1663289695280,
+    "lastUpdated": 1663300929746,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "Security",
@@ -28920,13 +29232,32 @@
     "category": "Software Development",
     "title": "Kotlin on the way",
     "url": "https://ithelp.ithome.com.tw/users/20141766/ironman/5870",
-    "author": "kenny50 (kenny50)",
+    "author": "Kenny (kenny50)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20141766/profile",
     "anchor": "dae459cdbb88aff1836c0274afbbefae",
-    "view": 0,
-    "lastUpdated": 1663291207659,
-    "articles": [],
-    "status": "NOT_STARTED"
+    "view": 21,
+    "lastUpdated": 1663301022008,
+    "articles": [
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291589",
+        "title": "Day 1 everything you need to know about Kotlin 妳應知道的 Kotlin",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 11,
+            "minute": 24,
+            "second": 48,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T11:24:48"
+      }
+    ],
+    "status": "ONGOING"
   },
   {
     "category": "Modern Web",
@@ -29967,8 +30298,8 @@
     "author": "查理狐狐 (tzynw)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20142759/profile",
     "anchor": "1c8beee4ff5755f90ce2119770e7251b",
-    "view": 398,
-    "lastUpdated": 1663289669819,
+    "view": 409,
+    "lastUpdated": 1663300904824,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289473",
@@ -30071,7 +30402,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20142763/profile",
     "anchor": "d8b83ae1e278ff66ed73d81ba297f7fe",
     "view": 0,
-    "lastUpdated": 1663291262345,
+    "lastUpdated": 1663301071213,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -30377,8 +30708,8 @@
     "author": "eric1864 (window911)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20142880/profile",
     "anchor": "49e5849f5d2b2d31ad16a046a34e4d04",
-    "view": 201,
-    "lastUpdated": 1663291165888,
+    "view": 228,
+    "lastUpdated": 1663300985548,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289923",
@@ -30433,6 +30764,24 @@
           }
         },
         "iso8601Published": "2022-09-15T18:12:38"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291533",
+        "title": "[Day 04] LeetCode 75 - 392. Is Subsequence",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 17,
+            "second": 53,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:17:53"
       }
     ],
     "status": "ONGOING"
@@ -30669,7 +31018,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20142989/profile",
     "anchor": "800c6346b9a35cc53604c90b80bd5f5f",
     "view": 0,
-    "lastUpdated": 1663291170910,
+    "lastUpdated": 1663300990228,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -31266,8 +31615,8 @@
     "author": "javaGuide (empireisme)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20143887/profile",
     "anchor": "1548d33e93113111b096caedd00ab903",
-    "view": 135,
-    "lastUpdated": 1663291161000,
+    "view": 136,
+    "lastUpdated": 1663300980348,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287092",
@@ -32101,8 +32450,8 @@
     "author": "deku (deku)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20145527/profile",
     "anchor": "659bae592312134ee963e458a7bfcf59",
-    "view": 211,
-    "lastUpdated": 1663291153221,
+    "view": 214,
+    "lastUpdated": 1663300972804,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289961",
@@ -33063,7 +33412,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20146219/profile",
     "anchor": "e4e71a2c5e48b8b34a06730307d2fcd5",
     "view": 0,
-    "lastUpdated": 1663291179010,
+    "lastUpdated": 1663300997560,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -33087,7 +33436,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20146314/profile",
     "anchor": "3c2943ab7e3be5a628d8140b980fef89",
     "view": 0,
-    "lastUpdated": 1663291159634,
+    "lastUpdated": 1663300978943,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290118",
@@ -33149,7 +33498,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20146314/profile",
     "anchor": "d61398399fe302912f554ca358b5e670",
     "view": 0,
-    "lastUpdated": 1663291144171,
+    "lastUpdated": 1663300964095,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289943",
@@ -33651,7 +34000,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20147916/profile",
     "anchor": "32be01894200475a0e82f70b1d4c4fc3",
     "view": 78,
-    "lastUpdated": 1663291149469,
+    "lastUpdated": 1663300968932,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290019",
@@ -33730,7 +34079,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20148178/profile",
     "anchor": "3dde562a0454e4b252e84f7baf91ccf2",
     "view": 0,
-    "lastUpdated": 1663291183152,
+    "lastUpdated": 1663301001298,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -33815,8 +34164,8 @@
     "author": "Peggy Hung (peggyhung)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20148585/profile",
     "anchor": "004317cfbf7763b3312160b08d2840b4",
-    "view": 80,
-    "lastUpdated": 1663289676525,
+    "view": 42,
+    "lastUpdated": 1663300911609,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290405",
@@ -33835,6 +34184,24 @@
           }
         },
         "iso8601Published": "2022-09-14T17:13:29"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291532",
+        "title": "Day1 新手挑戰LeetCode - 1. Two Sum",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 21,
+            "second": 41,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:21:41"
       }
     ],
     "status": "ONGOING"
@@ -33846,8 +34213,8 @@
     "author": "marvinhsu (marvinhsu)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20148594/profile",
     "anchor": "d266a4faa0977134b7a8f65475629f47",
-    "view": 403,
-    "lastUpdated": 1663289723120,
+    "view": 407,
+    "lastUpdated": 1663300954997,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289551",
@@ -33931,8 +34298,8 @@
     "author": "rhusc8qw (rhusc8qw)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20148656/profile",
     "anchor": "b63e012acf7d42c2358652a889cc4be8",
-    "view": 469,
-    "lastUpdated": 1663291167235,
+    "view": 471,
+    "lastUpdated": 1663300986809,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287639",
@@ -34741,8 +35108,8 @@
     "author": "沃克 (walker1980)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20149468/profile",
     "anchor": "e9d820ee0386d708477257c620dcb24d",
-    "view": 179,
-    "lastUpdated": 1663289675860,
+    "view": 180,
+    "lastUpdated": 1663300910942,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289350",
@@ -36302,8 +36669,8 @@
     "author": "yojijun (yojijun)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150181/profile",
     "anchor": "6f1bee8fadbd58e6d76894dc6838ecfb",
-    "view": 520,
-    "lastUpdated": 1663289674407,
+    "view": 539,
+    "lastUpdated": 1663300909295,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289275",
@@ -36429,8 +36796,8 @@
     "author": "eve31328 (eve31328)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150219/profile",
     "anchor": "52dc4f4911592a7cdebfbee8159657ca",
-    "view": 588,
-    "lastUpdated": 1663289655852,
+    "view": 593,
+    "lastUpdated": 1663300890885,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287185",
@@ -36526,8 +36893,8 @@
     "author": "albert9137 (albert9137)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150239/profile",
     "anchor": "87b85f8dd26c9595537d3a06f837f1ad",
-    "view": 288,
-    "lastUpdated": 1663289686079,
+    "view": 294,
+    "lastUpdated": 1663300921006,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289595",
@@ -36611,8 +36978,8 @@
     "author": "rice_bucket (rice_bucket)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150241/profile",
     "anchor": "09bfa736bb896af6c5ba6e678cf35630",
-    "view": 458,
-    "lastUpdated": 1663289665714,
+    "view": 463,
+    "lastUpdated": 1663300900856,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289524",
@@ -36812,8 +37179,8 @@
     "author": "chocolee (chocolee)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150369/profile",
     "anchor": "4afd6745c23638ca9e08b13bcb8bfa64",
-    "view": 325,
-    "lastUpdated": 1663289688212,
+    "view": 329,
+    "lastUpdated": 1663300923364,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289583",
@@ -36909,8 +37276,8 @@
     "author": "jaychen31202 (jaychen31202)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150370/profile",
     "anchor": "6257635eb8cb56f2a552077a209aa394",
-    "view": 308,
-    "lastUpdated": 1663289693956,
+    "view": 313,
+    "lastUpdated": 1663300928472,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289611",
@@ -36994,8 +37361,8 @@
     "author": "tsanyi0119 (tsanyi0119)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150372/profile",
     "anchor": "db88c25fdb050ed1617d8150cd91a1dc",
-    "view": 299,
-    "lastUpdated": 1663289689866,
+    "view": 305,
+    "lastUpdated": 1663300924947,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289590",
@@ -37079,8 +37446,8 @@
     "author": "hank910416 (hank910416)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150373/profile",
     "anchor": "09dc0619cd13ed1ece34df7d56c591bf",
-    "view": 305,
-    "lastUpdated": 1663289692233,
+    "view": 310,
+    "lastUpdated": 1663300927018,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289593",
@@ -37164,8 +37531,8 @@
     "author": "louxin17 (louxin17)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150392/profile",
     "anchor": "955fbb1fe191009d750133854d55dc94",
-    "view": 340,
-    "lastUpdated": 1663289684417,
+    "view": 342,
+    "lastUpdated": 1663300919348,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289559",
@@ -37249,8 +37616,8 @@
     "author": "ian_liu (ian_liu)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150395/profile",
     "anchor": "9661d4dcf1512d3c5fd94707cfc4a3f4",
-    "view": 253,
-    "lastUpdated": 1663289682440,
+    "view": 264,
+    "lastUpdated": 1663300917733,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289672",
@@ -37378,7 +37745,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150593/profile",
     "anchor": "52e2af4e8057a95cc03151f7af373c44",
     "view": 0,
-    "lastUpdated": 1663291187527,
+    "lastUpdated": 1663301004963,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -37444,8 +37811,8 @@
     "author": "smitlea (smitlea)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150733/profile",
     "anchor": "cb4b1646118790fc66fccdd879914c75",
-    "view": 488,
-    "lastUpdated": 1663289683540,
+    "view": 493,
+    "lastUpdated": 1663300918635,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289513",
@@ -37891,8 +38258,8 @@
     "author": "gsn915315 (gsn915315)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150797/profile",
     "anchor": "c6280ca79d6e5e1a311641a4bd1e6440",
-    "view": 317,
-    "lastUpdated": 1663289717798,
+    "view": 323,
+    "lastUpdated": 1663300949789,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289505",
@@ -38591,8 +38958,8 @@
     "author": "jerrywu11307 (jerrywu11307)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150910/profile",
     "anchor": "c9794598cc3d43bcbd12d9a9ab7e6000",
-    "view": 257,
-    "lastUpdated": 1663289705294,
+    "view": 260,
+    "lastUpdated": 1663300938863,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289478",
@@ -39180,8 +39547,8 @@
     "author": "Minyeeee (bell8752573)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150945/profile",
     "anchor": "621eabd74ba1f79f557a4af7612056d9",
-    "view": 415,
-    "lastUpdated": 1663289664004,
+    "view": 430,
+    "lastUpdated": 1663300899320,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289344",
@@ -39295,8 +39662,8 @@
     "author": "Spock_0x192 (spock_h)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150953/profile",
     "anchor": "620b4f114cb61ece0008c70669733c05",
-    "view": 210,
-    "lastUpdated": 1663291141054,
+    "view": 215,
+    "lastUpdated": 1663300960978,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289781",
@@ -39412,7 +39779,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150959/profile",
     "anchor": "c713c78d491f69ab1a2fb929a54cd413",
     "view": 0,
-    "lastUpdated": 1663291180901,
+    "lastUpdated": 1663300999305,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -39459,8 +39826,8 @@
     "author": "angus4397 (angus4397)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150966/profile",
     "anchor": "7fd83d28827ec5fe3be0fec844d07009",
-    "view": 348,
-    "lastUpdated": 1663289657257,
+    "view": 352,
+    "lastUpdated": 1663300892211,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289270",
@@ -39961,8 +40328,8 @@
     "author": "chmh0624 (chmh0624)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20150982/profile",
     "anchor": "e8e5270558cb736cd847d7516605e7f1",
-    "view": 205,
-    "lastUpdated": 1663289673562,
+    "view": 216,
+    "lastUpdated": 1663300908486,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287827",
@@ -40384,8 +40751,8 @@
     "author": "godspeed246 (godspeed246)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151006/profile",
     "anchor": "a3ef1e83bed51f341cfbeafac4560a64",
-    "view": 207,
-    "lastUpdated": 1663289708661,
+    "view": 208,
+    "lastUpdated": 1663300941819,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290050",
@@ -41174,8 +41541,8 @@
     "author": "yylee12 (yiyun_lee)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151037/profile",
     "anchor": "6da09f21bbb4db0af33cd557e6287cc4",
-    "view": 379,
-    "lastUpdated": 1663289678606,
+    "view": 390,
+    "lastUpdated": 1663300913889,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287795",
@@ -41869,7 +42236,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151096/profile",
     "anchor": "947db6487fefdad10d6d043d7d67a1d5",
     "view": 0,
-    "lastUpdated": 1663291184943,
+    "lastUpdated": 1663301002959,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -41893,7 +42260,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151112/profile",
     "anchor": "8342dad32ae83e7c887b1e109a26aecb",
     "view": 0,
-    "lastUpdated": 1663291140162,
+    "lastUpdated": 1663300960231,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -42127,8 +42494,8 @@
     "author": "srarod (srarod)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151116/profile",
     "anchor": "0950ef6f994af3a95ce39cae391b6c34",
-    "view": 219,
-    "lastUpdated": 1663289709844,
+    "view": 226,
+    "lastUpdated": 1663300942535,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289819",
@@ -42666,7 +43033,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151126/profile",
     "anchor": "f6bb91251d937577e71228a38afa09f1",
     "view": 0,
-    "lastUpdated": 1663291178444,
+    "lastUpdated": 1663300997058,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -42689,8 +43056,8 @@
     "author": "bernice123 (bernice123)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151135/profile",
     "anchor": "d427552b27e827ab5c6bdc4307cc72da",
-    "view": 462,
-    "lastUpdated": 1663289681083,
+    "view": 479,
+    "lastUpdated": 1663300916479,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289148",
@@ -43890,7 +44257,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151181/profile",
     "anchor": "a4d961cfcc67c0b2866c093679434c06",
     "view": 0,
-    "lastUpdated": 1663291169748,
+    "lastUpdated": 1663300989160,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -43902,7 +44269,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151184/profile",
     "anchor": "245decda5c46a93f12cd48ddd0459d85",
     "view": 0,
-    "lastUpdated": 1663291173322,
+    "lastUpdated": 1663300992442,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -43914,7 +44281,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151185/profile",
     "anchor": "f5b16647712fc55d29115245432fcd4d",
     "view": 0,
-    "lastUpdated": 1663291179582,
+    "lastUpdated": 1663300998078,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -43926,7 +44293,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151186/profile",
     "anchor": "62120cc4bc4fe4d6b095a4cb69d38512",
     "view": 0,
-    "lastUpdated": 1663291175177,
+    "lastUpdated": 1663300994166,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -43938,9 +44305,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151187/profile",
     "anchor": "db84c514c2cf991adf8f365c98a951ab",
     "view": 0,
-    "lastUpdated": 1663289681670,
+    "lastUpdated": 1663300916980,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "Web 3",
@@ -43950,7 +44317,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151188/profile",
     "anchor": "41f59ab4e602d531c9ebd1a8fb121029",
     "view": 0,
-    "lastUpdated": 1663291181455,
+    "lastUpdated": 1663300999788,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -43962,7 +44329,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151189/profile",
     "anchor": "99ebf04ed22692efec7179ce4bb58ed8",
     "view": 0,
-    "lastUpdated": 1663291182564,
+    "lastUpdated": 1663301000783,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -43986,7 +44353,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151194/profile",
     "anchor": "fe680801f560e6e1a3cbc8c8f5ecbd08",
     "view": 0,
-    "lastUpdated": 1663291184381,
+    "lastUpdated": 1663301002435,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -44395,8 +44762,8 @@
     "author": "liaochenpo (liaochenpo)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151276/profile",
     "anchor": "5f608d001168794029936c98e94abc87",
-    "view": 276,
-    "lastUpdated": 1663289725729,
+    "view": 308,
+    "lastUpdated": 1663300957291,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287951",
@@ -44469,6 +44836,24 @@
           }
         },
         "iso8601Published": "2022-09-15T11:05:43"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291569",
+        "title": "Day5 利用Python處理資料(4) -- 資料插補(Imputation)",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 58,
+            "second": 17,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:58:17"
       }
     ],
     "status": "ONGOING"
@@ -44480,8 +44865,8 @@
     "author": "anonymous9007 (anonymous9007)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151279/profile",
     "anchor": "1584847d2660246b15955552fadd8c3f",
-    "view": 353,
-    "lastUpdated": 1663289727271,
+    "view": 370,
+    "lastUpdated": 1663300958957,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288010",
@@ -44554,6 +44939,24 @@
           }
         },
         "iso8601Published": "2022-09-15T00:33:55"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291559",
+        "title": "[Day5] 敘述性統計(Descriptive statistics)",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 35,
+            "second": 59,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:35:59"
       }
     ],
     "status": "ONGOING"
@@ -44565,8 +44968,8 @@
     "author": "stevengg3463 (stevengg3463)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151280/profile",
     "anchor": "fef5e9912cef6800746255d8b42e37a7",
-    "view": 207,
-    "lastUpdated": 1663291139468,
+    "view": 208,
+    "lastUpdated": 1663300959665,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289666",
@@ -46050,7 +46453,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151346/profile",
     "anchor": "7e38a470f6e2055f08057ff2f6a8153f",
     "view": 0,
-    "lastUpdated": 1663291205704,
+    "lastUpdated": 1663301020170,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -46140,8 +46543,8 @@
     "author": "肉克斯超人 (locus84)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151385/profile",
     "anchor": "bbf6a7e95bd5f92640714fd987564302",
-    "view": 649,
-    "lastUpdated": 1663289679483,
+    "view": 677,
+    "lastUpdated": 1663300914737,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289289",
@@ -46243,8 +46646,8 @@
     "author": "DarcyWang (DarcyWang)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151390/profile",
     "anchor": "4b84c166ad7a1af000c08d42ac0e8be3",
-    "view": 189,
-    "lastUpdated": 1663291162505,
+    "view": 190,
+    "lastUpdated": 1663300982269,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289586",
@@ -46311,7 +46714,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151391/profile",
     "anchor": "ae151a244217a67ebfe2ecb69498bf51",
     "view": 203,
-    "lastUpdated": 1663289711304,
+    "lastUpdated": 1663300943926,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289972",
@@ -46968,8 +47371,8 @@
     "author": "yufangzheng (yufangzheng)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151431/profile",
     "anchor": "8fe055d1926a8e90b3621da93d9f2e40",
-    "view": 421,
-    "lastUpdated": 1663289662274,
+    "view": 435,
+    "lastUpdated": 1663300897569,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287221",
@@ -47243,7 +47646,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151458/profile",
     "anchor": "e7cf65aa3d5c83a0563df360e6e71779",
     "view": 0,
-    "lastUpdated": 1663291175902,
+    "lastUpdated": 1663300994673,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -47519,8 +47922,8 @@
     "author": "en20010110 (en20010110)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151484/profile",
     "anchor": "7be10fafe57e1f9cb767081e870daa6c",
-    "view": 236,
-    "lastUpdated": 1663289720818,
+    "view": 238,
+    "lastUpdated": 1663300952606,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289631",
@@ -47665,8 +48068,8 @@
     "author": "xenophon (xenophon)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151497/profile",
     "anchor": "82c61ad144fd38796a7dc5dfc75da62b",
-    "view": 110,
-    "lastUpdated": 1663289659089,
+    "view": 131,
+    "lastUpdated": 1663300894364,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290666",
@@ -48007,8 +48410,8 @@
     "author": "HankLin (HankLin0208)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151571/profile",
     "anchor": "f80a19d372d806837efa6961d98c2c31",
-    "view": 64,
-    "lastUpdated": 1663291177233,
+    "view": 67,
+    "lastUpdated": 1663300995956,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288218",
@@ -48062,8 +48465,8 @@
     "author": "pjlai0924 (pjlai0924)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151587/profile",
     "anchor": "3e758084fbedfa50d2f9954f5478ce63",
-    "view": 366,
-    "lastUpdated": 1663289726460,
+    "view": 400,
+    "lastUpdated": 1663300958135,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289597",
@@ -48136,6 +48539,24 @@
           }
         },
         "iso8601Published": "2022-09-15T10:24:35"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291582",
+        "title": "Web 3.0 相關技術簡介",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 11,
+            "minute": 12,
+            "second": 44,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T11:12:44"
       }
     ],
     "status": "ONGOING"
@@ -48147,8 +48568,8 @@
     "author": "wscindy (wscindy)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151588/profile",
     "anchor": "e0a3e7f5b37fd14461f95b8c965b678a",
-    "view": 1520,
-    "lastUpdated": 1663291155055,
+    "view": 1529,
+    "lastUpdated": 1663300974498,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287293",
@@ -49976,8 +50397,8 @@
     "author": "ivankao82500 (ivankao82500)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151656/profile",
     "anchor": "72fb830bbf890965cd86a926bf6333b1",
-    "view": 305,
-    "lastUpdated": 1663289685267,
+    "view": 315,
+    "lastUpdated": 1663300920153,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289335",
@@ -50061,8 +50482,8 @@
     "author": "Jeff_M (Jeff_M)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151657/profile",
     "anchor": "82c9f08f86f911abe20e6ac8599a610c",
-    "view": 271,
-    "lastUpdated": 1663291157126,
+    "view": 285,
+    "lastUpdated": 1663300976718,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287607",
@@ -50146,8 +50567,8 @@
     "author": "kenliao0808 (kenliao0808)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151676/profile",
     "anchor": "59066773f87f95321538ebacfd5f5523",
-    "view": 92,
-    "lastUpdated": 1663291150245,
+    "view": 93,
+    "lastUpdated": 1663300969802,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290108",
@@ -50412,7 +50833,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151711/profile",
     "anchor": "4e3ede7faf4a77c33dd3d00a156b90d8",
     "view": 279,
-    "lastUpdated": 1663291167954,
+    "lastUpdated": 1663300987561,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288232",
@@ -50502,8 +50923,8 @@
     "author": "weiiiiiiii (weiiiiiiii)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151717/profile",
     "anchor": "1cb7bf48524255c1169be0bef1e1e267",
-    "view": 75,
-    "lastUpdated": 1663289677168,
+    "view": 79,
+    "lastUpdated": 1663300912483,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290701",
@@ -50575,8 +50996,8 @@
     "author": "Leo (leonia)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151729/profile",
     "anchor": "73ead6abed4397b96b0c571339fde377",
-    "view": 22,
-    "lastUpdated": 1663291168563,
+    "view": 24,
+    "lastUpdated": 1663300988146,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287436",
@@ -50607,7 +51028,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151733/profile",
     "anchor": "958951f537be47d7f99709b25007b63f",
     "view": 0,
-    "lastUpdated": 1663291172040,
+    "lastUpdated": 1663300991232,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -50619,7 +51040,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151735/profile",
     "anchor": "53a58e68c024e2e4f8660f3efb956ae1",
     "view": 0,
-    "lastUpdated": 1663291173860,
+    "lastUpdated": 1663300993058,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -50630,8 +51051,8 @@
     "author": "ZiTe (ziteh)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151756/profile",
     "anchor": "61f52752dd60ec7dea5bb2a71ce090cb",
-    "view": 137,
-    "lastUpdated": 1663291180340,
+    "view": 145,
+    "lastUpdated": 1663300998820,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290505",
@@ -50668,6 +51089,24 @@
           }
         },
         "iso8601Published": "2022-09-15T11:04:14"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10290881",
+        "title": "[Day 3] STM32 GPIO 簡介",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 11,
+            "minute": 50,
+            "second": 35,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T11:50:35"
       }
     ],
     "status": "ONGOING"
@@ -50679,10 +51118,29 @@
     "author": "Joseph (jk890213)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151761/profile",
     "anchor": "b005d053b761cc4d540812e85d089723",
-    "view": 0,
-    "lastUpdated": 1663291190764,
-    "articles": [],
-    "status": "NOT_STARTED"
+    "view": 17,
+    "lastUpdated": 1663301007647,
+    "articles": [
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10290040",
+        "title": "書作者序與我的序",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 34,
+            "second": 14,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:34:14"
+      }
+    ],
+    "status": "ONGOING"
   },
   {
     "category": "Software Development",
@@ -52816,8 +53274,8 @@
     "author": "Z (jjzh0302)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151938/profile",
     "anchor": "5d6b9dd8a4ac17a121b5e1abc1b43866",
-    "view": 255,
-    "lastUpdated": 1663289706059,
+    "view": 258,
+    "lastUpdated": 1663300939533,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290039",
@@ -54409,8 +54867,8 @@
     "author": "chien0830 (chien0830)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20151970/profile",
     "anchor": "64dcd62cd2fcf09fb0c727ff27dd3369",
-    "view": 856,
-    "lastUpdated": 1663291146006,
+    "view": 874,
+    "lastUpdated": 1663300965623,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289136",
@@ -54838,8 +55296,8 @@
     "author": "Jam K. (jamkuong)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152012/profile",
     "anchor": "47a48e52dc8c36da2a99b27fdc8b3519",
-    "view": 354,
-    "lastUpdated": 1663291161727,
+    "view": 387,
+    "lastUpdated": 1663300981050,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287440",
@@ -54894,6 +55352,24 @@
           }
         },
         "iso8601Published": "2022-09-15T10:19:51"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291041",
+        "title": "Day 4: CICD Pipeline中的指揮家!持續整合工具",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 9,
+            "minute": 31,
+            "second": 52,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T09:31:52"
       }
     ],
     "status": "ONGOING"
@@ -55883,8 +56359,8 @@
     "author": "Felix Lin (lazymilk)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152064/profile",
     "anchor": "27ff4ae16cca357ba28158dc1bdad347",
-    "view": 437,
-    "lastUpdated": 1663289717011,
+    "view": 449,
+    "lastUpdated": 1663300949046,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287200",
@@ -55968,8 +56444,8 @@
     "author": "Zack Huang (zackhuang1999)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152065/profile",
     "anchor": "831622907cc2e9278556ec671179da7b",
-    "view": 321,
-    "lastUpdated": 1663289719271,
+    "view": 360,
+    "lastUpdated": 1663300951264,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289485",
@@ -56042,6 +56518,24 @@
           }
         },
         "iso8601Published": "2022-09-15T12:04:09"
+      },
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10290915",
+        "title": "（Day 5）ESP32 與 ATmega328P 的 UART 通訊（Part 1）",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 50,
+            "second": 15,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:50:15"
       }
     ],
     "status": "ONGOING"
@@ -56084,8 +56578,8 @@
     "author": "ifangdar (ifangdar)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152078/profile",
     "anchor": "366850126c4be7775625f6debd6a4ea3",
-    "view": 320,
-    "lastUpdated": 1663289693130,
+    "view": 325,
+    "lastUpdated": 1663300927748,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289537",
@@ -56303,9 +56797,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152092/profile",
     "anchor": "64a1d107d184e999ce9c3df0615e3856",
     "view": 0,
-    "lastUpdated": 1663289674978,
+    "lastUpdated": 1663300910008,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "自我挑戰組",
@@ -56592,8 +57086,8 @@
     "author": "yun7yang (yun7yang)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152124/profile",
     "anchor": "a96b02b6ec9e7dac0d1eaa80bf8b7fe2",
-    "view": 201,
-    "lastUpdated": 1663291142789,
+    "view": 211,
+    "lastUpdated": 1663300962809,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289767",
@@ -56775,8 +57269,8 @@
     "author": "Lazy (b6land)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152154/profile",
     "anchor": "2bc265f5e75ffb9b944d18d3c944a126",
-    "view": 156,
-    "lastUpdated": 1663289723956,
+    "view": 162,
+    "lastUpdated": 1663300955684,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10287644",
@@ -58547,7 +59041,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152216/profile",
     "anchor": "b6a40113f6df722994fd19a7798d76a8",
     "view": 0,
-    "lastUpdated": 1663289699894,
+    "lastUpdated": 1663300933998,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290665",
@@ -58578,9 +59072,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152216/profile",
     "anchor": "b4583b316f0cf07f5e97150b74dc20d3",
     "view": 0,
-    "lastUpdated": 1663289698774,
+    "lastUpdated": 1663300932946,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "Modern Web",
@@ -58601,8 +59095,8 @@
     "author": "morris2147 (morris2147)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152220/profile",
     "anchor": "60107f0ab10645cf655a75d116e1114f",
-    "view": 302,
-    "lastUpdated": 1663289689095,
+    "view": 315,
+    "lastUpdated": 1663300924162,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289548",
@@ -59298,8 +59792,8 @@
     "author": "脆脆 (zoezoe129)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152298/profile",
     "anchor": "f90fc807b810c4a1c9f01e82b1e7f9b6",
-    "view": 618,
-    "lastUpdated": 1663291143586,
+    "view": 631,
+    "lastUpdated": 1663300963542,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10288583",
@@ -59396,7 +59890,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152341/profile",
     "anchor": "8e2c00323f58aca3570bef4909793aa8",
     "view": 0,
-    "lastUpdated": 1663291169155,
+    "lastUpdated": 1663300988639,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -59408,7 +59902,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152341/profile",
     "anchor": "1991de4df818fb4c9a8e11a78a2178a8",
     "view": 0,
-    "lastUpdated": 1663291182003,
+    "lastUpdated": 1663301000265,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -59420,7 +59914,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152343/profile",
     "anchor": "853bad756c89a8cca6662db74050896e",
     "view": 0,
-    "lastUpdated": 1663291172595,
+    "lastUpdated": 1663300991805,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -59444,7 +59938,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152365/profile",
     "anchor": "d078b8729f624567c84b33bb1b16e943",
     "view": 166,
-    "lastUpdated": 1663291160319,
+    "lastUpdated": 1663300979691,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290088",
@@ -59711,9 +60205,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152389/profile",
     "anchor": "12572f26d13e6bb2a93c21bac825e039",
     "view": 0,
-    "lastUpdated": 1663289696423,
+    "lastUpdated": 1663300930760,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "Software Development",
@@ -59784,8 +60278,8 @@
     "author": "yyeeeeee (yyeeeeee)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152411/profile",
     "anchor": "23aea0f12c395d24856e9e26536ef5f1",
-    "view": 260,
-    "lastUpdated": 1663291145015,
+    "view": 265,
+    "lastUpdated": 1663300964898,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289868",
@@ -59851,8 +60345,8 @@
     "author": "zail23x3 (zail23x3)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152414/profile",
     "anchor": "a35367ed078d660ad68163b6ca36a456",
-    "view": 273,
-    "lastUpdated": 1663289668151,
+    "view": 280,
+    "lastUpdated": 1663300903178,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289355",
@@ -60137,8 +60631,8 @@
     "author": "Harold (409261263)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152450/profile",
     "anchor": "9bcf7a6837a87d1beb275909d62f9dc3",
-    "view": 443,
-    "lastUpdated": 1663289668959,
+    "view": 447,
+    "lastUpdated": 1663300904032,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289407",
@@ -60241,7 +60735,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152453/profile",
     "anchor": "fc7f0d82515890fa29a1f714852be58e",
     "view": 0,
-    "lastUpdated": 1663291156362,
+    "lastUpdated": 1663300975846,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -60283,8 +60777,8 @@
     "author": "xd_301 (xd_301)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152454/profile",
     "anchor": "2b73d7014860deb05537ef1bd050155a",
-    "view": 276,
-    "lastUpdated": 1663289691426,
+    "view": 278,
+    "lastUpdated": 1663300926330,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289530",
@@ -60368,10 +60862,29 @@
     "author": "a7773077567 (a7773077567)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152459/profile",
     "anchor": "726d08715a02579c344a07962ae8478c",
-    "view": 0,
-    "lastUpdated": 1663289702591,
-    "articles": [],
-    "status": "FAILED"
+    "view": 20,
+    "lastUpdated": 1663300936289,
+    "articles": [
+      {
+        "url": "https://ithelp.ithome.com.tw/articles/10291485",
+        "title": "Day 1 咩色用得好, 歸剛沒煩惱 - 給我一個用 Array Method 的理由",
+        "published": {
+          "date": {
+            "year": 2022,
+            "month": 9,
+            "day": 16
+          },
+          "time": {
+            "hour": 10,
+            "minute": 35,
+            "second": 44,
+            "nano": 0
+          }
+        },
+        "iso8601Published": "2022-09-16T10:35:44"
+      }
+    ],
+    "status": "ONGOING"
   },
   {
     "category": "Software Development",
@@ -60517,7 +61030,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152490/profile",
     "anchor": "65191eafc9e517ed158757a5ed64f918",
     "view": 0,
-    "lastUpdated": 1663291224177,
+    "lastUpdated": 1663301036654,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -60528,8 +61041,8 @@
     "author": "joyce0222 (joyce0222)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152494/profile",
     "anchor": "6b09da401d7aa2e29beb6f4745270ba3",
-    "view": 193,
-    "lastUpdated": 1663291151714,
+    "view": 196,
+    "lastUpdated": 1663300971412,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289948",
@@ -60607,8 +61120,8 @@
     "author": "duru (duru)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152496/profile",
     "anchor": "00adf8d6d9071cb72768ea51fd33470a",
-    "view": 247,
-    "lastUpdated": 1663291152442,
+    "view": 250,
+    "lastUpdated": 1663300972133,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289971",
@@ -60699,7 +61212,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152501/profile",
     "anchor": "1b655cd78a2efdef095f526cbd39a970",
     "view": 0,
-    "lastUpdated": 1663291221345,
+    "lastUpdated": 1663301034103,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -60741,8 +61254,8 @@
     "author": "YuSiu (27904200)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152505/profile",
     "anchor": "c53715e1dddcb40398dacb2e28accbcb",
-    "view": 112,
-    "lastUpdated": 1663291263211,
+    "view": 114,
+    "lastUpdated": 1663301071797,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290396",
@@ -60790,8 +61303,8 @@
     "author": "the_rabbit (the_rabbit)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152506/profile",
     "anchor": "3f40a8909d06b80dd2d8136317128a6f",
-    "view": 185,
-    "lastUpdated": 1663291155794,
+    "view": 187,
+    "lastUpdated": 1663300975343,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10289831",
@@ -60858,7 +61371,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152510/profile",
     "anchor": "409c25d0a9f68f22982ee4dbd70f3b1c",
     "view": 0,
-    "lastUpdated": 1663291188747,
+    "lastUpdated": 1663301006037,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -60870,7 +61383,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152511/profile",
     "anchor": "1abad9a84fa056d07d809e59ca7003f0",
     "view": 0,
-    "lastUpdated": 1663291163801,
+    "lastUpdated": 1663300983468,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -60894,7 +61407,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152515/profile",
     "anchor": "4f2e56cba1177f13f9c186803abdd38f",
     "view": 0,
-    "lastUpdated": 1663291171487,
+    "lastUpdated": 1663300990715,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -61218,7 +61731,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152548/profile",
     "anchor": "967eefa132373991411fef70fcec7c9d",
     "view": 0,
-    "lastUpdated": 1663291223050,
+    "lastUpdated": 1663301035619,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -61315,8 +61828,8 @@
     "author": "K (kxx)",
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152558/profile",
     "anchor": "fd1c38984541b4ed0d0cf75a9459d2af",
-    "view": 162,
-    "lastUpdated": 1663291231641,
+    "view": 167,
+    "lastUpdated": 1663301043666,
     "articles": [
       {
         "url": "https://ithelp.ithome.com.tw/articles/10290452",
@@ -61414,7 +61927,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152578/profile",
     "anchor": "15d1363fd378de105c1046e8f536ff90",
     "view": 0,
-    "lastUpdated": 1663291223615,
+    "lastUpdated": 1663301036124,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -61469,7 +61982,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152603/profile",
     "anchor": "904ed80b4047e7d35c2fe2654988d7cc",
     "view": 0,
-    "lastUpdated": 1663291170367,
+    "lastUpdated": 1663300989706,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -61542,7 +62055,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152609/profile",
     "anchor": "acb9c065f6aa87c2c34421184bbe119e",
     "view": 0,
-    "lastUpdated": 1663291225307,
+    "lastUpdated": 1663301037668,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -61714,9 +62227,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152621/profile",
     "anchor": "ab5926046bb493e2549b07f57790dc04",
     "view": 0,
-    "lastUpdated": 1663289686670,
+    "lastUpdated": 1663300921553,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "自我挑戰組",
@@ -61872,7 +62385,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152654/profile",
     "anchor": "be188b447e532aea3c8026ccbc42f07b",
     "view": 0,
-    "lastUpdated": 1663291230941,
+    "lastUpdated": 1663301042989,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -61884,9 +62397,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152655/profile",
     "anchor": "c83dade67d1c42c3b8e52fa8c4e882a8",
     "view": 0,
-    "lastUpdated": 1663289697012,
+    "lastUpdated": 1663300931294,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "自我挑戰組",
@@ -61908,7 +62421,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152657/profile",
     "anchor": "aa440a114c51ac8b9e04ff90fa3f8725",
     "view": 0,
-    "lastUpdated": 1663291229092,
+    "lastUpdated": 1663301041131,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -61920,7 +62433,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152659/profile",
     "anchor": "363ef438e5006d078b732275cda65733",
     "view": 0,
-    "lastUpdated": 1663291228501,
+    "lastUpdated": 1663301040610,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -62035,7 +62548,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152680/profile",
     "anchor": "0df21e22d2f51d2409cc59e6384eca06",
     "view": 0,
-    "lastUpdated": 1663291186126,
+    "lastUpdated": 1663301003951,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -62047,7 +62560,7 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152683/profile",
     "anchor": "ef290c84e7f0500bb1936299d45649a8",
     "view": 0,
-    "lastUpdated": 1663291186775,
+    "lastUpdated": 1663301004463,
     "articles": [],
     "status": "NOT_STARTED"
   },
@@ -62119,9 +62632,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152702/profile",
     "anchor": "56e15e8507556f5f664719fd0bac4466",
     "view": 0,
-    "lastUpdated": 1663289697592,
+    "lastUpdated": 1663300931775,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "Software Development",
@@ -62131,9 +62644,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152703/profile",
     "anchor": "a9ac7de654a28b768af14ddacd7112ec",
     "view": 0,
-    "lastUpdated": 1663289699338,
+    "lastUpdated": 1663300933492,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "自我挑戰組",
@@ -62143,9 +62656,9 @@
     "profileUrl": "https://ithelp.ithome.com.tw/users/20152704/profile",
     "anchor": "741612d1a576f02fbb048d52ca51691a",
     "view": 0,
-    "lastUpdated": 1663289695867,
+    "lastUpdated": 1663300930273,
     "articles": [],
-    "status": "FAILED"
+    "status": "NOT_STARTED"
   },
   {
     "category": "Software Development",
