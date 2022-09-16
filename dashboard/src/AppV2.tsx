@@ -1,6 +1,18 @@
-import {Badge, Box, ChakraProvider, Flex, Spacer, Tooltip, useMediaQuery} from '@chakra-ui/react'
+import {
+    background,
+    Badge,
+    Box,
+    Button, chakra,
+    ChakraProvider,
+    Flex,
+    Menu,
+    MenuButton, MenuDivider, MenuGroup, MenuItem, MenuList,
+    Spacer, styled,
+    Tooltip,
+    useMediaQuery
+} from '@chakra-ui/react'
 import "./AppV2.css"
-import {useEffect, useState} from "react";
+import React, {useEffect, useState} from "react";
 import {maxBy} from "lodash";
 import {ThemeTypings} from "@chakra-ui/styled-system";
 import moment from "moment";
@@ -10,6 +22,7 @@ import {ReactComponent as ListPublishedIcon} from "@vscode/codicons/src/icons/la
 import {ReactComponent as PersonIcon} from "@vscode/codicons/src/icons/person.svg";
 import {ReactComponent as BookIcon} from "@vscode/codicons/src/icons/book.svg";
 import {ReactComponent as EditIcon} from "@vscode/codicons/src/icons/edit.svg";
+import {ReactComponent as MenuIcon} from "@vscode/codicons/src/icons/menu.svg";
 import extra_data from "./extra.json"
 
 async function fetchData() {
@@ -54,6 +67,8 @@ interface Status {
 interface FunctionSet {
     setAllTopic: (state: boolean) => void,
     allTopic: boolean
+    selectedTopic: string,
+    setSelectedTopic: (t: string) => void,
 }
 
 function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
@@ -186,41 +201,88 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
 
 }
 
-function Category(props: { category: string, data: UIData, allTopic: boolean }) {
+function Category(props: { category: string, data: UIData, selectedTopic: string, allTopic: boolean }) {
     const [bigLayout] = useMediaQuery('(min-width: 750px)')
-    const {category, data, allTopic} = props;
-    return (
-        <Flex className="category" direction="column">
-            <Flex mb="15px">{category}</Flex>
-            {
-                data.topics[category].map(t => {
-                    if (allTopic) {
-                        return <Topic key={t.url} topic={t} bigLayout={bigLayout}/>
-                    }
+    const {category, data, selectedTopic, allTopic} = props;
 
-                    if (t.articles.length > 0) {
-                        return <Topic key={t.url} topic={t} bigLayout={bigLayout}/>
-                    }
 
-                })
-            }
-        </Flex>
-    )
+    if (category === "社群推廣區" || selectedTopic === category || selectedTopic === "所有主題") {
+        return (
+            <Flex className="category" direction="column">
+                <Flex mb="15px">{category}</Flex>
+                {
+                    data.topics[category].map(t => {
+                        if (allTopic) {
+                            return <Topic key={t.url} topic={t} bigLayout={bigLayout}/>
+                        }
+
+                        if (t.articles.length > 0) {
+                            return <Topic key={t.url} topic={t} bigLayout={bigLayout}/>
+                        }
+
+                        if (category === "社群推廣區") {
+                            return <Topic key={t.url} topic={t} bigLayout={bigLayout}/>
+                        }
+
+                    })
+                }
+            </Flex>
+        )
+    }
+
+
 }
 
-function TopicFilter(props: { functionSet: FunctionSet }) {
+function TopicFilter(props: { functionSet: FunctionSet, categories: Array<string> }) {
     const {allTopic, setAllTopic} = props.functionSet
+    const {selectedTopic, setSelectedTopic} = props.functionSet
+    const {categories} = props
+
+    const CMenuItem = chakra(MenuItem, {
+        baseStyle: {
+            _focus: {background: "rgb(44,82,130)"},
+            fontSize: "10pt",
+        },
+    });
+
+    const handler = (category: string) => {
+        if ("no-show-filter" === category) {
+            setAllTopic(!allTopic);
+            return;
+        }
+        setSelectedTopic(category);
+    }
+
     return (
-        <Flex ml="16px" mr="16px" fontSize="10pt" alignItems="center">
-            <a onClick={(e) => {
-                console.log("xd");
-                setAllTopic(!allTopic);
-            }} style={{display: "flex", cursor: "pointer"}}>
-                {allTopic ? <ListAllIcon/> : <ListPublishedIcon/>}
-                {allTopic && <Box ml="5px">顯示所有主題(包含未發表過的主題)</Box>}
-                {!allTopic && <Box ml="5px">顯示參賽中發表主題</Box>}
-            </a>
-        </Flex>
+        <>
+            <Flex ml="16px" mr="16px">
+                <Menu>
+                    <MenuButton as={Button} leftIcon={<MenuIcon/>} colorScheme="blue">
+                        {selectedTopic}
+                    </MenuButton>
+                    {categories &&
+                        <MenuList backgroundColor="#00a0e9">
+                            <CMenuItem value="所有主題" onClick={() => {
+                                handler("所有主題")
+                            }}>
+                                所有主題
+                            </CMenuItem>
+                            {categories.map(c => <CMenuItem value={c} onClick={() => {
+                                handler(c)
+                            }}>
+                                {c}
+                            </CMenuItem>)}
+                            <MenuDivider/>
+                            <CMenuItem backgroundColor="blue"
+                                       onClick={() => {
+                                           handler("no-show-filter")
+                                       }}
+                            >{allTopic ? "隱藏未發佈過的主題" : "顯示未發佈過的主題"}</CMenuItem>
+                        </MenuList>
+                    }
+                </Menu>
+            </Flex>
+        </>
     )
 }
 
@@ -232,7 +294,7 @@ function NavBar(props: { data: UIData, functionSet: FunctionSet }) {
         <Box>
             <Flex className="nav" alignItems="center" position="fixed" top="0px" width="100vw">
                 <Box ml="16px" mr="16px">ITHome 鐵人賽</Box>
-                <TopicFilter functionSet={functionSet}/>
+                <TopicFilter functionSet={functionSet} categories={data?.categories}/>
             </Flex>
 
             {/* empty nav for top padding */}
@@ -247,8 +309,9 @@ function AppV2() {
     const [data, setData] = useState<UIData | null>();
 
     const [allTopic, setAllTopic] = useState(false);
+    const [selectedTopic, setSelectedTopic] = useState("所有主題");
 
-    const functionSet = {allTopic, setAllTopic}
+    const functionSet = {allTopic, setAllTopic, selectedTopic, setSelectedTopic}
 
     useEffect(() => {
         const load = async () => {
@@ -265,11 +328,15 @@ function AppV2() {
                 <NavBar data={data}
                         functionSet={functionSet}/>
                 {
-                    data && data.categories.map(c => <Category key={c} category={c} data={data} allTopic={allTopic}/>)
+                    data && data.categories.map(c => <Category key={c}
+                                                               category={c} data={data}
+                                                               selectedTopic={selectedTopic}
+                                                               allTopic={allTopic}
+                    />)
                 }
                 {
                     extra_data && extra_data.categories.map(c =>
-                        <Category key={c} category={c} data={extra_data} allTopic={true}/>)
+                        <Category key={c} category={c} data={extra_data} selectedTopic="所有主題" allTopic={allTopic}/>)
                 }
             </Box>
         </ChakraProvider>
