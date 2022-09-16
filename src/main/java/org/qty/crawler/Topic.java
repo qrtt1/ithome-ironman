@@ -121,11 +121,11 @@ public class Topic implements Comparable<Topic> {
     }
 
     public void updateStatus() {
-        LocalDate deadlineForStarting = LocalDate.of(2022, 9, 16);
+        LocalDate deadlineForStarting = LocalDate.of(2022, 9, 17);
 
         // status: not started
-        // 1. there are no articles and before the date: 9/16
-        // 2. if the date after 9/16 and no articles should be failed not be not started
+        // 1. there are no articles and before the date: 9/17
+        // 2. if the date after 9/17 and no articles should be failed not be not started
         if (this.articles.isEmpty()) {
             if (LocalDate.now().isBefore(deadlineForStarting)) {
                 status = Status.NOT_STARTED;
@@ -136,7 +136,7 @@ public class Topic implements Comparable<Topic> {
         }
 
         // status: failed
-        // 1. have not published any articles before 9/16
+        // 1. have not published any articles before 9/17
         // 2. there are articles between [start date] and min(today, end date) but not matched the criteria one articles per day
 
         // status: ongoing
