@@ -1,13 +1,5 @@
 package org.qty.crawler;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
-import org.apache.commons.io.FileUtils;
-import org.jsoup.nodes.Document;
-import org.qty.crawler.uidata.UIDataModel;
-
-import java.io.File;
 import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
@@ -16,9 +8,11 @@ public class DataUpdater {
 
     public static void main(String[] args) throws IOException {
         Crawler crawler = new Crawler(new DefaultFetch());
+        Storage storage = new S3Storage();
 
         List<Topic> topics = crawler.topics();
-        List<Topic> savedTopics = loadPreviousTopics();
+        List<Topic> savedTopics = storage.loadSavedTopics();
+
         if (savedTopics.isEmpty()) {
             savedTopics = topics;
         } else {
@@ -33,15 +27,12 @@ public class DataUpdater {
         });
 
         System.out.println("size: " + savedTopics.size());
-        savedTopics.stream().limit(300).forEach(topic -> {
+        savedTopics.stream().limit(100).forEach(topic -> {
             crawler.update(topic);
             System.out.println(topic);
         });
 
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
-        Collections.sort(savedTopics, Comparator.comparing(Topic::getUrl));
-        FileUtils.write(new File("data.json"), gson.toJson(savedTopics), "utf-8");
-        FileUtils.write(new File("ui-data.json"), gson.toJson(UIDataModel.convertForUI(savedTopics)), "utf-8");
+        storage.saveTopics(savedTopics);
     }
 
     private static void appendNewTopics(List<Topic> savedTopics, List<Topic> topics) {
@@ -53,16 +44,5 @@ public class DataUpdater {
             }
         });
 
-    }
-
-    public static List<Topic> loadPreviousTopics() throws IOException {
-        if (!new File("data.json").exists()) {
-            return new ArrayList<>();
-        }
-        String data = FileUtils.readFileToString(new File("data.json"), "utf-8");
-        List<Topic> previousTopics = new Gson().fromJson(data, new TypeToken<List<Topic>>() {
-        }.getType());
-
-        return previousTopics;
     }
 }

@@ -19,6 +19,7 @@ dependencies {
     implementation 'commons-io:commons-io:2.11.0'
     implementation 'commons-codec:commons-codec:1.15'
     implementation 'com.google.code.gson:gson:2.8.8'
+    implementation group: 'com.amazonaws', name: 'aws-java-sdk-s3', version: '1.12.304'
 
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
