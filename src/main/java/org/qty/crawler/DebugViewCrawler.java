@@ -1,20 +1,9 @@
 package org.qty.crawler;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
-import org.apache.commons.io.FileUtils;
-import org.jsoup.nodes.Document;
-import org.qty.crawler.uidata.UIDataModel;
-
-import java.io.File;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
 import java.util.List;
 
-import static org.qty.crawler.IOUtils.loadPreviousTopics;
+import static org.qty.crawler.Storage.loadPreviousTopics;
 
 public class DebugViewCrawler {
 

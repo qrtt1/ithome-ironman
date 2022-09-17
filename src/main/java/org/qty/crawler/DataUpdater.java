@@ -1,18 +1,8 @@
 package org.qty.crawler;
 
-import com.google.gson.Gson;
-import com.google.gson.GsonBuilder;
-import com.google.gson.reflect.TypeToken;
-import org.apache.commons.io.FileUtils;
-import org.jsoup.nodes.Document;
-import org.qty.crawler.uidata.UIDataModel;
-
-import java.io.File;
 import java.io.IOException;
 import java.util.*;
 import java.util.stream.Collectors;
-
-import static org.qty.crawler.IOUtils.loadPreviousTopics;
 
 public class DataUpdater {
 

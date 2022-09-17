@@ -1,13 +1,12 @@
 package org.qty.crawler.uidata;
 
-import org.qty.crawler.Article;
 import org.qty.crawler.Topic;
 
 import java.io.IOException;
 import java.util.*;
 
 
-import static org.qty.crawler.IOUtils.loadPreviousTopics;
+import static org.qty.crawler.Storage.loadPreviousTopics;
 
 public class UIDataModel {
 
