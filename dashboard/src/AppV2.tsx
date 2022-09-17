@@ -24,6 +24,7 @@ import {ReactComponent as BookIcon} from "@vscode/codicons/src/icons/book.svg";
 import {ReactComponent as EditIcon} from "@vscode/codicons/src/icons/edit.svg";
 import {ReactComponent as MenuIcon} from "@vscode/codicons/src/icons/menu.svg";
 import extra_data from "./extra.json"
+import {useCookies} from "react-cookie";
 
 async function fetchData() {
     const dataSource = 'ui-data.json';
@@ -262,12 +263,12 @@ function TopicFilter(props: { functionSet: FunctionSet, categories: Array<string
                     </MenuButton>
                     {categories &&
                         <MenuList backgroundColor="#00a0e9">
-                            <CMenuItem value="所有主題" onClick={() => {
+                            <CMenuItem key="所有主題" onClick={() => {
                                 handler("所有主題")
                             }}>
                                 所有主題
                             </CMenuItem>
-                            {categories.map(c => <CMenuItem value={c} onClick={() => {
+                            {categories.map(c => <CMenuItem key={c} onClick={() => {
                                 handler(c)
                             }}>
                                 {c}
@@ -307,11 +308,21 @@ function NavBar(props: { data: UIData, functionSet: FunctionSet }) {
 function AppV2() {
 
     const [data, setData] = useState<UIData | null>();
-
+    const [cookies, setCookie, removeCookie] = useCookies(['selectedTopic']);
     const [allTopic, setAllTopic] = useState(false);
-    const [selectedTopic, setSelectedTopic] = useState("所有主題");
+    const [selectedTopic, setSelectedTopic] = useState(typeof cookies.selectedTopic === "undefined" ? "所有主題" : cookies.selectedTopic);
 
-    const functionSet = {allTopic, setAllTopic, selectedTopic, setSelectedTopic}
+
+    const functionSet = {
+        allTopic,
+        setAllTopic,
+        selectedTopic,
+        setSelectedTopic: (t: string): void => {
+            setCookie("selectedTopic", t);
+            setSelectedTopic(t);
+        }
+    }
+
 
     useEffect(() => {
         const load = async () => {
