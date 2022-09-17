@@ -6,9 +6,10 @@ import java.util.stream.Collectors;
 
 public class DataUpdater {
 
+
     public static void main(String[] args) throws IOException {
         Crawler crawler = new Crawler(new DefaultFetch());
-        Storage storage = new S3Storage();
+        Storage storage = createStorage();
 
         List<Topic> topics = crawler.topics();
         List<Topic> savedTopics = storage.loadSavedTopics();
@@ -27,12 +28,21 @@ public class DataUpdater {
         });
 
         System.out.println("size: " + savedTopics.size());
-        savedTopics.stream().limit(100).forEach(topic -> {
+        savedTopics.stream().limit(300).forEach(topic -> {
             crawler.update(topic);
             System.out.println(topic);
         });
 
         storage.saveTopics(savedTopics);
+    }
+
+    private static Storage createStorage() {
+        if ("production".equals(System.getenv("ithome_crawler_env"))) {
+            System.out.println("Run with S3Storage");
+            return new S3Storage();
+        }
+        System.out.println("Run with DefaultStorage");
+        return new DefaultStorage();
     }
 
     private static void appendNewTopics(List<Topic> savedTopics, List<Topic> topics) {
