@@ -8,7 +8,7 @@ public class DataUpdater {
 
     public static void main(String[] args) throws IOException {
         Crawler crawler = new Crawler(new DefaultFetch());
-        Storage storage = new DefaultStorage();
+        Storage storage = new S3Storage();
 
         List<Topic> topics = crawler.topics();
         List<Topic> savedTopics = storage.loadSavedTopics();
@@ -27,7 +27,7 @@ public class DataUpdater {
         });
 
         System.out.println("size: " + savedTopics.size());
-        savedTopics.stream().limit(50).forEach(topic -> {
+        savedTopics.stream().limit(100).forEach(topic -> {
             crawler.update(topic);
             System.out.println(topic);
         });
