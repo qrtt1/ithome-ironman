@@ -135,7 +135,7 @@ class S3Storage implements Storage {
         client.putObject(putOriginData);
 
         // v2 data.json
-        PutObjectRequest putUIV2Data = new PutObjectRequest(s3Bucket, "2022v2/ui_data.json",
+        PutObjectRequest putUIV2Data = new PutObjectRequest(s3Bucket, "2022v2/ui-data.json",
                 new ByteArrayInputStream(gson.toJson(UIDataModel.convertForUI(savedTopics)).getBytes("utf-8")),
                 metadata);
         putUIV2Data.setCannedAcl(CannedAccessControlList.PublicRead);
