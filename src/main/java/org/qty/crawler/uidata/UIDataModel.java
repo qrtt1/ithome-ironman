@@ -6,7 +6,8 @@ import org.qty.crawler.Topic;
 import java.io.IOException;
 import java.util.*;
 
-import static org.qty.crawler.DataUpdater.loadPreviousTopics;
+
+import static org.qty.crawler.IOUtils.loadPreviousTopics;
 
 public class UIDataModel {
 

@@ -14,29 +14,17 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
+import static org.qty.crawler.IOUtils.loadPreviousTopics;
+
 public class DebugViewCrawler {
 
     public static void main(String[] args) throws IOException {
         Crawler crawler = new Crawler(new DefaultFetch());
-
-
         List<Topic> savedTopics = loadPreviousTopics();
         savedTopics.stream().filter(t -> t.url.equals("https://ithelp.ithome.com.tw/users/20138542/ironman/4954")).forEach(topic -> {
             crawler.update(topic);
             System.out.println(topic);
         });
-
-
     }
 
-    public static List<Topic> loadPreviousTopics() throws IOException {
-        if (!new File("data.json").exists()) {
-            return new ArrayList<>();
-        }
-        String data = FileUtils.readFileToString(new File("data.json"), "utf-8");
-        List<Topic> previousTopics = new Gson().fromJson(data, new TypeToken<List<Topic>>() {
-        }.getType());
-
-        return previousTopics;
-    }
 }
