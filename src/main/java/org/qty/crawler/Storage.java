@@ -14,11 +14,7 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.io.IOUtils;
 import org.qty.crawler.uidata.UIDataModel;
 
-import java.io.ByteArrayInputStream;
-import java.io.File;
-import java.io.IOException;
-import java.io.StringWriter;
-import java.time.LocalDateTime;
+import java.io.*;
 import java.time.ZoneId;
 import java.time.ZonedDateTime;
 import java.time.format.DateTimeFormatter;
@@ -123,20 +119,27 @@ class S3Storage implements Storage {
         // classic data.json
         ObjectMetadata metadata = new ObjectMetadata();
         metadata.setContentType("application/json");
-        PutObjectRequest putOriginData = new PutObjectRequest(s3Bucket, "2022/data.json",
-                new ByteArrayInputStream(gson.toJson(savedTopics).getBytes("utf-8")),
-                metadata);
-        putOriginData.setCannedAcl(CannedAccessControlList.PublicRead);
-        client.putObject(putOriginData);
+        metadata.setCacheControl("max-age=300");
+        uploadToS3WithPublicAclRead("2022/data.json", gson.toJson(savedTopics));
+        PutObjectRequest putOriginData;
 
         putOriginData = new PutObjectRequest(s3Bucket, String.format("archives/%s/data.json", today),
                 new ByteArrayInputStream(gson.toJson(savedTopics).getBytes("utf-8")),
                 metadata);
         client.putObject(putOriginData);
 
+        uploadToS3WithPublicAclRead("2022v2/ui-data.json", gson.toJson(UIDataModel.convertForUI(savedTopics)));
+        uploadToS3WithPublicAclRead("2022/ui-data.json", gson.toJson(UIDataModel.convertForUI(savedTopics)));
+    }
+
+    private void uploadToS3WithPublicAclRead(String s3Prefix, String content) throws UnsupportedEncodingException {
+        ObjectMetadata metadata = new ObjectMetadata();
+        metadata.setContentType("application/json");
+        metadata.setCacheControl("max-age=300");
+
         // v2 data.json
-        PutObjectRequest putUIV2Data = new PutObjectRequest(s3Bucket, "2022v2/ui-data.json",
-                new ByteArrayInputStream(gson.toJson(UIDataModel.convertForUI(savedTopics)).getBytes("utf-8")),
+        PutObjectRequest putUIV2Data = new PutObjectRequest(s3Bucket, s3Prefix,
+                new ByteArrayInputStream(content.getBytes("utf-8")),
                 metadata);
         putUIV2Data.setCannedAcl(CannedAccessControlList.PublicRead);
         client.putObject(putUIV2Data);

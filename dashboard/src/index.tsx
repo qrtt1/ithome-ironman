@@ -8,13 +8,7 @@ import AppV2 from "./AppV2";
 const root = createRoot(document.getElementById('root'));
 
 function MyRoute() {
-    if (window.location.href.includes('/2022v2/')) {
-        return <AppV2/>
-    }
-    if (window.location.href.includes('localhost')) {
-        return <AppV2/>
-    }
-    return <App/>
+    return <AppV2/>
 }
 
 root.render(
