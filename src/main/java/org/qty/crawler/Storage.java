@@ -114,7 +114,7 @@ class S3Storage implements Storage {
 
     @Override
     public void saveTopics(List<Topic> savedTopics) throws IOException {
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+        Gson gson = new GsonBuilder().create();
 
         // classic data.json
         ObjectMetadata metadata = new ObjectMetadata();
@@ -128,8 +128,9 @@ class S3Storage implements Storage {
                 metadata);
         client.putObject(putOriginData);
 
-        uploadToS3WithPublicAclRead("2022v2/ui-data.json", gson.toJson(UIDataModel.convertForUI(savedTopics)));
-        uploadToS3WithPublicAclRead("2022/ui-data.json", gson.toJson(UIDataModel.convertForUI(savedTopics)));
+        String uiData = gson.toJson(UIDataModel.convertForUI(savedTopics));
+        uploadToS3WithPublicAclRead("2022v2/ui-data.json", uiData);
+        uploadToS3WithPublicAclRead("2022/ui-data.json", uiData);
     }
 
     private void uploadToS3WithPublicAclRead(String s3Prefix, String content) throws UnsupportedEncodingException {

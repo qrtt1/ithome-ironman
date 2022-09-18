@@ -27,7 +27,7 @@ import extra_data from "./extra.json"
 import {useCookies} from "react-cookie";
 
 async function fetchData() {
-    const dataSource = 'ui-data.json';
+    const dataSource = '/2022v2/ui-data.json';
     const response = await (
         await fetch(dataSource, {cache: 'no-store'})
     ).text();
@@ -78,6 +78,7 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
     const latestArticle = maxBy(topic.articles, (o) => {
         return new Date(o.iso8601Published)
     });
+
 
     const STATUS_MAP = {
         ONGOING: {
