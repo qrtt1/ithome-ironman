@@ -22,6 +22,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.zip.GZIPOutputStream;
 
 import static org.qty.crawler.Storage.loadPreviousTopics;
 
@@ -131,6 +132,7 @@ class S3Storage implements Storage {
         String uiData = gson.toJson(UIDataModel.convertForUI(savedTopics));
         uploadToS3WithPublicAclRead("2022v2/ui-data.json", uiData);
         uploadToS3WithPublicAclRead("2022/ui-data.json", uiData);
+        uploadToGZipS3WithPublicAclRead("2022/ui-data-small.json", uiData);
     }
 
     private void uploadToS3WithPublicAclRead(String s3Prefix, String content) throws UnsupportedEncodingException {
@@ -146,9 +148,27 @@ class S3Storage implements Storage {
         client.putObject(putUIV2Data);
     }
 
+    private void uploadToGZipS3WithPublicAclRead(String s3Prefix, String content) throws IOException {
+        ObjectMetadata metadata = new ObjectMetadata();
+        metadata.setContentType("application/json");
+        metadata.setContentEncoding("gzip");
+        metadata.setCacheControl("max-age=300");
+
+        byte[] data = content.getBytes("utf-8");
+        ByteArrayOutputStream buffer = new ByteArrayOutputStream();
+        GZIPOutputStream outputStream = new GZIPOutputStream(buffer);
+        outputStream.write(data, 0, data.length);
+
+        PutObjectRequest putUIV2Data = new PutObjectRequest(s3Bucket, s3Prefix,
+                new ByteArrayInputStream(buffer.toByteArray()),
+                metadata);
+        putUIV2Data.setCannedAcl(CannedAccessControlList.PublicRead);
+        client.putObject(putUIV2Data);
+    }
+
     public static void main(String[] args) throws IOException {
 //        System.out.println(new S3Storage().loadSavedTopics().size());
-//        new S3Storage().saveTopics(new S3Storage().loadSavedTopics());
-        System.out.println(new S3Storage().today);
+        new S3Storage().saveTopics(new S3Storage().loadSavedTopics());
+//        System.out.println(new S3Storage().today);
     }
 }
