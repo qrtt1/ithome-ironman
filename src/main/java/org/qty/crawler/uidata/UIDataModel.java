@@ -42,7 +42,7 @@ public class UIDataModel {
             model.topics.get(k).stream().forEach(t -> {
                 // only keep the last one for saving file size
                 if (t.getArticles().size() > 1) {
-                    Set<Article> lastOne = t.getArticles().stream().skip(t.getArticles().size() - 1).collect(Collectors.toSet());
+                    List<Article> lastOne = t.getArticles().stream().skip(t.getArticles().size() - 1).collect(Collectors.toList());
                     lastOne.iterator().next().setPublished(null);
                     t.setArticles(lastOne);
                 }

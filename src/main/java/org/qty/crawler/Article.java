@@ -8,6 +8,9 @@ public class Article implements Comparable<Article> {
     LocalDateTime published;
     String iso8601Published;
 
+
+    int viewCount;
+
     public String getIso8601Published() {
         return iso8601Published;
     }
@@ -40,13 +43,25 @@ public class Article implements Comparable<Article> {
         this.published = published;
     }
 
+
+    public int getViewCount() {
+        return viewCount;
+    }
+
+    public void setViewCount(int viewCount) {
+        this.viewCount = viewCount;
+    }
+
     @Override
     public String toString() {
-        return "Article{" +
-                "url='" + url + '\'' +
-                ", title='" + title + '\'' +
-                ", published=" + published +
-                '}';
+        final StringBuffer sb = new StringBuffer("Article{");
+        sb.append("url='").append(url).append('\'');
+        sb.append(", title='").append(title).append('\'');
+        sb.append(", published=").append(published);
+        sb.append(", iso8601Published='").append(iso8601Published).append('\'');
+        sb.append(", viewCount=").append(viewCount);
+        sb.append('}');
+        return sb.toString();
     }
 
     @Override

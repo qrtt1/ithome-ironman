@@ -1,9 +1,7 @@
 package org.qty.crawler;
 
 import java.time.LocalDate;
-import java.util.Objects;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -22,7 +20,7 @@ public class Topic implements Comparable<Topic> {
     int view;
     long lastUpdated;
 
-    Set<Article> articles = new TreeSet<>();
+    List<Article> articles = new ArrayList<>();
 
     Status status = Status.NOT_STARTED;
 
@@ -90,12 +88,20 @@ public class Topic implements Comparable<Topic> {
         this.anchor = anchor;
     }
 
-    public Set<Article> getArticles() {
+    public List<Article> getArticles() {
         return articles;
     }
 
-    public void setArticles(Set<Article> articles) {
+    public void setArticles(List<Article> articles) {
         this.articles = articles;
+    }
+
+    public Status getStatus() {
+        return status;
+    }
+
+    public void setStatus(Status status) {
+        this.status = status;
     }
 
     @Override

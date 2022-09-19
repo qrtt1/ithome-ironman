@@ -9,7 +9,6 @@ import org.jsoup.select.Elements;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
-import java.util.Collection;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
@@ -95,31 +94,35 @@ public class Crawler {
 
         topic.setAuthor(document.select("div.profile-header__name").first().text());
         topic.setProfileUrl(document.select("a.profile-nav__link").first().attr("href"));
-        topic.setView(getViewInTopicPage(document));
-
-        topic.articles.addAll(extractArticles(document));
+        List<Article> articles = extractArticles(document);
+        topic.articles.addAll(articles);
 
         int maxPageInTopic = getMaxPageInTopic(document);
         if (maxPageInTopic > 1) {
             for (int i = 2; i <= maxPageInTopic; i++) {
                 PageSampler.save(document, String.format("topic_page_%d.html", i));
                 Document doc = Jsoup.parse(fetch.get(topic.getUrl() + "?page=" + i));
-                topic.setView(topic.getView() + getViewInTopicPage(doc));
                 topic.articles.addAll(extractArticles(doc));
             }
         }
         topic.updateStatus();
         topic.setAnchor(DigestUtils.md5Hex(topic.getUrl()));
+        topic.setView(topic.getArticles().stream().mapToInt(Article::getViewCount).sum());
     }
 
     private List<Article> extractArticles(Document document) {
         Elements titleAndLinks = document.select("a.qa-list__title-link");
         Elements publishTimes = document.select("a.qa-list__info-time");
+        Elements viewAllCounts = document.select("span.qa-condition__count");
+        List<Integer> viewInts = IntStream.range(1, viewAllCounts.size() + 1)
+                .filter(x -> x % 3 == 0).boxed()
+                .map(x -> Integer.parseInt(viewAllCounts.get(x - 1).text())).collect(Collectors.toList());
 
         return IntStream.range(0, titleAndLinks.size()).boxed().map((idx -> {
             Article article = new Article();
             article.setTitle(titleAndLinks.get(idx).text());
             article.setUrl(titleAndLinks.get(idx).attr("href").strip());
+            article.setViewCount(viewInts.get(idx));
 
             // 2022-09-02 09:16:19
             article.setPublished(
@@ -127,18 +130,10 @@ public class Crawler {
                             DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
 
             article.setIso8601Published(article.getPublished().format(DateTimeFormatter.ISO_DATE_TIME));
+            System.out.println(article);
             return article;
         })).collect(Collectors.toList());
     }
 
-    private int getViewInTopicPage(Document document) {
-        Elements elements = document.select(".qa-condition__count");
 
-        int sum = 0;
-        for (int i = 2; i < elements.size(); i += 3) {
-            sum += Integer.parseInt(elements.get(i).text());
-        }
-
-        return sum;
-    }
 }
