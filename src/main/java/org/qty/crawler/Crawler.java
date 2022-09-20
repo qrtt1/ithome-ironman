@@ -88,6 +88,8 @@ public class Crawler {
     }
 
     private void executeUpdate(Topic topic) {
+        // reset the article list each update, avoid to accumulate old data
+        topic.setArticles(new ArrayList<>());
         Document document = Jsoup.parse(fetch.get(topic.getUrl()));
         PageSampler.save(document, "topic_page.html");
         PageSampler.save(document, "topic_page_1.html");
@@ -130,7 +132,7 @@ public class Crawler {
                             DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss")));
 
             article.setIso8601Published(article.getPublished().format(DateTimeFormatter.ISO_DATE_TIME));
-            System.out.println(article);
+//            System.out.println(article);
             return article;
         })).collect(Collectors.toList());
     }

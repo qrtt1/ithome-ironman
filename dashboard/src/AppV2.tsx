@@ -26,8 +26,10 @@ import {ReactComponent as MenuIcon} from "@vscode/codicons/src/icons/menu.svg";
 import extra_data from "./extra.json"
 import {useCookies} from "react-cookie";
 
+
 async function fetchData() {
-    const dataSource = '/2022v2/ui-data.json';
+    // const dataSource = '/2022v2/ui-data.json';
+    const dataSource = 'ui-data.json';
     const response = await (
         await fetch(dataSource, {cache: 'no-store'})
     ).text();
