@@ -91,6 +91,10 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
             name: "期待",
             color: "purple",
         },
+        COMPLETED: {
+            name: "完賽",
+            color: "pink",
+        },
         FAILED: {name: "中斷", color: "blackAlpha"},
     };
     const status_tag = STATUS_MAP[topic.status] || {name: "未知", color: "red"};
