@@ -74,6 +74,70 @@ interface FunctionSet {
     setSelectedTopic: (t: string) => void,
 }
 
+function BigLastUpdate(props: { topic: TopicEntry, updateToday: boolean, latestArticle: ArticleEntry }) {
+    const {updateToday, latestArticle, topic} = props;
+
+    if (topic.status == "COMPLETED") {
+        return (<Flex alignItems="center">
+            <a href={topic.profileUrl} target="_blank">
+                <Badge className="tag" colorScheme="gray"> {topic.author}</Badge>
+            </a>
+            {latestArticle &&
+                <Badge className="tag"
+                       backgroundColor="gray.400" color="white"> <a href={latestArticle.url} target="_blank">
+                    {latestArticle && latestArticle.title}</a>
+                </Badge>
+
+            }
+        </Flex>)
+    }
+
+    return (<Flex alignItems="center">
+        {updateToday &&
+            <Badge className="tag" colorScheme="green">今日更新</Badge>
+        }
+        {latestArticle && !updateToday &&
+            <Badge className="tag" colorScheme="red">尚未更新</Badge>
+        }
+        {latestArticle &&
+            <Badge className="tag"
+                   backgroundColor="gray.400" color="white"> <a href={latestArticle.url} target="_blank">
+                {latestArticle && latestArticle.title}</a>
+            </Badge>
+
+        }
+        <a href={topic.profileUrl} target="_blank">
+            <Badge className="tag" colorScheme="gray"> {topic.author}</Badge>
+        </a>
+    </Flex>)
+}
+
+function SmallLastUpdate(props: { topic: TopicEntry, updateToday: boolean, latestArticle: ArticleEntry, status: Status }) {
+    const {updateToday, latestArticle, topic, status} = props;
+    if (topic.status == "COMPLETED") {
+        return (<Flex>
+            <Badge colorScheme={status.color}>{status.content}</Badge>
+            <Badge ml="3px" colorScheme="blackAlpha">{topic.view}</Badge>
+        </Flex>)
+    }
+
+    return (
+        <Flex>
+            <Badge colorScheme={status.color}>{status.content}</Badge>
+            <Badge ml="3px" colorScheme="blackAlpha">{topic.view}</Badge>
+
+
+            {updateToday &&
+                <Badge ml="3px" className="tag" colorScheme="green">今日更新</Badge>
+            }
+            {latestArticle && !updateToday &&
+                <Badge ml="3px" className="tag" colorScheme="red">尚未更新</Badge>
+            }
+
+        </Flex>
+    )
+}
+
 function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
     const {topic, bigLayout} = props;
 
@@ -129,24 +193,8 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
                     </a>
                 </Flex>
                 <Spacer/>
-                <Flex alignItems="center">
-                    {updateToday &&
-                        <Badge className="tag" colorScheme="green">今日更新</Badge>
-                    }
-                    {latestArticle && !updateToday &&
-                        <Badge className="tag" colorScheme="red">尚未更新</Badge>
-                    }
-                    {latestArticle &&
-                        <Badge className="tag"
-                               backgroundColor="gray.400" color="white"> <a href={latestArticle.url} target="_blank">
-                            {latestArticle && latestArticle.title}</a>
-                        </Badge>
 
-                    }
-                    <a href={topic.profileUrl} target="_blank">
-                        <Badge className="tag" colorScheme="gray"> {topic.author}</Badge>
-                    </a>
-                </Flex>
+                <BigLastUpdate topic={topic} latestArticle={latestArticle} updateToday={updateToday}/>
             </Flex>
 
         )
@@ -155,17 +203,8 @@ function Topic(props: { topic: TopicEntry, bigLayout: boolean }) {
     // smaller screen
     return (
         <Flex className="topic_small" p="5px" direction="column">
-            <Flex>
-                <Badge colorScheme={status.color}>{status.content}</Badge>
-                <Badge ml="3px" colorScheme="blackAlpha">{topic.view}</Badge>
-                {updateToday &&
-                    <Badge ml="3px" className="tag" colorScheme="green">今日更新</Badge>
-                }
-                {latestArticle && !updateToday &&
-                    <Badge ml="3px" className="tag" colorScheme="red">尚未更新</Badge>
-                }
+            <SmallLastUpdate topic={topic} latestArticle={latestArticle} updateToday={updateToday} status={status}/>
 
-            </Flex>
             <Flex mt={3}>
                 <Flex minWidth="200px" alignItems="center">
                     <BookIcon style={{marginRight: "5px"}}/>
