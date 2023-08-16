@@ -19,7 +19,7 @@ class CrawlerTest {
     @Test
     public void testCrawler_parseMaxPage() {
         Crawler crawler = new Crawler(null);
-        assertEquals(63, crawler.getMaxPage(Jsoup.parse(createFakeFetch().get(Crawler.CONTENT_LIST))));
+        assertEquals(28, crawler.getMaxPage(Jsoup.parse(createFakeFetch().get(Crawler.CONTENT_LIST))));
     }
 
     @Test
@@ -32,43 +32,49 @@ class CrawlerTest {
         };
         List<Topic> topics = crawler.topics();
 
-        List<String> expectedTitles = Arrays.asList("[Dot Net Core](圖解系列與常用套件)",
-                "Moleculer 家家酒",
-                "從 Node.js 開發者到量化交易者：打造屬於自己的投資系統",
-                "網頁開發（html.css）",
-                "上班到一半突然被通知被炒了的我只好來寫個賓果",
-                "工程師轉職新手爸爸 三十天讓你不當豬隊友",
-                "寫寫歷年職場經歷過的大小事或近期所學習的知識啟發",
-                "Quest for Hyperskewb",
-                "了解AI多一點點",
-                "亞洲雲端黑馬－阿里雲的七大必學應用");
+        List<String> expectedTitles = Arrays.asList(
+                "在open source環境，建置container環境及k8s(Minikube)的API佈署環境",
+                "從 Effective Java 到 Effective Kotlin 的異與同",
+                "一天姐一題python",
+                "Windows Exploitation 101",
+                "Flutter 進階課",
+                "Hello SQL 初次見面你好",
+                "Make web3 data accessible",
+                "基於Kubernetes的微服務部署和管理策略",
+                "用python學習資料結構與演算法 學習筆記",
+                "從 Airflow 走到 dbt 的 30 天");
+
 
         List<String> titles = topics.stream().map(Topic::getTitle).collect(Collectors.toList());
         assertEquals(expectedTitles, titles);
 
-        List<String> expectedUrls = Arrays.asList("https://ithelp.ithome.com.tw/users/20144614/ironman/5120",
-                "https://ithelp.ithome.com.tw/users/20107175/ironman/5388",
-                "https://ithelp.ithome.com.tw/users/20150150/ironman/5145",
-                "https://ithelp.ithome.com.tw/users/20120843/ironman/5158",
-                "https://ithelp.ithome.com.tw/users/20140063/ironman/5417",
-                "https://ithelp.ithome.com.tw/users/20129292/ironman/5178",
-                "https://ithelp.ithome.com.tw/users/20151917/ironman/5437",
-                "https://ithelp.ithome.com.tw/users/20103524/ironman/5183",
-                "https://ithelp.ithome.com.tw/users/20150784/ironman/5200",
-                "https://ithelp.ithome.com.tw/users/20150173/ironman/4947");
+        List<String> expectedUrls = Arrays.asList(
+                "https://ithelp.ithome.com.tw/users/20161653/ironman/6212",
+                "https://ithelp.ithome.com.tw/users/20135701/ironman/6211",
+                "https://ithelp.ithome.com.tw/users/20162203/ironman/6210",
+                "https://ithelp.ithome.com.tw/users/20120098/ironman/6209",
+                "https://ithelp.ithome.com.tw/users/20117363/ironman/6208",
+                "https://ithelp.ithome.com.tw/users/20152148/ironman/6207",
+                "https://ithelp.ithome.com.tw/users/20162188/ironman/6206",
+                "https://ithelp.ithome.com.tw/users/20145329/ironman/6205",
+                "https://ithelp.ithome.com.tw/users/20162172/ironman/6204",
+                "https://ithelp.ithome.com.tw/users/20162184/ironman/6203"
+        );
         List<String> urls = topics.stream().map(Topic::getUrl).collect(Collectors.toList());
         assertEquals(expectedUrls, urls);
 
-        List<String> expectedCategories = Arrays.asList("自我挑戰組",
-                "Software Development",
-                "Software Development",
-                "自我挑戰組",
+        List<String> expectedCategories = Arrays.asList(
+                "DevOps",
+                "Kotlin",
+                "影片教學",
+                "Security",
                 "Mobile Development",
                 "自我挑戰組",
+                "Web 3",
+                "Cloud Native",
                 "自我挑戰組",
-                "自我挑戰組",
-                "AI & Data",
-                "自我挑戰組");
+                "AI & Data"
+        );
         List<String> categories = topics.stream().map(Topic::getCategory).collect(Collectors.toList());
         assertEquals(expectedCategories, categories);
 

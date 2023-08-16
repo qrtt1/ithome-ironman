@@ -127,7 +127,7 @@ public class Topic implements Comparable<Topic> {
     }
 
     public void updateStatus() {
-        LocalDate deadlineForStarting = LocalDate.of(2022, 9, 17);
+        LocalDate deadlineForStarting = LocalDate.of(Storage.YEAR, 9, 17);
 
         // status: not started
         // 1. there are no articles and before the date: 9/17

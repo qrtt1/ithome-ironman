@@ -15,7 +15,7 @@ import java.util.stream.IntStream;
 
 public class Crawler {
 
-    public final static String CONTENT_LIST = "https://ithelp.ithome.com.tw/2022ironman/signup/list";
+    public final static String CONTENT_LIST = String.format("https://ithelp.ithome.com.tw/%sironman/signup/list", Storage.YEAR);
 
     private Fetch fetch;
 

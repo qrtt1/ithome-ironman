@@ -27,6 +27,9 @@ import java.util.zip.GZIPOutputStream;
 import static org.qty.crawler.Storage.loadPreviousTopics;
 
 public interface Storage {
+
+    final int YEAR = 2023;
+
     static List<Topic> loadPreviousTopics() throws IOException {
         File dataFile = new File("data.json");
         if (!dataFile.exists()) {
@@ -105,7 +108,7 @@ class S3Storage implements Storage {
 
     @Override
     public List<Topic> loadSavedTopics() throws IOException {
-        S3Object object = client.getObject(s3Bucket, "2022/data.json");
+        S3Object object = client.getObject(s3Bucket, String.format("%s/data.json", (YEAR)));
         StringWriter sw = new StringWriter();
         IOUtils.copy(object.getObjectContent(), sw, "utf-8");
         List<Topic> previousTopics = new Gson().fromJson(sw.toString(), new TypeToken<List<Topic>>() {
@@ -121,7 +124,7 @@ class S3Storage implements Storage {
         ObjectMetadata metadata = new ObjectMetadata();
         metadata.setContentType("application/json");
         metadata.setCacheControl("max-age=300");
-        uploadToS3WithPublicAclRead("2022/data.json", gson.toJson(savedTopics));
+        uploadToS3WithPublicAclRead(String.format("%s/data.json", YEAR), gson.toJson(savedTopics));
         PutObjectRequest putOriginData;
 
         putOriginData = new PutObjectRequest(s3Bucket, String.format("archives/%s/data.json", today),
@@ -130,9 +133,9 @@ class S3Storage implements Storage {
         client.putObject(putOriginData);
 
         String uiData = gson.toJson(UIDataModel.convertForUI(savedTopics));
-        uploadToS3WithPublicAclRead("2022v2/ui-data.json", uiData);
-        uploadToS3WithPublicAclRead("2022/ui-data.json", uiData);
-        uploadToGZipS3WithPublicAclRead("2022/ui-data-small.json", uiData);
+        uploadToS3WithPublicAclRead(String.format("%sv2/ui-data.json", YEAR), uiData);
+        uploadToS3WithPublicAclRead(String.format("%s/ui-data.json", YEAR), uiData);
+        uploadToGZipS3WithPublicAclRead(String.format("%s/ui-data-small.json", YEAR), uiData);
     }
 
     private void uploadToS3WithPublicAclRead(String s3Prefix, String content) throws UnsupportedEncodingException {
