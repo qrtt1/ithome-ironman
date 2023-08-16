@@ -29,8 +29,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "build:prod": "PUBLIC_URL=/2022 react-scripts build",
-    "build:prod_v2": "PUBLIC_URL=/2022v2 react-scripts build",
+    "build:prod": "PUBLIC_URL=/2023 react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
