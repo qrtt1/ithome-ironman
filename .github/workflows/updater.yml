@@ -5,7 +5,7 @@ on:
     branches: [ "main-disabled", "chore/auto-update" ]
     paths-ignore: [ "data.json", "ui-data.json" ]
   schedule:
-    - cron: '5 * * * *'
+    - cron: '5,27 * * * *'
 
 jobs:
   build:
