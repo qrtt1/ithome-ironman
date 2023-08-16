@@ -112,7 +112,12 @@ function BigLastUpdate(props: { topic: TopicEntry, updateToday: boolean, latestA
     </Flex>)
 }
 
-function SmallLastUpdate(props: { topic: TopicEntry, updateToday: boolean, latestArticle: ArticleEntry, status: Status }) {
+function SmallLastUpdate(props: {
+    topic: TopicEntry,
+    updateToday: boolean,
+    latestArticle: ArticleEntry,
+    status: Status
+}) {
     const {updateToday, latestArticle, topic, status} = props;
     if (topic.status == "COMPLETED") {
         return (<Flex>
@@ -355,7 +360,7 @@ function AppV2() {
 
     const [data, setData] = useState<UIData | null>();
     const [cookies, setCookie, removeCookie] = useCookies(['selectedTopic']);
-    const [allTopic, setAllTopic] = useState(false);
+    const [allTopic, setAllTopic] = useState(true);
     const [selectedTopic, setSelectedTopic] = useState(typeof cookies.selectedTopic === "undefined" ? "所有主題" : cookies.selectedTopic);
 
 
