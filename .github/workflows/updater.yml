@@ -2,10 +2,10 @@ name: Runner
 
 on:
   push:
-    branches: [ "main-disabled" ]
+    branches: [ "main-disabled", "chore/auto-update" ]
     paths-ignore: [ "data.json", "ui-data.json" ]
-#  schedule:
-#    - cron: '*/30 * * * *'
+  schedule:
+    - cron: '5 * * * *'
 
 jobs:
   build:
@@ -21,18 +21,13 @@ jobs:
           cache: 'gradle'
       - name: Run
         env:
-          data: ${{ secrets.DATA }}
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
         run: |
-          ./gradlew run
+          export ithome_crawler_s3_bucket=ithome-ironman-watcher
+          export ithome_crawler_env=production
           
-          git config --global user.name 'ithome-watcher'
-          git config --global user.email 'ithome-watcher@users.noreply.github.com'
-          git add data.json ui-data.json
-          git commit -am "Automated report" || true
-          git push || true
+          ./gradlew installDist
+          ./build/install/ithome-ironman/bin/ithome-ironman
           
-          aws s3 cp data.json s3://ithome-ironman-watcher/2022/data.json --acl public-read
-          aws s3 cp ui-data.json s3://ithome-ironman-watcher/2022v2/ui-data.json --acl public-read

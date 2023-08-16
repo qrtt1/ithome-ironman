@@ -2,6 +2,8 @@ package org.qty.crawler;
 
 import com.amazonaws.SdkClientException;
 import com.amazonaws.auth.AWSCredentialsProviderChain;
+import com.amazonaws.auth.AWSStaticCredentialsProvider;
+import com.amazonaws.auth.BasicAWSCredentials;
 import com.amazonaws.auth.EnvironmentVariableCredentialsProvider;
 import com.amazonaws.auth.profile.ProfileCredentialsProvider;
 import com.amazonaws.services.s3.AmazonS3;
@@ -65,6 +67,7 @@ class DefaultStorage implements Storage {
 
 class S3Storage implements Storage {
 
+    public static final String REGION = "ap-northeast-1";
     String today = ZonedDateTime.now(ZoneId.of("UTC+8")).format(DateTimeFormatter.ofPattern("YYYYMMdd"));
 
     String profileName = System.getenv("ithome_crawler_aws_profile");
@@ -77,9 +80,13 @@ class S3Storage implements Storage {
 
         AWSCredentialsProviderChain chain = new AWSCredentialsProviderChain(
                 new EnvironmentVariableCredentialsProvider(),
-                profileName == null ? new ProfileCredentialsProvider() : new ProfileCredentialsProvider(profileName)
+                profileName == null ?
+                        new ProfileCredentialsProvider() : new ProfileCredentialsProvider(profileName)
         );
-        client = AmazonS3ClientBuilder.standard().withCredentials(chain).build();
+
+        client = AmazonS3ClientBuilder.standard()
+                .withCredentials(chain)
+                .withRegion(REGION).build();
         verifyS3Configuration();
     }
 
@@ -87,6 +94,13 @@ class S3Storage implements Storage {
         if (s3Bucket == null) {
             throw new RuntimeException("env[ithome_crawler_s3_bucket] is required.");
         }
+        if (System.getenv("AWS_ACCESS_KEY_ID") == null) {
+            throw new RuntimeException("env[AWS_ACCESS_KEY_ID] is required.");
+        }
+        if (System.getenv("AWS_SECRET_ACCESS_KEY") == null) {
+            throw new RuntimeException("env[AWS_SECRET_ACCESS_KEY] is required.");
+        }
+
 
     }
 
@@ -105,9 +119,17 @@ class S3Storage implements Storage {
         }
     }
 
-
     @Override
     public List<Topic> loadSavedTopics() throws IOException {
+        try {
+            return doLoadSavedTopics();
+        } catch (RuntimeException e) {
+            System.out.println("not previous-data");
+            return new ArrayList<>();
+        }
+    }
+
+    private List<Topic> doLoadSavedTopics() throws IOException {
         S3Object object = client.getObject(s3Bucket, String.format("%s/data.json", (YEAR)));
         StringWriter sw = new StringWriter();
         IOUtils.copy(object.getObjectContent(), sw, "utf-8");
