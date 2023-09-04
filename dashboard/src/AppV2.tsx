@@ -17,13 +17,13 @@ import {maxBy} from "lodash";
 import {ThemeTypings} from "@chakra-ui/styled-system";
 import moment from "moment";
 
-import {ReactComponent as ListAllIcon} from "@vscode/codicons/src/icons/layers-active.svg";
-import {ReactComponent as ListPublishedIcon} from "@vscode/codicons/src/icons/layers-dot.svg";
+import {ReactComponent as VideoIcon} from "@vscode/codicons/src/icons/device-camera-video.svg";
 import {ReactComponent as PersonIcon} from "@vscode/codicons/src/icons/person.svg";
 import {ReactComponent as BookIcon} from "@vscode/codicons/src/icons/book.svg";
 import {ReactComponent as EditIcon} from "@vscode/codicons/src/icons/edit.svg";
 import {ReactComponent as MenuIcon} from "@vscode/codicons/src/icons/menu.svg";
 import extra_data from "./extra.json"
+import jcconf_data from "./jcconf.json"
 import {useCookies} from "react-cookie";
 
 
@@ -258,7 +258,7 @@ function Category(props: { category: string, data: UIData, selectedTopic: string
     const {category, data, selectedTopic, allTopic} = props;
 
 
-    if (category === "社群推廣區" || selectedTopic === category || selectedTopic === "所有主題") {
+    if (category === "JCConf" || category === "社群推廣區" || selectedTopic === category || selectedTopic === "所有主題") {
         return (
             <Flex className="category" direction="column">
                 <Flex mb="15px">{category}</Flex>
@@ -273,6 +273,9 @@ function Category(props: { category: string, data: UIData, selectedTopic: string
                         }
 
                         if (category === "社群推廣區") {
+                            return <Topic key={t.url} topic={t} bigLayout={bigLayout}/>
+                        }
+                        if (category === "JCConf") {
                             return <Topic key={t.url} topic={t} bigLayout={bigLayout}/>
                         }
 
@@ -389,6 +392,10 @@ function AppV2() {
             <Box>
                 <NavBar data={data}
                         functionSet={functionSet}/>
+                {
+                    jcconf_data && jcconf_data.categories.map(c =>
+                        <Category key={c} category={c} data={jcconf_data} selectedTopic="社群推廣區" allTopic={allTopic}/>)
+                }
                 {
                     data && data.categories.map(c => <Category key={c}
                                                                category={c} data={data}
