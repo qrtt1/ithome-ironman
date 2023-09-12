@@ -1,13 +1,16 @@
 import {
-    background,
     Badge,
     Box,
-    Button, chakra,
+    Button,
+    chakra,
     ChakraProvider,
     Flex,
     Menu,
-    MenuButton, MenuDivider, MenuGroup, MenuItem, MenuList,
-    Spacer, styled,
+    MenuButton,
+    MenuDivider,
+    MenuItem,
+    MenuList,
+    Spacer,
     Tooltip,
     useMediaQuery
 } from '@chakra-ui/react'
@@ -16,8 +19,6 @@ import React, {useEffect, useState} from "react";
 import {maxBy} from "lodash";
 import {ThemeTypings} from "@chakra-ui/styled-system";
 import moment from "moment";
-
-import {ReactComponent as VideoIcon} from "@vscode/codicons/src/icons/device-camera-video.svg";
 import {ReactComponent as PersonIcon} from "@vscode/codicons/src/icons/person.svg";
 import {ReactComponent as BookIcon} from "@vscode/codicons/src/icons/book.svg";
 import {ReactComponent as EditIcon} from "@vscode/codicons/src/icons/edit.svg";
@@ -348,7 +349,7 @@ function NavBar(props: { data: UIData, functionSet: FunctionSet }) {
     return (
         <Box>
             <Flex className="nav" alignItems="center" position="fixed" top="0px" width="100vw">
-                <Box ml="16px" mr="16px">ITHome 鐵人賽</Box>
+                <Box ml="16px" mr="16px">ITHome 鐵人觀察家</Box>
                 <TopicFilter functionSet={functionSet} categories={data?.categories}/>
             </Flex>
 
