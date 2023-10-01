@@ -364,7 +364,7 @@ function AppV2() {
 
     const [data, setData] = useState<UIData | null>();
     const [cookies, setCookie, removeCookie] = useCookies(['selectedTopic']);
-    const [allTopic, setAllTopic] = useState(true);
+    const [allTopic, setAllTopic] = useState(false);
     const [selectedTopic, setSelectedTopic] = useState(typeof cookies.selectedTopic === "undefined" ? "所有主題" : cookies.selectedTopic);
 
 
