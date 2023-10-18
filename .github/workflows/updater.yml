@@ -4,8 +4,8 @@ on:
   push:
     branches: [ "main-disabled", "chore/auto-update" ]
     paths-ignore: [ "data.json", "ui-data.json" ]
-  schedule:
-    - cron: '17 * * * *'
+#  schedule:
+#    - cron: '17 * * * *'
 
 jobs:
   build:
