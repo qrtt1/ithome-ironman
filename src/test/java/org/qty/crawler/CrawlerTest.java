@@ -19,7 +19,7 @@ class CrawlerTest {
     @Test
     public void testCrawler_parseMaxPage() {
         Crawler crawler = new Crawler(null);
-        assertEquals(28, crawler.getMaxPage(Jsoup.parse(createFakeFetch().get(Crawler.CONTENT_LIST))));
+        assertEquals(13, crawler.getMaxPage(Jsoup.parse(createFakeFetch().get(Crawler.CONTENT_LIST))));
     }
 
     @Test
@@ -33,47 +33,47 @@ class CrawlerTest {
         List<Topic> topics = crawler.topics();
 
         List<String> expectedTitles = Arrays.asList(
-                "在open source環境，建置container環境及k8s(Minikube)的API佈署環境",
-                "從 Effective Java 到 Effective Kotlin 的異與同",
-                "一天姐一題python",
-                "Windows Exploitation 101",
-                "Flutter 進階課",
-                "Hello SQL 初次見面你好",
-                "Make web3 data accessible",
-                "基於Kubernetes的微服務部署和管理策略",
-                "用python學習資料結構與演算法 學習筆記",
-                "從 Airflow 走到 dbt 的 30 天");
+                "Leetcode 解題之旅：逐日攻克",
+                "關於寫react 那二三事",
+                "運用生成式 AI 服務 所提供的API 實做應用開發（以Gemini及ChatGPT為例）",
+                "30天整頓職場",
+                "Flutter 開發實戰 - 30 天逃離新手村",
+                "Python入門基礎語法與應用",
+                "繁體中文的第一本CC書─Certified in Cybersecurity",
+                "使用 Spring AI 打造企業 RAG 知識庫",
+                "從 SwiftUI 到 Apple Vision Pro - SwiftUI 從零開始",
+                "用React Native打造找餐店APP");
 
 
         List<String> titles = topics.stream().map(Topic::getTitle).collect(Collectors.toList());
         assertEquals(expectedTitles, titles);
 
         List<String> expectedUrls = Arrays.asList(
-                "https://ithelp.ithome.com.tw/users/20161653/ironman/6212",
-                "https://ithelp.ithome.com.tw/users/20135701/ironman/6211",
-                "https://ithelp.ithome.com.tw/users/20162203/ironman/6210",
-                "https://ithelp.ithome.com.tw/users/20120098/ironman/6209",
-                "https://ithelp.ithome.com.tw/users/20117363/ironman/6208",
-                "https://ithelp.ithome.com.tw/users/20152148/ironman/6207",
-                "https://ithelp.ithome.com.tw/users/20162188/ironman/6206",
-                "https://ithelp.ithome.com.tw/users/20145329/ironman/6205",
-                "https://ithelp.ithome.com.tw/users/20162172/ironman/6204",
-                "https://ithelp.ithome.com.tw/users/20162184/ironman/6203"
+                "https://ithelp.ithome.com.tw/users/20162696/ironman/7080",
+                "https://ithelp.ithome.com.tw/users/20168266/ironman/7079",
+                "https://ithelp.ithome.com.tw/users/20046160/ironman/7100",
+                "https://ithelp.ithome.com.tw/users/20168339/ironman/7097",
+                "https://ithelp.ithome.com.tw/users/20059915/ironman/7066",
+                "https://ithelp.ithome.com.tw/users/20168211/ironman/7068",
+                "https://ithelp.ithome.com.tw/users/20021644/ironman/7069",
+                "https://ithelp.ithome.com.tw/users/20161290/ironman/7070",
+                "https://ithelp.ithome.com.tw/users/20162607/ironman/7073",
+                "https://ithelp.ithome.com.tw/users/20132295/ironman/7083"
         );
         List<String> urls = topics.stream().map(Topic::getUrl).collect(Collectors.toList());
         assertEquals(expectedUrls, urls);
 
         List<String> expectedCategories = Arrays.asList(
-                "DevOps",
-                "Kotlin",
-                "影片教學",
-                "Security",
+                "自我挑戰組",
+                "Modern Web",
+                "生成式 AI",
+                "佛心分享-IT 人的工作軟技能",
                 "Mobile Development",
-                "自我挑戰組",
-                "Web 3",
-                "Cloud Native",
-                "自我挑戰組",
-                "AI & Data"
+                "Python",
+                "Security",
+                "生成式 AI",
+                "Mobile Development",
+                "佛心分享-SideProject30"
         );
         List<String> categories = topics.stream().map(Topic::getCategory).collect(Collectors.toList());
         assertEquals(expectedCategories, categories);

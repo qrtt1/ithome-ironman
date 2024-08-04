@@ -30,7 +30,7 @@ import static org.qty.crawler.Storage.loadPreviousTopics;
 
 public interface Storage {
 
-    final int YEAR = 2023;
+    final int YEAR = 2024;
 
     static List<Topic> loadPreviousTopics() throws IOException {
         File dataFile = new File("data.json");

@@ -10,7 +10,7 @@ public class DebugViewCrawler {
     public static void main(String[] args) throws IOException {
         Crawler crawler = new Crawler(new DefaultFetch());
         List<Topic> savedTopics = loadPreviousTopics();
-        savedTopics.stream().filter(t -> t.url.equals("https://ithelp.ithome.com.tw/users/20140998/ironman/5461")).forEach(topic -> {
+        savedTopics.stream().filter(t -> t.url.equals("https://ithelp.ithome.com.tw/users/20161290/ironman/7070")).forEach(topic -> {
             crawler.update(topic);
             System.out.println(topic);
             topic.getArticles().forEach(a->{
