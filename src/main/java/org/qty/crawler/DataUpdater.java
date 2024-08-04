@@ -20,6 +20,10 @@ public class DataUpdater {
             appendNewTopics(savedTopics, topics);
         }
 
+        savedTopics = new ArrayList<>(savedTopics.stream()
+                .collect(Collectors.toMap(t -> t.url, t -> t, (existing, replacement) -> existing))
+                .values());
+
         Collections.sort(savedTopics, (a, b) -> {
             if (a.lastUpdated == b.lastUpdated) {
                 return 0;
