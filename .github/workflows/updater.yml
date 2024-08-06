@@ -31,3 +31,5 @@ jobs:
           ./gradlew installDist
           ./build/install/ithome-ironman/bin/ithome-ironman
           
+          aws s3 cp s3://ithome-ironman-watcher/2024/ui-data.json s3://ironman-2024.qrtt1.io/ui-data.json
+          
