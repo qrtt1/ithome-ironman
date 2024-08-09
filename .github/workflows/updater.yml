@@ -2,7 +2,7 @@ name: Runner
 
 on:
   push:
-    branches: [ "main", "chore/2024" ]
+    branches: [ "main" ]
     paths-ignore: [ "data.json", "ui-data.json" ]
   schedule:
     - cron: '17 * * * *'
