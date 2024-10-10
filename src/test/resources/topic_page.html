@@ -4,16 +4,16 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>關於寫react 那二三事 :: 2024 iThome 鐵人賽</title>
-  <meta name="description" content="關於從react class  轉到使用react hook  以及中文圈不太流行的PrimeReact ">
+  <title>用 Golang 實作 streamlit  :: 2024 iThome 鐵人賽</title>
+  <meta name="description" content="製作一個 Golang Package ，提供類似於 streamlit 的功能的介面。">
   <meta name="keywords" content="iT邦幫忙,iThome">
   <meta name="author" content="iThome">
   <meta property="og:site_name" content="iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天">
-  <meta property="og:url" content="https://ithelp.ithome.com.tw/users/20168266/ironman/7079">
+  <meta property="og:url" content="https://ithelp.ithome.com.tw/users/20151240/ironman/7187">
   <meta property="og:type" content="website">
-  <meta property="og:title" content="關於寫react 那二三事 :: 2024 iThome 鐵人賽">
-  <meta property="og:image" content="https://ithelp.ithome.com.tw/images/ironman/16th/fb.jpg">
-  <meta property="og:description" content="關於從react class  轉到使用react hook  以及中文圈不太流行的PrimeReact ">
+  <meta property="og:title" content="用 Golang 實作 streamlit  :: 2024 iThome 鐵人賽">
+  <meta property="og:image" content="https://ithelp.ithome.com.tw/storage/image/fbpic.jpg">
+  <meta property="og:description" content="製作一個 Golang Package ，提供類似於 streamlit 的功能的介面。">
   <meta property="fb:app_id" content="137875859607921">
   <link rel="apple-touch-icon" sizes="57x57" href="https://ithelp.ithome.com.tw/storage/favicons/apple-touch-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="https://ithelp.ithome.com.tw/storage/favicons/apple-touch-icon-60x60.png">
@@ -101,7 +101,7 @@
     </div>
     <div class="menu__dropform">
      <div class="menu__container">
-      <form action="https://ithelp.ithome.com.tw/search" role="search" method="GET" class="clearfix"><input type="hidden" name="_token" value="dlF33MBPnehd2j5A0MOKEWs5QpTbMwLJMsNeF5wl">
+      <form action="https://ithelp.ithome.com.tw/search" role="search" method="GET" class="clearfix"><input type="hidden" name="_token" value="coiyWvSBI97bFy3haU6lM9BrmM4Z3IBra5Hz2sJp">
        <div class="pull-left"><input name="search" type="text" class="menu__search-input" placeholder="搜尋主題、問題或人"> <input type="radio" class="radio-input" name="tab" value="question" id="searchQA" checked> <label for="searchQA" class="radio-label">問答</label> <input type="radio" class="radio-input" name="tab" value="article" id="searchArticle"> <label for="searchArticle" class="radio-label">文章</label> <input type="radio" class="radio-input" name="tab" value="tag" id="searchTag"> <label for="searchTag" class="radio-label">Tag</label> <input type="radio" class="radio-input" name="tab" value="user" id="searchID"> <label for="searchID" class="radio-label">邦友</label> <input type="radio" class="radio-input" name="tab" value="ironman" id="searchIronman"> <label for="searchIronman" class="radio-label">鐵人賽</label>
        </div> <button type="submit" class="btn menu__dropform-btn">搜尋</button>
       </form>
@@ -115,14 +115,14 @@
     <div class="col-md-12">
      <div class="board">
       <div class="profile-header clearfix">
-       <div class="profile-header__avatar"><img src="https://member.ithome.com.tw/avatars/197388?s=ithelp" class="profile-header__avatar-img">
+       <div class="profile-header__avatar"><img src="https://member.ithome.com.tw/avatars/174366?s=ithelp" class="profile-header__avatar-img">
        </div>
        <div class="profile-header__content">
         <div class="profile-header__name">
-         ellelee <span class="profile-header__account">(ellelee)</span>
+         香草 <span class="profile-header__account">(mudream)</span>
         </div>
         <div class="profile-header__text">
-         iT邦見習生 ‧ 點數 <a href="https://ithelp.ithome.com.tw/users/20168266/points"> 20 </a>
+         iT邦新手 5 級 ‧ 點數 <a href="https://ithelp.ithome.com.tw/users/20151240/points"> 220 </a>
         </div>
         <div class="profile-header__text">
         </div>
@@ -131,13 +131,13 @@
         <div class="profile-header__statistic">
          <div class="profile-header__view">
           <div>
-           <span class="profile-header__view-num">143</span>
+           <span class="profile-header__view-num">2271</span>
           </div>
           <div class="profile-header__view-text">
            累計瀏覽數
           </div>
          </div>
-         <div class="profile-header__follow"><a href="https://ithelp.ithome.com.tw/users/20168266/traced" class="profile-header__follow-link">
+         <div class="profile-header__follow"><a href="https://ithelp.ithome.com.tw/users/20151240/traced" class="profile-header__follow-link">
            <div>
             <span class="profile-header__follow-num">0</span>人
            </div>
@@ -147,39 +147,39 @@
          </div>
         </div>
         <div class="pull-right">
-         <div class="profile-header__btngroup"><a href="https://ithelp.ithome.com.tw/messages/getGroup/20168266" class="btn btn-border-main profile-header__btn--left"> <i class="fa fa-envelope-o fa-fw profile-side__icon"></i>站內簡訊 </a> <a href="https://ithelp.ithome.com.tw/users/login" class="btn btn-trace"> <i class="fa fa-heart-o fa-fw fa--spacing"></i>追蹤 </a>
+         <div class="profile-header__btngroup"><a href="https://ithelp.ithome.com.tw/messages/getGroup/20151240" class="btn btn-border-main profile-header__btn--left"> <i class="fa fa-envelope-o fa-fw profile-side__icon"></i>站內簡訊 </a> <a href="https://ithelp.ithome.com.tw/users/login" class="btn btn-trace"> <i class="fa fa-heart-o fa-fw fa--spacing"></i>追蹤 </a>
          </div>
         </div>
        </div>
       </div>
       <div class="profile-nav">
        <ul class="list-inline profile-nav__list">
-        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20168266/profile" class="profile-nav__link"> <span class="profile-nav__icon"><i class="fa fa-newspaper-o fa-fw"></i></span> 個人背景 </a></li>
-        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20168266/questions" class="profile-nav__link"> <span class="profile-nav__num">0</span>發問 </a></li>
-        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20168266/articles" class="profile-nav__link"> <span class="profile-nav__num">4</span>文章 </a></li>
-        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20168266/answers" class="profile-nav__link"> <span class="profile-nav__num">0</span>回答 </a></li>
-        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20168266/invited" class="profile-nav__link"> <span class="profile-nav__num">0</span>邀請回答 </a></li>
-        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20168266/best_answers" class="profile-nav__link"> <span class="profile-nav__num">0</span>最佳解答 </a></li>
+        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20151240/profile" class="profile-nav__link"> <span class="profile-nav__icon"><i class="fa fa-newspaper-o fa-fw"></i></span> 個人背景 </a></li>
+        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20151240/questions" class="profile-nav__link"> <span class="profile-nav__num">0</span>發問 </a></li>
+        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20151240/articles" class="profile-nav__link"> <span class="profile-nav__num">30</span>文章 </a></li>
+        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20151240/answers" class="profile-nav__link"> <span class="profile-nav__num">0</span>回答 </a></li>
+        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20151240/invited" class="profile-nav__link"> <span class="profile-nav__num">0</span>邀請回答 </a></li>
+        <li class="profile-nav__item"><a href="https://ithelp.ithome.com.tw/users/20151240/best_answers" class="profile-nav__link"> <span class="profile-nav__num">0</span>最佳解答 </a></li>
         <li class="profile-nav__item profile-nav__item--pad">
          <div class="dropdown"><a id="profile-nav" data-target="#" href="" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" class="profile-nav__link"> <span class="profile-nav__icon"><i class="fa fa-ellipsis-h fa-fw" aria-hidden="true"></i></span>其他 </a>
           <ul class="dropdown-menu profile-nav__dropdown-menu" aria-labelledby="profile-nav">
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/ironman" class="profile-side__text">鐵人檔案</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/collections/questions" class="profile-side__text">收藏的問題</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/collections/articles" class="profile-side__text">收藏的文章</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/traces/questions" class="profile-side__text">追蹤的問題</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/traces/articles" class="profile-side__text">追蹤的文章</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/traces/tags" class="profile-side__text">追蹤的tag</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/traces/users" class="profile-side__text">追蹤的邦友</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/likes/questions" class="profile-side__text">Like的發問</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/likes/answers" class="profile-side__text">Like的回答</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/likes/articles" class="profile-side__text">Like的文章</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/likes/responses" class="profile-side__text">Like的留言</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/comments/questions" class="profile-side__text">問答討論</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/comments/answers" class="profile-side__text">問答回應</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/responses" class="profile-side__text">文章留言</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/comments/responses" class="profile-side__text">文章回應</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/talks" class="profile-side__text">聊天室</a></li>
-           <li><a href="https://ithelp.ithome.com.tw/users/20168266/collections/ironman" class="profile-side__text">訂閱列表</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/ironman" class="profile-side__text">鐵人檔案</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/collections/questions" class="profile-side__text">收藏的問題</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/collections/articles" class="profile-side__text">收藏的文章</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/traces/questions" class="profile-side__text">追蹤的問題</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/traces/articles" class="profile-side__text">追蹤的文章</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/traces/tags" class="profile-side__text">追蹤的tag</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/traces/users" class="profile-side__text">追蹤的邦友</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/likes/questions" class="profile-side__text">Like的發問</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/likes/answers" class="profile-side__text">Like的回答</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/likes/articles" class="profile-side__text">Like的文章</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/likes/responses" class="profile-side__text">Like的留言</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/comments/questions" class="profile-side__text">問答討論</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/comments/answers" class="profile-side__text">問答回應</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/responses" class="profile-side__text">文章留言</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/comments/responses" class="profile-side__text">文章回應</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/talks" class="profile-side__text">聊天室</a></li>
+           <li><a href="https://ithelp.ithome.com.tw/users/20151240/collections/ironman" class="profile-side__text">訂閱列表</a></li>
           </ul>
          </div></li>
        </ul>
@@ -191,28 +191,126 @@
        <div class="ir-profile-years clearfix">
         <div class="ir-profile-years__title">
          2024 iThome 鐵人賽
-        </div> <a href="https://ithelp.ithome.com.tw/users/20168266/ironman" class="ir-profile-back">回列表</a>
+        </div> <a href="https://ithelp.ithome.com.tw/users/20151240/ironman" class="ir-profile-back">回列表</a>
        </div>
-       <div class="ir-profile-series "><a href="https://ithelp.ithome.com.tw/2024ironman/modern-web" class="group__badge group__badge--modern-web ir-profile-list__badge"> Modern Web </a>
-        <h3 class="qa-list__title qa-list__title--ironman">關於寫react 那二三事<span> 系列</span></h3>
-        <p class="qa-list__description">關於從react class 轉到使用react hook 以及中文圈不太流行的PrimeReact</p>
+       <div class="ir-profile-series  ir-profile-series--done "><a href="https://ithelp.ithome.com.tw/2024ironman/side-project-30" class="group__badge group__badge--side-project-30 ir-profile-list__badge"> 佛心分享-SideProject30 </a>
+        <h3 class="qa-list__title qa-list__title--ironman">用 Golang 實作 streamlit <span> 系列</span></h3>
+        <p class="qa-list__description">製作一個 Golang Package ，提供類似於 streamlit 的功能的介面。</p>
         <div class="text-right">
          <button id="read_more" class="btn btn-qa-list-open">展開 <i class="arrow-down-i fa fa-angle-down fa-3x" aria-hidden="true"></i> </button><button id="read_less" class="btn btn-secondary btn-qa-list-close" style="display: none;">收起 <i class="arrow-down-i fa fa-angle-up fa-3x" aria-hidden="true"></i> </button>
         </div>
-        <div class="qa-list__info qa-list__info--ironman subscription-group"><span> 參賽天數 4 天 ｜ </span> <span>共 4 篇文章 ｜</span> <span class="subscription-amount">0</span> 人訂閱 <a href="https://ithelp.ithome.com.tw/users/login" class="ir-profile-subscription subscription-btn"> <i class="fa fa-bookmark-o fa-fw" aria-hidden="true"></i>訂閱系列文 </a> <a href="https://ithelp.ithome.com.tw/rss/series/7079" class="btn-rss btn-no-border" target="_blank"> <i class="fa fa-rss fa-fw" aria-hidden="true"></i>RSS系列文 </a>
+        <div class="qa-list__info qa-list__info--ironman subscription-group"><span class="ir-profile-days"> 鐵人鍊成 ｜ </span> <span>共 30 篇文章 ｜</span> <span class="subscription-amount">2</span> 人訂閱 <a href="https://ithelp.ithome.com.tw/users/login" class="ir-profile-subscription subscription-btn"> <i class="fa fa-bookmark-o fa-fw" aria-hidden="true"></i>訂閱系列文 </a> <a href="https://ithelp.ithome.com.tw/rss/series/7187" class="btn-rss btn-no-border" target="_blank"> <i class="fa fa-rss fa-fw" aria-hidden="true"></i>RSS系列文 </a>
         </div>
        </div> <!-- articles -->
        <div class="qa-list profile-list ir-profile-list">
-        <div class="profile-list__condition"><a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">114</span> <span class="qa-condition__text">瀏覽</span> </a>
+        <div class="profile-list__condition"><a class="qa-condition  qa-condition--change "> <span class="qa-condition__count">1</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">190</span> <span class="qa-condition__text">瀏覽</span> </a>
         </div>
         <div class="profile-list__content">
          <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 1 </span>
          </div>
          <h3 class="qa-list__title"><a href="
-                                                https://ithelp.ithome.com.tw/articles/10343136
-                                                        " class="qa-list__title-link"> Day1 前言 </a></h3>
-         <p class="qa-list__desc">因工作需要，從大學帶著java基底畢業開始學習actionscript，再到flash被廢掉開始將產品轉化JQuery，再到nodej興起把公司產品轉成 Rea...</p>
-         <div class="qa-list__info"><a title="2024-08-01 13:45:23" class="qa-list__info-time">2024-08-01</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20168266/profile" class="qa-list__info-link">ellelee </a> 分享
+                                                https://ithelp.ithome.com.tw/articles/10346126
+                                                        " class="qa-list__title-link"> Day1 起因：個人小工具 </a></h3>
+         <p class="qa-list__desc">Streamlit 是一個可以用於快速建立互動式網頁應用的 Python 框架。 我目前在工作中有使用 Streamlit 來開發一些 GUI 小工具，例如：...</p>
+         <div class="qa-list__info"><a title="2024-08-24 21:45:03" class="qa-list__info-time">2024-08-24</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20151240/profile" class="qa-list__info-link">香草 </a> 分享
+         </div>
+        </div>
+       </div>
+       <div class="qa-list profile-list ir-profile-list">
+        <div class="profile-list__condition"><a class="qa-condition  qa-condition--change "> <span class="qa-condition__count">1</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">165</span> <span class="qa-condition__text">瀏覽</span> </a>
+        </div>
+        <div class="profile-list__content">
+         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 2 </span>
+         </div>
+         <h3 class="qa-list__title"><a href="
+                                                https://ithelp.ithome.com.tw/articles/10346189
+                                                        " class="qa-list__title-link"> Day2 Streamlit 的基本運作方式 </a></h3>
+         <p class="qa-list__desc">要做到 Streamlit 的功能，至少要考慮以下兩種機制： 當使用者互動，便更新畫面 讓我們看一個簡單的例子：使用者輸入名字後，立即顯示問候訊息。 impor...</p>
+         <div class="qa-list__info"><a title="2024-08-25 18:05:11" class="qa-list__info-time">2024-08-25</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20151240/profile" class="qa-list__info-link">香草 </a> 分享
+         </div>
+        </div>
+       </div>
+       <div class="qa-list profile-list ir-profile-list">
+        <div class="profile-list__condition"><a class="qa-condition  qa-condition--change "> <span class="qa-condition__count">1</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">122</span> <span class="qa-condition__text">瀏覽</span> </a>
+        </div>
+        <div class="profile-list__content">
+         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 3 </span>
+         </div>
+         <h3 class="qa-list__title"><a href="
+                                                https://ithelp.ithome.com.tw/articles/10346383
+                                                        " class="qa-list__title-link"> Day3 介面的初步想法 </a></h3>
+         <p class="qa-list__desc">Interface 在介面上，我們讓使用者可以註冊自己的 Script Function： func main() { Run(func(root *Cont...</p>
+         <div class="qa-list__info"><a title="2024-08-26 19:01:09" class="qa-list__info-time">2024-08-26</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20151240/profile" class="qa-list__info-link">香草 </a> 分享
+         </div>
+        </div>
+       </div>
+       <div class="qa-list profile-list ir-profile-list">
+        <div class="profile-list__condition"><a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">133</span> <span class="qa-condition__text">瀏覽</span> </a>
+        </div>
+        <div class="profile-list__content">
+         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 4 </span>
+         </div>
+         <h3 class="qa-list__title"><a href="
+                                                https://ithelp.ithome.com.tw/articles/10346556
+                                                        " class="qa-list__title-link"> Day4 開始寫扣! </a></h3>
+         <p class="qa-list__desc">First Commit 就讓我們進入寫扣環節。 為了先能有一個可以跑的程式，我做出以下限制： 無互動 (State 不需要實作，不會需要 rerun 按鈕)...</p>
+         <div class="qa-list__info"><a title="2024-08-27 21:31:04" class="qa-list__info-time">2024-08-27</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20151240/profile" class="qa-list__info-link">香草 </a> 分享
+         </div>
+        </div>
+       </div>
+       <div class="qa-list profile-list ir-profile-list">
+        <div class="profile-list__condition"><a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">134</span> <span class="qa-condition__text">瀏覽</span> </a>
+        </div>
+        <div class="profile-list__content">
+         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 5 </span>
+         </div>
+         <h3 class="qa-list__title"><a href="
+                                                https://ithelp.ithome.com.tw/articles/10346640
+                                                        " class="qa-list__title-link"> Day5 讓 Container 也是 Component </a></h3>
+         <p class="qa-list__desc">接下來，假如我們讓 Container 也可以是 Component ，那就意味著這兩件事都可以達成： 樹狀結構 預留位置 樹狀結構不用多說，就是 Cont...</p>
+         <div class="qa-list__info"><a title="2024-08-28 20:01:54" class="qa-list__info-time">2024-08-28</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20151240/profile" class="qa-list__info-link">香草 </a> 分享
+         </div>
+        </div>
+       </div>
+       <div class="qa-list profile-list ir-profile-list">
+        <div class="profile-list__condition"><a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">98</span> <span class="qa-condition__text">瀏覽</span> </a>
+        </div>
+        <div class="profile-list__content">
+         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 6 </span>
+         </div>
+         <h3 class="qa-list__title"><a href="
+                                                https://ithelp.ithome.com.tw/articles/10346825
+                                                        " class="qa-list__title-link"> Day6 Rerun 按鈕 / Bulma CSS / 搬出 JS </a></h3>
+         <p class="qa-list__desc">雜項 在進行增加 State 功能前，先一些有點雜，但又有點必要的事情： 追加 Rerun Button 讓使用者可以再次更新畫面。 Script functi...</p>
+         <div class="qa-list__info"><a title="2024-08-29 21:18:00" class="qa-list__info-time">2024-08-29</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20151240/profile" class="qa-list__info-link">香草 </a> 分享
+         </div>
+        </div>
+       </div>
+       <div class="qa-list profile-list ir-profile-list">
+        <div class="profile-list__condition"><a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">91</span> <span class="qa-condition__text">瀏覽</span> </a>
+        </div>
+        <div class="profile-list__content">
+         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 7 </span>
+         </div>
+         <h3 class="qa-list__title"><a href="
+                                                https://ithelp.ithome.com.tw/articles/10347038
+                                                        " class="qa-list__title-link"> Day7 Project Layout </a></h3>
+         <p class="qa-list__desc">Need 基本上的需要已經大概摸索出來了，考慮到之後的發展性，直接一個沒有結構的 repo 顯然是不行的，我們至少需要規畫： Binary 目前可以擺放 exa...</p>
+         <div class="qa-list__info"><a title="2024-08-30 21:51:56" class="qa-list__info-time">2024-08-30</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20151240/profile" class="qa-list__info-link">香草 </a> 分享
+         </div>
+        </div>
+       </div>
+       <div class="qa-list profile-list ir-profile-list">
+        <div class="profile-list__condition"><a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">131</span> <span class="qa-condition__text">瀏覽</span> </a>
+        </div>
+        <div class="profile-list__content">
+         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 8 </span>
+         </div>
+         <h3 class="qa-list__title"><a href="
+                                                https://ithelp.ithome.com.tw/articles/10347145
+                                                        " class="qa-list__title-link"> Day8 State/StateTable </a></h3>
+         <p class="qa-list__desc">Introduction 接下來，我們需要考慮到 狀態（state） 這個概念。在 Streamlit 中，許多之後要時做的 Component（例如Butto...</p>
+         <div class="qa-list__info"><a title="2024-08-31 11:34:12" class="qa-list__info-time">2024-08-31</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20151240/profile" class="qa-list__info-link">香草 </a> 分享
          </div>
         </div>
        </div>
@@ -220,98 +318,88 @@
         <div class="profile-list__condition"><a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">90</span> <span class="qa-condition__text">瀏覽</span> </a>
         </div>
         <div class="profile-list__content">
-         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 2 </span>
+         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 9 </span>
          </div>
          <h3 class="qa-list__title"><a href="
-                                                https://ithelp.ithome.com.tw/articles/10343250
-                                                        " class="qa-list__title-link"> Day2 就來說說prime系列UI吧 </a></h3>
-         <p class="qa-list__desc">Prime系列包括: PrimeFaces是專為JavaServer Faces (JSF)設計的開源UI組件庫。 PrimeNG是專為Angular框架設計...</p>
-         <div class="qa-list__info"><a title="2024-08-02 00:19:45" class="qa-list__info-time">2024-08-02</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20168266/profile" class="qa-list__info-link">ellelee </a> 分享
+                                                https://ithelp.ithome.com.tw/articles/10347280
+                                                        " class="qa-list__title-link"> Day9 溝通 Button 狀態 </a></h3>
+         <p class="qa-list__desc">接下來，我們將探討如何實作前端與後端之間在 Button 狀態上的溝通。 紅色部分是今天會變動的地方。 前端：按下按鈕觸發狀態更新 當使用者按下前端的 But...</p>
+         <div class="qa-list__info"><a title="2024-09-01 12:20:17" class="qa-list__info-time">2024-09-01</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20151240/profile" class="qa-list__info-link">香草 </a> 分享
          </div>
         </div>
        </div>
        <div class="qa-list profile-list ir-profile-list">
-        <div class="profile-list__condition"><a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">69</span> <span class="qa-condition__text">瀏覽</span> </a>
+        <div class="profile-list__condition"><a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">99</span> <span class="qa-condition__text">瀏覽</span> </a>
         </div>
         <div class="profile-list__content">
-         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 3 </span>
+         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 10 </span>
          </div>
          <h3 class="qa-list__title"><a href="
-                                                https://ithelp.ithome.com.tw/articles/10343287
-                                                        " class="qa-list__title-link"> Day3 安裝primereact前要先有個專案 </a></h3>
-         <p class="qa-list__desc">因為工作環境的限制，公司node版本維持在16，原本期望使用Next建立專案順便再多學一點，發現令人覺得蛋疼的事，Next最低居然是14(node 18)，好的...</p>
-         <div class="qa-list__info"><a title="2024-08-03 02:30:18" class="qa-list__info-time">2024-08-03</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20168266/profile" class="qa-list__info-link">ellelee </a> 分享
-         </div>
-        </div>
-       </div>
-       <div class="qa-list profile-list ir-profile-list">
-        <div class="profile-list__condition"><a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">Like</span></a> <a class="qa-condition "> <span class="qa-condition__count">0</span> <span class="qa-condition__text">留言</span> </a> <a class="qa-condition   qa-condition--change "> <span class="qa-condition__count">6</span> <span class="qa-condition__text">瀏覽</span> </a>
-        </div>
-        <div class="profile-list__content">
-         <div class="ir-qa-list__status"><span class="ir-qa-list__days ir-qa-list__days--profile ">DAY 4 </span>
-         </div>
-         <h3 class="qa-list__title"><a href="
-                                                https://ithelp.ithome.com.tw/articles/10343430
-                                                        " class="qa-list__title-link"> Day4 primereact 的Button </a></h3>
-         <p class="qa-list__desc">打開vscode後，就順順建了Buttons.tsx打上 import React from 'react'; import { Button } from '...</p>
-         <div class="qa-list__info"><a title="2024-08-04 10:39:03" class="qa-list__info-time">2024-08-04</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20168266/profile" class="qa-list__info-link">ellelee </a> 分享
+                                                https://ithelp.ithome.com.tw/articles/10347504
+                                                        " class="qa-list__title-link"> Day10: Textbox/Client's State </a></h3>
+         <p class="qa-list__desc">有了 Button 的實作，對於 Textbox 也可以清楚的實作了。 不過，在和 Button 不同的是，我們在 client 端會需要維護一個 state...</p>
+         <div class="qa-list__info"><a title="2024-09-02 20:33:23" class="qa-list__info-time">2024-09-02</a> ‧ 由 <a href="https://ithelp.ithome.com.tw/users/20151240/profile" class="qa-list__info-link">香草 </a> 分享
          </div>
         </div>
        </div>
       </div>
       <div class="profile-pagination">
+       <ul class="pager">
+        <li class="disabled"><span>上一頁</span></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/ironman/7187?page=2" rel="next">下一頁</a></li>
+       </ul>
       </div>
      </div>
      <div class="rightside profile-side">
       <div class="board profile-side__box profile-side__box--ironman">
-       <div class="profile-side__title"><a href="https://ithelp.ithome.com.tw/users/20168266/ironman"><img src="https://ithelp.ithome.com.tw/storage/image/fight.svg" alt="" class="">ellelee的鐵人檔案</a>
+       <div class="profile-side__title"><a href="https://ithelp.ithome.com.tw/users/20151240/ironman"><img src="https://ithelp.ithome.com.tw/storage/image/fight.svg" alt="" class="">香草的鐵人檔案</a>
        </div>
       </div>
       <div class="board profile-side__box">
-       <div class="profile-side__title"><i class="fa fa-star-o fa-fw profile-side__icon"></i>ellelee的收藏 <span class="profile-side__down"><i class="fa fa-angle-down fa-fw"></i></span>
+       <div class="profile-side__title"><i class="fa fa-star-o fa-fw profile-side__icon"></i>香草的收藏 <span class="profile-side__down"><i class="fa fa-angle-down fa-fw"></i></span>
        </div>
        <ul class="profile-side__list">
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/collections/questions" class="profile-side__text">收藏的問題</a></li>
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/collections/articles" class="profile-side__text">收藏的文章</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/collections/questions" class="profile-side__text">收藏的問題</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/collections/articles" class="profile-side__text">收藏的文章</a></li>
        </ul>
       </div>
       <div class="board profile-side__box">
-       <div class="profile-side__title"><i class="fa fa-heart-o fa-fw profile-side__icon"></i>ellelee的追蹤 <span class="profile-side__down"><i class="fa fa-angle-down fa-fw"></i></span>
+       <div class="profile-side__title"><i class="fa fa-heart-o fa-fw profile-side__icon"></i>香草的追蹤 <span class="profile-side__down"><i class="fa fa-angle-down fa-fw"></i></span>
        </div>
        <ul class="profile-side__list">
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/traces/questions" class="profile-side__text">追蹤的問題</a></li>
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/traces/articles" class="profile-side__text">追蹤的文章</a></li>
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/traces/tags" class="profile-side__text">追蹤的tag</a></li>
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/traces/users" class="profile-side__text">追蹤的邦友</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/traces/questions" class="profile-side__text">追蹤的問題</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/traces/articles" class="profile-side__text">追蹤的文章</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/traces/tags" class="profile-side__text">追蹤的tag</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/traces/users" class="profile-side__text">追蹤的邦友</a></li>
        </ul>
       </div>
       <div class="board profile-side__box">
-       <div class="profile-side__title"><i class="fa fa-thumbs-o-up fa-fw profile-side__icon"></i>ellelee的Like <span class="profile-side__down"><i class="fa fa-angle-down fa-fw"></i></span>
+       <div class="profile-side__title"><i class="fa fa-thumbs-o-up fa-fw profile-side__icon"></i>香草的Like <span class="profile-side__down"><i class="fa fa-angle-down fa-fw"></i></span>
        </div>
        <ul class="profile-side__list">
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/likes/questions" class="profile-side__text">Like的發問</a></li>
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/likes/answers" class="profile-side__text">Like的回答</a></li>
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/likes/articles" class="profile-side__text">Like的文章</a></li>
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/likes/responses" class="profile-side__text">Like的留言</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/likes/questions" class="profile-side__text">Like的發問</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/likes/answers" class="profile-side__text">Like的回答</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/likes/articles" class="profile-side__text">Like的文章</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/likes/responses" class="profile-side__text">Like的留言</a></li>
        </ul>
       </div>
       <div class="board profile-side__box">
-       <div class="profile-side__title"><i class="fa fa-file-text-o fa-fw profile-side__icon"></i>ellelee的紀錄 <span class="profile-side__down"><i class="fa fa-angle-down fa-fw"></i></span>
+       <div class="profile-side__title"><i class="fa fa-file-text-o fa-fw profile-side__icon"></i>香草的紀錄 <span class="profile-side__down"><i class="fa fa-angle-down fa-fw"></i></span>
        </div>
        <ul class="profile-side__list">
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/comments/questions" class="profile-side__text">問答討論</a></li>
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/comments/answers" class="profile-side__text">問答回應</a></li>
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/responses" class="profile-side__text">文章留言</a></li>
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/comments/responses" class="profile-side__text">文章回應</a></li>
-        <li><a href="https://ithelp.ithome.com.tw/users/20168266/talks" class="profile-side__text">聊天室</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/comments/questions" class="profile-side__text">問答討論</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/comments/answers" class="profile-side__text">問答回應</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/responses" class="profile-side__text">文章留言</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/comments/responses" class="profile-side__text">文章回應</a></li>
+        <li><a href="https://ithelp.ithome.com.tw/users/20151240/talks" class="profile-side__text">聊天室</a></li>
        </ul>
       </div>
       <div class="board profile-side__box">
-       <div class="profile-side__title"><a href="https://ithelp.ithome.com.tw/users/20168266/collections/ironman"><i class="fa fa-bookmark-o fa-fw profile-side__icon" aria-hidden="true"></i>ellelee的訂閱列表</a>
+       <div class="profile-side__title"><a href="https://ithelp.ithome.com.tw/users/20151240/collections/ironman"><i class="fa fa-bookmark-o fa-fw profile-side__icon" aria-hidden="true"></i>香草的訂閱列表</a>
        </div>
       </div>
       <div class="board profile-side__box">
-       <div class="profile-side__title profile-side__title--blockade"><button class="blacklist_btn" data-id="20168266" data-nickname="ellelee"> <i class="fa fa-user-times fa-fw profile-side__icon"></i> <span> 封鎖 ellelee </span> </button>
+       <div class="profile-side__title profile-side__title--blockade"><button class="blacklist_btn" data-id="20151240" data-nickname="香草"> <i class="fa fa-user-times fa-fw profile-side__icon"></i> <span> 封鎖 香草 </span> </button>
        </div>
       </div>
       <div class="profile-side__ad">
@@ -366,7 +454,7 @@
         $.ajaxPrefilter(function(options, originalOptions, jqXHR){
             if (options.type.toLowerCase() !== "get" && !options.beforeSend) {
                 options.beforeSend = function(xhr) {
-                    xhr.setRequestHeader('X-CSRF-TOKEN', 'dlF33MBPnehd2j5A0MOKEWs5QpTbMwLJMsNeF5wl');
+                    xhr.setRequestHeader('X-CSRF-TOKEN', 'coiyWvSBI97bFy3haU6lM9BrmM4Z3IBra5Hz2sJp');
                 }
             }
         });

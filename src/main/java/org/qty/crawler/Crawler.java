@@ -71,8 +71,34 @@ public class Crawler {
         return maxPage;
     }
 
-    public int getMaxPageInTopic(Document document) {
-        return getMaxPageBySelector(document, ".pagination a");
+    public int getMaxPageInTopic(String url, Document document) {
+        // TODO add ?page=1 to 4 to the url and get the max page
+
+        // 理論上最多 30 篇，但有人也許會想寫心得，就會超過 3 頁。
+        for (int i = 4; i >= 1; i--) {
+            String urlWithPage = url + "?page=" + i;
+            Document doc = Jsoup.parse(fetch.get(urlWithPage));
+            Elements selections = doc.select("ul > li.disabled");
+
+
+            if (selections.isEmpty()) {
+                // 找不到 disabled 的「下一頁」，不應該發生。
+                // 就當它只有 1 頁吧！
+                return 1;
+            }
+
+            if (doc.toString().contains("還沒有任何文章哦")) {
+                // 這頁還沒有發文，跳過。
+                continue;
+            }
+            ;
+
+            boolean nextPageFound = selections.first().select("span").text().equals("下一頁");
+            if (nextPageFound) {
+                return i;
+            }
+        }
+        return 1;
     }
 
     public void update(Topic topic) {
@@ -99,7 +125,7 @@ public class Crawler {
         List<Article> articles = extractArticles(document);
         topic.articles.addAll(articles);
 
-        int maxPageInTopic = getMaxPageInTopic(document);
+        int maxPageInTopic = getMaxPageInTopic(topic.getUrl(), document);
         if (maxPageInTopic > 1) {
             for (int i = 2; i <= maxPageInTopic; i++) {
                 PageSampler.save(document, String.format("topic_page_%d.html", i));

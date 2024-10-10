@@ -23,11 +23,11 @@ class CrawlerTopicUpdaterTest {
         crawler.update(topic);
 
         // pre-calculated view count was 421
-        assertEquals(279, topic.getView());
+        assertEquals(1253, topic.getView());
 
         // body > div.container.index-top > div > div > div:nth-child(1) > div.profile-header.clearfix > div.profile-header__content > div.profile-header__name
-        assertEquals("ellelee (ellelee)", topic.getAuthor());
-        assertEquals("https://ithelp.ithome.com.tw/users/20168266/profile", topic.getProfileUrl());
+        assertEquals("香草 (mudream)", topic.getAuthor());
+        assertEquals("https://ithelp.ithome.com.tw/users/20151240/profile", topic.getProfileUrl());
 
     }
 
